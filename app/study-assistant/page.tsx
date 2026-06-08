@@ -30,9 +30,9 @@ export default function StudyAssistantPage() {
             Aviasiya Biosəlamatlığı üzrə Suallar
           </h1>
           <p className="text-white/80 text-sm max-w-2xl">
-            Aşağıdakı mövzularda suallarınızı verin. Mənbə istinadları ilə
-            cavab alın. Bu Faza 1 köməkçisidir — cavablar açar söz uyğunluğuna
-            əsaslanır.
+            Aviasiya biosəlamatlığı mövzularında suallarınızı verin. Claude AI
+            normativ çərçivə, insektisidlər, kabin hava keyfiyyəti, dezinfeksiya
+            və daha çox mövzuda AZ/EN cavab verir.
           </p>
         </div>
       </section>
@@ -42,8 +42,8 @@ export default function StudyAssistantPage() {
           <StudyChatPlaceholder />
         </div>
         <p className="text-xs text-tech-gray mt-3 text-center">
-          Bu köməkçi açar söz axtarışına əsaslanır. Real AI cavabları Faza 2-də
-          əlavə ediləcəkdir.
+          Claude Haiku · Cavablar rəsmi normativ mənbələrə əsaslanır · Hüquqi
+          məsləhət deyil
         </p>
       </div>
     </div>

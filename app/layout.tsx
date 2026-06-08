@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { LangProvider } from "@/lib/language";
+import { SidebarProvider } from "@/lib/sidebar-context";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SidebarNav from "@/components/layout/SidebarNav";
 import SiteFooter from "@/components/layout/SiteFooter";
@@ -40,14 +41,16 @@ export default function RootLayout({
     >
       <body className="min-h-full bg-surface text-foreground flex flex-col">
         <LangProvider>
-          <SiteHeader />
-          <div className="flex flex-1 w-full">
-            <SidebarNav />
-            <main className="flex-1 min-w-0 flex flex-col">
-              {children}
-            </main>
-          </div>
-          <SiteFooter />
+          <SidebarProvider>
+            <SiteHeader />
+            <div className="flex flex-1 w-full">
+              <SidebarNav />
+              <main className="flex-1 min-w-0 flex flex-col">
+                {children}
+              </main>
+            </div>
+            <SiteFooter />
+          </SidebarProvider>
         </LangProvider>
       </body>
     </html>
