@@ -18,6 +18,7 @@ const sections = [
   { href: '/risk-matrix',           label: 'Risk Matrix',             icon: '📊' },
   { href: '/research-library',      label: 'Research Library',        icon: '📚' },
   { href: '/study-assistant',       label: 'Study Assistant',         icon: '💬' },
+  { href: '/chat-history',          label: 'Chat History',            icon: '🕐' },
   { href: '/glossary',              label: 'Glossary',                icon: '📖' },
 ];
 
