@@ -1,0 +1,167 @@
+{
+  "id": "biological-hazards",
+  "slug": "/biological-hazards",
+  "navLabel": "Biological Hazards",
+  "title": {
+    "az": "Aviasiya Kabinlərindəki Bioloji Təhlükələr: Ötürülmə Mexanizmləri, Risk Amilləri, Profilaktika",
+    "en": "Biological Hazards in Aviation Cabins: Transmission Mechanisms, Risk Factors, Prevention"
+  },
+  "summary": {
+    "az": "Kabin mühitindəki xəstəlik ötürülmə yolları (aerozol, damlacıq, fomit), risk amilləri (məsafə, müddət, ventilyasiya), HEPA filtrasiyasının rolu və normativ çərçivə.",
+    "en": "Disease transmission routes in cabin environments (aerosol, droplet, fomite), risk factors (proximity, duration, ventilation), the role of HEPA filtration, and regulatory framework."
+  },
+  "tags": ["WHO", "ICAO", "EASA"],
+  "expandableSections": [
+    {
+      "titleAz": "Kabin mühiti nə üçün xüsusidır?",
+      "titleEn": "Why is the cabin environment unique?",
+      "defaultOpen": true,
+      "bodyAz": "<p>Kommersial uçaq kabini bir sıra xüsusiyyətlərə görə torpaq üzərindəki qapalı məkanlara nisbətən bioloji risk baxımından fərqlənir:</p><ul><li><strong>Yüksək sıxlıq:</strong> Müsafir kabinlərindəki kişi başına düşən sahə (adətən 0.2–0.3 m²) xeyli dar olur.</li><li><strong>Uzun qapalı müddət:</strong> Uzunmənzilli uçuşlar 10–16 saat sürmüş olur, bu müddət ərzində müsafir eyni qapalı mühitdə qalır.</li><li><strong>Hava dövriyyəsi:</strong> Kabin havası adətən 50–50 nisbətdə — 50% yeni/xarici hava, 50% HEPA filtrasiyasından keçirilmiş yenilənmiş hava — dövriyyəyə buraxılır. Bu xüsusiyyət kabin hava keyfiyyətini yaxşılaşdırır, lakin sistemin effektivliyi uçaq növü və texniki vəziyyətindən asılıdır.</li><li><strong>Rütubətin azlığı:</strong> Kabin havası adətən çox quru olur (nisbi rütubət %10–20). Bu, bəzi patogenlərin müddətini uzadır.</li><li><strong>Müsafir hərəkəti:</strong> Müsafirlərin kabindən keçməsi, hamama getməsi, paylaşılan səthlərə toxunması fomit yolu ilə yayılma riskini artırır.</li></ul><p class='text-blue-700 font-medium'>⚖ Tənzimləmədən asılıdır: Müxtəlif uçaq növlərinin hava sistemi xüsusiyyətləri əhəmiyyətli dərəcədə fərqlənir. Bütün kabinlər üçün eyni risk profilini irəli sürmək düzgün deyil.</p>",
+      "bodyEn": "<p>A commercial aircraft cabin differs from ground-level enclosed spaces in terms of biological risk due to several characteristics:</p><ul><li><strong>High density:</strong> The space per person in passenger cabins (typically 0.2–0.3 m²) is quite narrow.</li><li><strong>Long enclosed duration:</strong> Long-haul flights can last 10–16 hours, during which a passenger stays in the same enclosed environment.</li><li><strong>Air circulation:</strong> Cabin air is typically distributed in a 50–50 ratio — 50% fresh/outside air, 50% recirculated air passed through HEPA filtration. This improves cabin air quality, but system effectiveness depends on aircraft type and maintenance condition.</li><li><strong>Low humidity:</strong> Cabin air is typically very dry (relative humidity 10–20%). This prolongs the viability of some pathogens.</li><li><strong>Passenger movement:</strong> Passengers moving through the cabin, visiting lavatories, and touching shared surfaces increases the risk of fomite transmission.</li></ul><p class='text-blue-700 font-medium'>⚖ Regulation-dependent: Air system specifications differ significantly between aircraft types. Inferring the same risk profile for all cabins is not appropriate.</p>"
+    },
+    {
+      "titleAz": "Ötürülmə yolları: Aerozol, Damlacıq, Fomit",
+      "titleEn": "Transmission Routes: Aerosol, Droplet, Fomite",
+      "bodyAz": "<p>Tibbi ədəbiyyat kabin mühitindəki üç əsas ötürülmə mexanizmini müəyyən edir:</p><p><strong>1. Aerozol (hava yolu ilə) ötürülmə:</strong></p><ul><li>Çox kiçik zərrəciklər (≤ 5 μm), saatlarla havada asılı qala bilər</li><li>SARS-CoV-2, qızılca virusu, vərəm başlıca aerozol yolu ilə yayılır</li><li>HEPA filtrasiyası aerozol zərrəciklərini effektiv şəkildə tutur — lakin şəxsdən şəxsə birbaşa ötürülməni azaltmır</li><li>NAS 2002 hesabatı: uçaq HEPA sistemi ≥ 99.97% 0.3 μm zərrəcikləri tutub — lakin bu, bütün patogenlərin tamamilə yox edilməsi demək deyil</li></ul><p><strong>2. Damlacıq ötürülməsi:</strong></p><ul><li>Daha iri zərrəciklər (> 5 μm) — öskürək, asqırma, danışıq zamanı</li><li>Adətən 1–2 metrdən artıq məsafəyə səyahət etmir (yerçəkiminə görə düşür)</li><li>İnfluenza, SARS-CoV-2 (yüksək konsentrasiyada), RSV</li><li>Lancet tədqiqatı: çox saylı COVID-19 uçuş klasterləri əsasən eyni sıra (2 sıra mesafə) müsafirlər arasında qeydə alınmışdır</li></ul><p><strong>3. Fomit (səthi kontakt) ötürülməsi:</strong></p><ul><li>Virüs-kontaminasiya edilmiş səthlərə toxunma, sonra gözə/ağıza/buruna toxunma</li><li>Plastik, metal, parça səthlərinin üzərindəki patogen müddəti saatlardan günlərə qədər dəyişir</li><li>Kabin kömbəsi, qol dayaqları, hamam döyməcikləri yüksək kontakt səthlərdir</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: Üç ötürülmə yolu (aerozol, damlacıq, fomit) ÜST Texniki Hesabatında və NAS-CABIN-ENV hesabatında sənədləşdirilmişdir.</p>",
+      "bodyEn": "<p>Medical literature identifies three primary transmission mechanisms in the cabin environment:</p><p><strong>1. Aerosol (airborne) transmission:</strong></p><ul><li>Very small particles (≤ 5 μm), can remain suspended in air for hours</li><li>SARS-CoV-2, measles virus, tuberculosis primarily spread via aerosol</li><li>HEPA filtration effectively captures aerosol particles — but does not reduce direct person-to-person transmission</li><li>NAS 2002 report: aircraft HEPA system captures ≥ 99.97% of 0.3 μm particles — but this does not mean complete elimination of all pathogens</li></ul><p><strong>2. Droplet transmission:</strong></p><ul><li>Larger particles (> 5 μm) — from coughing, sneezing, speaking</li><li>Typically does not travel more than 1–2 meters (falls due to gravity)</li><li>Influenza, SARS-CoV-2 (at high concentration), RSV</li><li>Lancet study: multiple COVID-19 flight clusters were recorded primarily among passengers in the same row (2-row proximity)</li></ul><p><strong>3. Fomite (surface contact) transmission:</strong></p><ul><li>Touching virus-contaminated surfaces, then touching eyes/mouth/nose</li><li>Pathogen viability on plastic, metal, fabric surfaces ranges from hours to days</li><li>Seat-back trays, armrests, lavatory door buttons are high-contact surfaces</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: Three transmission routes (aerosol, droplet, fomite) are documented in WHO Technical Reports and the NAS-CABIN-ENV report.</p>"
+    },
+    {
+      "titleAz": "Risk amilləri: Nə ötürülmə ehtimalını artırır?",
+      "titleEn": "Risk Factors: What Increases Transmission Probability?",
+      "bodyAz": "<p>Aviasiya kabinindəki ötürülmə riski bir sıra dəyişənlərdən asılıdır:</p><p><strong>Məsafə:</strong> Damlacıq ötürülməsi üçün iki sıra məsafə (≈ 1 metr) əsas risk zonası kimi göstərilir. Emory Universiteti tədqiqatı SARS uçuş klasterlərini təhlil edərək ən yüksək bulaşma ehtimalının birbaşa qonşu müsafirlər arasında olduğunu ortaya qoymuşdur.</p><p><strong>Müddət:</strong> Məruz qalma müddəti uzandıqca infeksiya riski arta bilir. Lakin bu münasibət xətti deyil — ötürülmə yolu, patogen növü, infeksiya dozasına görə fərqlənir.</p><p><strong>Ventilyasiya sistemi vəziyyəti:</strong></p><ul><li>Müasir uçaqlarda hava dəqiqədə 20–30 dəfə filtrasiyadan keçirilir (ACH)</li><li>Köhnə uçaqlarda ventilyasiya daha az effektiv ola bilər</li><li>Texniki xidmət pozuntuları hava keyfiyyətini aşağı sala bilər</li></ul><p><strong>Yerləşmə düzeni:</strong></p><ul><li>Pəncərə sırası müsafirləri koridor sırası müsafirlərinə nisbətən daha az hərəkət edir — lakin bu, riski sadəcə dəyişdirir, aradan qaldırmır</li><li>Yuxarı kamera yivlərindən hava axını bölgüsü ötürülmə profilinə təsir edir</li></ul><p><strong>İmmun vəziyyəti:</strong> Müsafirin immun sistemi vəziyyəti (yaş, xəstəlik, peyvənd) şəxsi həssaslığa birbaşa təsir edir.</p><p class='text-orange-700 font-medium'>⚠ Yoxlama lazımdır: Müxtəlif risk amillərinin kəmiyyət cəhətdən nisbi töhfəsi aviasiyaya xüsusi böyük miqyaslı tədqiqatlardan yox edilə bilməmişdir. Mövcud tədqiqatların əksəriyyəti COVID-19 pandemiyası dövründən gəlir.</p>",
+      "bodyEn": "<p>Transmission risk in an aviation cabin depends on several variables:</p><p><strong>Proximity:</strong> For droplet transmission, two-row proximity (≈ 1 meter) is indicated as the primary risk zone. An Emory University study analyzing SARS flight clusters found that the highest transmission probability was between directly adjacent passengers.</p><p><strong>Duration:</strong> As exposure duration increases, infection risk can increase. However, this relationship is not linear — it varies by transmission route, pathogen type, and infectious dose.</p><p><strong>Ventilation system condition:</strong></p><ul><li>Modern aircraft filter air 20–30 times per minute (ACH)</li><li>Older aircraft may have less effective ventilation</li><li>Maintenance deficiencies can reduce air quality</li></ul><p><strong>Seating arrangement:</strong></p><ul><li>Window-seat passengers move less than aisle-seat passengers — but this only changes the risk, does not eliminate it</li><li>Overhead nozzle air flow distribution affects the transmission profile</li></ul><p><strong>Immune status:</strong> A passenger's immune system condition (age, illness, vaccination) directly affects personal susceptibility.</p><p class='text-orange-700 font-medium'>⚠ Needs verification: The quantitative relative contribution of different risk factors cannot be derived from large-scale aviation-specific studies. Most existing studies come from the COVID-19 pandemic period.</p>"
+    },
+    {
+      "titleAz": "HEPA filtrasiyasının rolu və məhdudiyyətləri",
+      "titleEn": "Role and Limitations of HEPA Filtration",
+      "bodyAz": "<p>HEPA (<em>High-Efficiency Particulate Air</em>) filtrləri müasir uçaqların hava dövriyyəsi sistemlərinin əsas komponentlərindən biridir.</p><p><strong>Texniki effektivlik:</strong></p><ul><li>EN 1822 / IEST-RP-CC001 standartına uyğun HEPA filtrləri ≥ 99.97% effektivliklə 0.3 μm ölçülü zərrəcikləri tutur</li><li>Bu, bioloji aerozol zərrəcikləri, virus yük zərrəcikləri, küf sporları üçün yüksək effektivlik deməkdir</li><li>NAS 2002 hesabatı HEPA filtrasiyasının kabin hava keyfiyyətini ümumi ofis binası hava keyfiyyəti ilə müqayisə edilə bilər səviyyəyə çatdırdığını göstərmişdir</li></ul><p><strong>Nə HEPA filtrasiyası etmir:</strong></p><ul><li>Bilavasitə yaxınlıqda olan müsafirlər arasındakı damlacıq ötürülməsini azaltmır</li><li>Səthi fomit ötürülməsini aradan qaldırmır</li><li>Bütün uçaq növlərinin HEPA sistemi yoxdur — xüsusilə köhnə regional uçaqlarda</li><li>Texniki xidmət tamamlanmamış HEPA sistemi deklare edilmiş effektivliyi göstərməyə bilər</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: HEPA filtrasiyasının aerozol effektivliyi NAS-CABIN-ENV (2002) hesabatında, PALL Corporation texniki sənədlərində sənədləşdirilmişdir. Həmin rəqəmlər standart laboratoriya şəraitinə aiddir.</p>",
+      "bodyEn": "<p>HEPA (<em>High-Efficiency Particulate Air</em>) filters are one of the key components of air circulation systems in modern aircraft.</p><p><strong>Technical effectiveness:</strong></p><ul><li>HEPA filters compliant with EN 1822 / IEST-RP-CC001 standard capture ≥ 99.97% of 0.3 μm particles</li><li>This means high effectiveness for biological aerosol particles, virus-laden particles, and mold spores</li><li>NAS 2002 report showed that HEPA filtration brings cabin air quality to a level comparable to general office building air quality</li></ul><p><strong>What HEPA filtration does NOT do:</strong></p><ul><li>Does not reduce droplet transmission between passengers in direct proximity</li><li>Does not eliminate surface fomite transmission</li><li>Not all aircraft types have HEPA systems — especially older regional aircraft</li><li>A HEPA system with incomplete maintenance may not demonstrate its declared effectiveness</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: HEPA filtration aerosol effectiveness is documented in the NAS-CABIN-ENV (2002) report and Pall Corporation technical documents. Those figures apply to standard laboratory conditions.</p>"
+    },
+    {
+      "titleAz": "COVID-19 pandemiyasından gələn uçuş klaster məlumatları",
+      "titleEn": "Flight Cluster Data from the COVID-19 Pandemic",
+      "bodyAz": "<p>COVID-19 pandemiyası aviasiya kabinindəki ötürülmə dinamikası haqqında ən geniş real dünya məlumatlarını ortaya çıxardı.</p><p><strong>Əsas tədqiqat tapıntıları:</strong></p><ul><li><strong>Lancet 2021 (COVID-19 uçuş klasterləri):</strong> Bir neçə uzunmənzilli uçuşda bulaşma risk iki sıra məsafəyə qədər ən yüksək səviyyəyə çatmışdır. Lakin bəzi hallarda daha uzaq sıralarda da bulaşma müşahidə edilmişdir — bu isə aerozol komponentini göstərir.</li><li><strong>IATA 2020 Hava Keyfiyyəti:</strong> IATA hesabatı əvvəlki epidemiyalarda (SARS, H1N1) uçuşla əlaqədar ötürülmənin nisbətən nadir qeydə alındığını göstərdi — lakin bu, aktivliyinə aşkar edilmənin çətinliyi ilə qarışdırılmamalıdır.</li><li><strong>EASA Sağlamlıq Analizi:</strong> COVID-19 dövründə EASA hesabatları maskaların kabin mühitindəki ötürülməni azaltmaqda əhəmiyyətli rol oynadığını göstərmişdir.</li></ul><p><strong>Metodoloji məhdudiyyətlər:</strong></p><ul><li>Uçuşda bulaşmanın yerdəki bulaşmadan fərqləndirilməsi çox vaxt mümkün olmur</li><li>Bütün müsafirlərin test edilməsi nadir hallarda mümkün olur</li><li>Kabin spesifik klasterlərin sayı real uçuş say ilə müqayisədə azdır — lakin bu, sıfır risk demək deyil</li></ul><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: COVID-19 dövründən gələn uçuş klaster məlumatları müəyyən şəraitdə ötürülmə baş verdiyini göstərir — lakin COVID-19 spesifik nəticələrin fərqli patogenlərin bütün aviasiya riski kimi ümumiləşdirilməsi metodoloji cəhətdən problemlidir.</p>",
+      "bodyEn": "<p>The COVID-19 pandemic revealed the most extensive real-world data on transmission dynamics in aviation cabins.</p><p><strong>Key research findings:</strong></p><ul><li><strong>Lancet 2021 (COVID-19 flight clusters):</strong> In several long-haul flights, transmission risk peaked at up to two-row proximity. However, in some cases transmission was observed in more distant rows — indicating an aerosol component.</li><li><strong>IATA 2020 Air Quality:</strong> IATA report showed that in earlier epidemics (SARS, H1N1), flight-associated transmission was documented relatively rarely — but this should not be confused with difficulty of detection in active cases.</li><li><strong>EASA Health Analysis:</strong> During COVID-19, EASA reports showed that masks played a significant role in reducing transmission in the cabin environment.</li></ul><p><strong>Methodological limitations:</strong></p><ul><li>Distinguishing in-flight transmission from ground-based transmission is often not possible</li><li>Testing all passengers is rarely feasible</li><li>The number of cabin-specific clusters relative to total flight numbers is low — but this does not mean zero risk</li></ul><p class='text-blue-700 font-medium'>📖 Guidance only: Flight cluster data from the COVID-19 period demonstrates that transmission occurred under certain conditions — but generalizing COVID-19-specific findings as universal aviation risk for different pathogens is methodologically problematic.</p>"
+    },
+    {
+      "titleAz": "Normativ çərçivə: Bioloji risklər üçün ICAO / ÜST / EASA mövqeyi",
+      "titleEn": "Regulatory Framework: ICAO / WHO / EASA Position on Biological Risks",
+      "bodyAz": "<p>Bioloji risk idarəetməsi aviasiya tənzimçilərinin birbaşa müəyyən etdiyi bir sahədir:</p><p><strong>ICAO Əlavə 9 (Asanlaşdırma):</strong> Müsafir, heyət və ya yükün mənşə nöqtəsindən bioloji risk daşıdığı şübhəsi yarandıqda dezinfeksiya, dezinseksiya, karantina tədbirlərini müəyyən edir. Uçuş təchizatçısı dövlətlər sağlamlıq riskinin qiymətləndirilməsindən məsuldur.</p><p><strong>ÜST BSQ 2005 Maddə 23-24:</strong> Hava limanı sağlamlıq tədbirləri — sağlamlıq bəyannaməsi, müsafirlərin tibbi baxışı, infeksiyalı şəxslərin izolyasiyası prosedurlarını müəyyən edir. Uçuş komandirinə uçuş zamanı tibbi hadisəni yerə bildirmə öhdəliyi verilir.</p><p><strong>EASA Sağlamlıq Analizi hesabatı:</strong> COVID-19 sonrası EASA kabindəki sağlamlıq tədbirlərinin hərtərəfli analizini dərc etdi. Bu hesabat məcburi tənzimləmə deyil — gəlirli müzakirə məqalıdir.</p><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: ICAO Əlavə 9 dezinfeksiya/dezinseksiya üzrə tənzimləyici öhdəliklər müəyyən edir. ÜST BSQ Maddə 23–24 hava limanı sağlamlıq tədbirlərini tənzimləyir.</p>",
+      "bodyEn": "<p>Biological risk management is an area directly addressed by aviation regulators:</p><p><strong>ICAO Annex 9 (Facilitation):</strong> Specifies disinfection, disinsection, and quarantine measures when passengers, crew, or cargo are suspected of carrying biological risk from the point of origin. States of departure are responsible for health risk assessment.</p><p><strong>WHO IHR 2005 Articles 23–24:</strong> Airport health measures — health declarations, medical examination of passengers, isolation procedures for infected individuals. Aircraft commanders are given the obligation to notify the ground of in-flight medical incidents.</p><p><strong>EASA Health Analysis Report:</strong> Post-COVID-19, EASA published a comprehensive analysis of health measures in cabins. This report is not mandatory regulation — it is a consultative discussion paper.</p><p class='text-emerald-700 font-medium'>✅ Confirmed: ICAO Annex 9 establishes regulatory obligations on disinfection/disinsection. WHO IHR Articles 23–24 regulate airport health measures.</p>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "termAz": "Aerozol",
+      "termEn": "Aerosol",
+      "definitionAz": "Havada asılı qalan çox kiçik zərrəciklər (≤ 5 μm). Saatlarla havada qala bilər və uzaq məsafəyə nəql oluna bilər.",
+      "definitionEn": "Very small particles (≤ 5 μm) suspended in air. Can remain airborne for hours and be transported over long distances."
+    },
+    {
+      "termAz": "Fomit",
+      "termEn": "Fomite",
+      "definitionAz": "Patogen mikroorqanizmlərlə kontaminasiya edilmiş qeyri-canlı səthlər (masa, qapı döyəməci, qol dayağı). Toxunma yolu ilə ötürülməni asanlaşdırır.",
+      "definitionEn": "Non-living surfaces (tables, door handles, armrests) contaminated with pathogenic microorganisms. Facilitates transmission through contact."
+    },
+    {
+      "termAz": "HEPA",
+      "termEn": "HEPA",
+      "definitionAz": "High-Efficiency Particulate Air — ≥ 99.97% effektivliklə 0.3 μm zərrəciklərini tutan yüksək effektli hava filtrəsi.",
+      "definitionEn": "High-Efficiency Particulate Air — a high-efficiency air filter that captures ≥ 99.97% of particles at 0.3 μm."
+    },
+    {
+      "termAz": "ACH",
+      "termEn": "ACH",
+      "definitionAz": "Air Changes per Hour — saatlıq hava dəyişmə nisbəti. Müasir uçaqlarda kabin havası adətən dəqiqədə 20–30 dəfə filtrasiyadan keçirilir.",
+      "definitionEn": "Air Changes per Hour — the rate of air replacement per hour. In modern aircraft, cabin air is typically filtered 20–30 times per minute."
+    },
+    {
+      "termAz": "Uçuş klasteri",
+      "termEn": "Flight cluster",
+      "definitionAz": "Eyni uçuşda bir neçə müsafirin ehtimal edilən hava ötürülmə əlaqəsi olan xəstəliyə tutulması epidemioloji hadisəsi.",
+      "definitionEn": "Epidemiological event in which several passengers on the same flight contract an illness with suspected airborne transmission link."
+    },
+    {
+      "termAz": "Infeksiya dozası",
+      "termEn": "Infectious dose",
+      "definitionAz": "İnfeksiyanın başlanması üçün zəruri olan minimum mikroorqanizm miqdarı. Patogendən patogenə əhəmiyyətli dərəcədə fərqlənir.",
+      "definitionEn": "The minimum number of microorganisms necessary to initiate infection. Varies significantly from pathogen to pathogen."
+    }
+  ],
+  "studyQuestions": [
+    {
+      "questionAz": "Aviasiya kabinindəki üç əsas ötürülmə yolunu izah edin.",
+      "questionEn": "Explain the three main transmission routes in an aviation cabin.",
+      "answerAz": "1. Aerozol (hava yolu): ≤ 5 μm zərrəciklər, saatlarla havada asılı qalır, HEPA tərəfindən tutulur. 2. Damlacıq: > 5 μm zərrəciklər, adətən 1–2 metrə düşür, bilavasitə yaxınlıqda risk daha yüksəkdir. 3. Fomit (səthi kontakt): kontaminasiya edilmiş səthlərə toxunma, sonra göz/ağız/burun.",
+      "answerEn": "1. Aerosol (airborne): ≤ 5 μm particles, remain suspended in air for hours, captured by HEPA. 2. Droplet: > 5 μm particles, typically fall within 1–2 meters, highest risk in direct proximity. 3. Fomite (surface contact): touching contaminated surfaces, then eyes/mouth/nose."
+    },
+    {
+      "questionAz": "HEPA filtrasiyası uçuş zamanı ötürülmə riskini tamamilə aradan qaldırırmı?",
+      "questionEn": "Does HEPA filtration completely eliminate transmission risk during flight?",
+      "answerAz": "Xeyr. HEPA filtrasiyası aerozol zərrəciklərini yüksək effektivliklə tutur (≥ 99.97% 0.3 μm üçün). Lakin bilavasitə yaxınlıqda baş verən damlacıq ötürülməsini azaltmır, fomit ötürülməsini aradan qaldırmır. Həmçinin bütün uçaq növlərinin HEPA sistemi yoxdur.",
+      "answerEn": "No. HEPA filtration captures aerosol particles with high effectiveness (≥ 99.97% for 0.3 μm). However, it does not reduce droplet transmission occurring in direct proximity, and does not eliminate fomite transmission. Also, not all aircraft types have HEPA systems."
+    },
+    {
+      "questionAz": "Uçaq kabinindəki rütubət niyə aşağıdır və bu bioloji riskə necə təsir edir?",
+      "questionEn": "Why is humidity low in an aircraft cabin and how does this affect biological risk?",
+      "answerAz": "Kabin havası yüksək altituddaki xarici hava ilə qarışır. Yüksək altitudda hava çox quru olur (dondurulmuş su buxarı). Nəticədə kabin nisbi rütubəti adətən %10–20 səviyyəsindədir. Aşağı rütubət bəzi patogenlərin (xüsusilə quruluqda davamlı virusların) havada müddətini uzada bilər.",
+      "answerEn": "Cabin air mixes with outside air at high altitude. At high altitude, air is very dry (water vapor is frozen). As a result, cabin relative humidity is typically 10–20%. Low humidity can extend the airborne viability of some pathogens (especially viruses resistant to drying)."
+    },
+    {
+      "questionAz": "COVID-19 uçuş klaster tədqiqatları hansı metodoloji məhdudiyyətə malikdir?",
+      "questionEn": "What methodological limitation do COVID-19 flight cluster studies have?",
+      "answerAz": "Əsas məhdudiyyət: uçuşda bulaşmanı yerdəki bulaşmadan fərqləndirməyin çətinliyi. Müsafirlərin hamısının test edilməsi nadir hallarda mümkündür. COVID-19 spesifik tapıntıların fərqli patogenlər üçün ümumiləşdirilməsi metodoloji cəhətdən problemlidir.",
+      "answerEn": "Primary limitation: the difficulty of distinguishing in-flight transmission from ground-based transmission. Testing all passengers is rarely feasible. Generalizing COVID-19-specific findings to different pathogens is methodologically problematic."
+    },
+    {
+      "questionAz": "ÜST BSQ Maddə 23-24 uçuş zamanı bioloji risklər baxımından nə deyir?",
+      "questionEn": "What do WHO IHR Articles 23–24 say regarding biological risks during flight?",
+      "answerAz": "Maddə 23–24 hava limanı sağlamlıq tədbirlərini müəyyən edir: müsafirlərin sağlamlıq bəyannaməsi, tibbi baxış, infeksiyalı şəxslərin izolyasiyası. Uçuş komandirinə uçuş zamanı tibbi hadisəni yerə bildirmə öhdəliyi verilir. Bu tədbirlər 194 iştirakçı dövlət üçün hüquqi məcburi ÜST BSQ çərçivəsi altındadır.",
+      "answerEn": "Articles 23–24 establish airport health measures: passenger health declarations, medical examination, isolation of infected individuals. Aircraft commanders are given the obligation to notify the ground of in-flight medical incidents. These measures are under the legally binding WHO IHR framework for 194 participating states."
+    }
+  ],
+  "sourceIds": [
+    "LANCET-TRANSMISSION",
+    "NAS-CABIN-ENV",
+    "WHO-IHR-2005",
+    "ICAO-ANN9",
+    "EASA-HEALTH-ANALYSIS",
+    "EMORY-TRANSMISSION",
+    "IATA-CAQ",
+    "PALL-WP"
+  ],
+  "statusedClaims": [
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "HEPA filtrlər ≥ 99.97% effektivliklə 0.3 μm zərrəcikləri tutur — NAS-CABIN-ENV (2002) hesabatına əsasən.",
+        "en": "HEPA filters capture ≥ 99.97% of 0.3 μm particles — per NAS-CABIN-ENV (2002) report."
+      },
+      "sourceIds": ["NAS-CABIN-ENV", "PALL-WP"]
+    },
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "ÜST BSQ Maddə 23–24 hava limanı sağlamlıq tədbirlərini və uçuş tibbi hadisə bildiriş öhdəliyini müəyyən edir.",
+        "en": "WHO IHR Articles 23–24 establish airport health measures and in-flight medical incident notification obligations."
+      },
+      "sourceIds": ["WHO-IHR-2005"]
+    },
+    {
+      "status": "guidance-only",
+      "claim": {
+        "az": "EASA post-COVID-19 Sağlamlıq Analizi kabin sağlamlıq tədbirlərini müzakirə edir — lakin məcburi tənzimləmə deyil.",
+        "en": "EASA post-COVID-19 Health Analysis discusses cabin health measures — but is not mandatory regulation."
+      },
+      "sourceIds": ["EASA-HEALTH-ANALYSIS"]
+    },
+    {
+      "status": "needs-verification",
+      "claim": {
+        "az": "Müxtəlif risk amillərinin (məsafə, müddət, ventilyasiya) kəmiyyət cəhətdən nisbi töhfəsi aviasiyaya xüsusi böyük miqyaslı tədqiqatda sənədləşdirilməmişdir.",
+        "en": "The quantitative relative contribution of different risk factors (proximity, duration, ventilation) has not been documented in a large-scale aviation-specific study."
+      },
+      "sourceIds": ["EMORY-TRANSMISSION", "LANCET-TRANSMISSION"]
+    }
+  ]
+}

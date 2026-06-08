@@ -1,0 +1,107 @@
+{
+  "dimensions": [
+    { "id": "biological", "labelAz": "Bioloji Risk", "labelEn": "Biological Risk" },
+    { "id": "chemical",   "labelAz": "Kimyəvi Risk",  "labelEn": "Chemical/Health Risk" },
+    { "id": "material",   "labelAz": "Material Riski", "labelEn": "Material/Corrosion Risk" },
+    { "id": "operational","labelAz": "Əməliyyat Riski","labelEn": "Operational/Airworthiness Risk" },
+    { "id": "regulatory", "labelAz": "Normativ Risk",  "labelEn": "Regulatory Risk" }
+  ],
+  "methods": [
+    {
+      "id": "alcohol",
+      "labelAz": "Spirt (70% IPA/etanol)",
+      "labelEn": "Alcohol (70% IPA/Ethanol)",
+      "cells": {
+        "biological":   { "level": "low",    "noteAz": "Uyğun konsentrasiyada əksər virüs və bakteriyalara qarşı yüksək səmərəlilik. ✅ Təsdiqlənmiş.", "noteEn": "High efficacy against most viruses and bacteria at appropriate concentration. ✅ Confirmed." },
+        "chemical":     { "level": "low",    "noteAz": "İnsanlar üçün aşağı risk. Yanma nöqtəsinə diqqət yetirin (qapalı sahələrdə yetərli havalandırma). 📖 Rəhbərlik.", "noteEn": "Low risk to humans at use concentrations. Note flammability (ensure adequate ventilation in enclosed spaces). 📖 Guidance." },
+        "material":     { "level": "low",    "noteAz": "İstehsalçı AML-ə uyğun olaraq alüminium, əksər plastiklərlə uyğundur. Bəzi rezin/elastomerləri şişirtə bilər. ✅ Ümumiyyətlə uyğundur.", "noteEn": "Generally compatible with aluminum and most plastics per manufacturer AML. May swell some rubber/elastomers. ✅ Generally compatible." },
+        "operational":  { "level": "low",    "noteAz": "İstehsalçının icazə verdiyi agentlər siyahısından istifadə edilərsə, aşağı risk. AML yoxlaması vacibdir. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Low risk if used per manufacturer's approved agents list. AML verification required. ⚖ Regulation-dependent." },
+        "regulatory":   { "level": "low",    "noteAz": "Geniş şəkildə qəbul edilmişdir. EASA, IATA rəhbərliyi ilə uyğundur. Aşağı uyğunluq riski. ✅ Geniş dəstəklənir.", "noteEn": "Widely accepted. Consistent with EASA, IATA guidance. Low compliance risk. ✅ Broadly supported." }
+      }
+    },
+    {
+      "id": "chlorine",
+      "labelAz": "Xlor əsaslı (hipoklorit)",
+      "labelEn": "Chlorine-based (Hypochlorite)",
+      "cells": {
+        "biological":   { "level": "low",    "noteAz": "Geniş spektrli agentdir. Bakteriya, virus, sporlar üzərində yüksək təsir. ✅ Təsdiqlənmiş.", "noteEn": "Broad-spectrum agent. High efficacy against bacteria, viruses, spores. ✅ Confirmed." },
+        "chemical":     { "level": "medium", "noteAz": "Buxar qıcıqlandırıcıdır. Digər kimyəvi maddələrlə (xüsusən ammonyakla) qarışdırılmamalıdır. Xüsusi havalandırma tələb edir. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Vapor is irritating. Must not be mixed with other chemicals (especially ammonia). Requires adequate ventilation. ⚖ Regulation-dependent." },
+        "material":     { "level": "medium", "noteAz": "Konsentrasiya yüksəkdirsə, alüminiuma zərər verə bilər. Bəzi polimerlər, boyalar ilə uyğun deyil. AML yoxlaması tələb edir. ⚠ Yoxlama lazımdır.", "noteEn": "Can damage aluminum at high concentrations. Not compatible with some polymers and paints. AML verification required. ⚠ Needs verification." },
+        "operational":  { "level": "medium", "noteAz": "Material uyğunluğu riski əməliyyat nəzarəti tələb edir. AML yoxlaması vacibdir. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Material compatibility risk requires operational controls. AML verification required. ⚖ Regulation-dependent." },
+        "regulatory":   { "level": "low",    "noteAz": "Qəbul edilmiş dezinfektan sinfi. Kabin istifadəsi üçün istehsalçı icazəsi yoxlanılmalıdır. 📖 Rəhbərlik.", "noteEn": "Accepted disinfectant class. Manufacturer approval for cabin use should be verified. 📖 Guidance." }
+      }
+    },
+    {
+      "id": "h2o2",
+      "labelAz": "Hidrogen peroksid (H₂O₂)",
+      "labelEn": "Hydrogen Peroxide (H₂O₂)",
+      "cells": {
+        "biological":   { "level": "low",    "noteAz": "Geniş spektrli, yüksək səmərəli. HPV (yüksək konsentrasiyalı buxar) müalicəsi istifadə olunur. ✅ Təsdiqlənmiş.", "noteEn": "Broad-spectrum, highly effective. HPV (vaporized hydrogen peroxide) treatment used. ✅ Confirmed." },
+        "chemical":     { "level": "medium", "noteAz": ">10% konsentrasiyada cildə, gözə, tənəffüs yollarına qıcıqlandırıcı. Yüksək konsentrasiya peşəkar idarəetmə tələb edir. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Irritating to skin, eyes, respiratory tract at >10% concentration. High concentration requires professional handling. ⚖ Regulation-dependent." },
+        "material":     { "level": "medium", "noteAz": "Yüksək konsentrasiyada poliolfid möhürlər, LDPE, nylon, təbii kauçuk, yun, dəri zədələyir. Yüksək H₂O₂ qatılığında korroziya. ⚠ Yoxlama lazımdır.", "noteEn": "Damages polysulfide seals, LDPE, nylon, natural rubber, wool, leather at high concentration. Corrosion at high H₂O₂ concentration. ⚠ Needs verification per concentration." },
+        "operational":  { "level": "medium", "noteAz": "Qalıq buxarı monitorinq tələb edir. HPV müalicəsi texniki avadanlıq tələb edir. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Residual vapor monitoring required. HPV treatment requires technical equipment. ⚖ Regulation-dependent." },
+        "regulatory":   { "level": "low",    "noteAz": "Qəbul edilmiş dezinfektan sinfi. Kabin istifadəsi üçün istehsalçı icazəsi tələb olunur. 📖 Rəhbərlik.", "noteEn": "Accepted disinfectant class. Manufacturer approval for cabin use required. 📖 Guidance." }
+      }
+    },
+    {
+      "id": "quat",
+      "labelAz": "Kvaterner ammonium (QUAT)",
+      "labelEn": "Quaternary Ammonium (QUAT)",
+      "cells": {
+        "biological":   { "level": "low",    "noteAz": "Bakteriya, zarflı viruslara qarşı səmərəlidir. Bəzi zarflı olmayan viruslara qarşı daha az effektiv. ✅ Məhdud spektr.", "noteEn": "Effective against bacteria and enveloped viruses. Less effective against some non-enveloped viruses. ✅ Limited spectrum noted." },
+        "chemical":     { "level": "medium", "noteAz": "Qıcıqlandırıcı ola bilər. Uzunmüddətli məruz qalma narahatçılığı var. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Can be irritating. Long-term exposure concerns documented. ⚖ Regulation-dependent." },
+        "material":     { "level": "low",    "noteAz": "Əksər kabin materialları ilə ümumiyyətlə uyğundur. AML yoxlaması tövsiyə olunur. 📖 Rəhbərlik.", "noteEn": "Generally compatible with most cabin materials. AML verification recommended. 📖 Guidance." },
+        "operational":  { "level": "low",    "noteAz": "Standart tətbiq prosedurları. Xüsusi avadanlıq tələb olunmur. 📖 Rəhbərlik.", "noteEn": "Standard application procedures. No special equipment required. 📖 Guidance." },
+        "regulatory":   { "level": "low",    "noteAz": "Geniş şəkildə istifadə olunur. Kabin istifadəsi üçün istehsalçı AML-i yoxlayın. 📖 Rəhbərlik.", "noteEn": "Widely used. Verify manufacturer AML for cabin use. 📖 Guidance." }
+      }
+    },
+    {
+      "id": "ozone",
+      "labelAz": "Ozon sanitasiyası",
+      "labelEn": "Ozone Sanitation",
+      "cells": {
+        "biological":   { "level": "low",    "noteAz": "Yüksək konsentrasiyada bakteriya, virus, göbələk, iy üzərində çox yüksək səmərəlilik. Çatılması çətin səthlərə nüfuz edir. ✅ Texniki cəhətdən yüksək səmərə.", "noteEn": "Very high efficacy against bacteria, viruses, fungi, and odors at sufficient concentration. Penetrates hard-to-reach surfaces. ✅ Technically very effective." },
+        "chemical":     { "level": "high",   "noteAz": "İnsanlar üçün yüksək risk. NIOSH REL: 0.1 ppm; IDLH: 5 ppm. Məruz qalmamaq üçün kabin tam boşaldılmalıdır. Ciddi proses nəzarəti tələb olunur. ⚠ Kabin heyəti nə vaxtsa aşılmış OSHA PEL riski.", "noteEn": "High risk to humans. NIOSH REL: 0.1 ppm; IDLH: 5 ppm. Cabin must be fully evacuated. Strict process controls required. ⚠ Crew cumulative exposure may exceed OSHA PEL." },
+        "material":     { "level": "high",   "noteAz": "~1 ppm konsentrasiyasında rezin möhürlər, elastomerlər, poliolfid möhürlər üçün yüksək risk. Oksigen konsentratoru (WO2018137003) NOx zərərini azaldır. Sensor ilə monitorinq lazımdır. ⚠ Yoxlama lazımdır.", "noteEn": "High risk to rubber seals, elastomers, polysulfide sealants at ~1 ppm. Oxygen concentrator (WO2018137003) reduces NOx damage. Sensor monitoring required. ⚠ Needs verification per cabin materials." },
+        "operational":  { "level": "high",   "noteAz": "Ciddi proses nəzarəti tələb edir: möhürlənmiş kabin, sensor monitorinq, parçalanma yoxlaması, yenidən giriş protokolları. İstehsalçı yoxlaması tələb oluna bilər. ⚠ Yoxlama lazımdır.", "noteEn": "Requires strict process controls: sealed cabin, sensor monitoring, decomposition verification, re-entry protocols. Manufacturer validation may be required. ⚠ Needs verification." },
+        "regulatory":   { "level": "high",   "noteAz": "ICAO, EASA, FAA tərəfindən standart kabin sanitasiyası metodu kimi mövcud ictimai sənədlərdə onaylanmamışdır. Patent texniki açıqlamadır, tənzimlənmiş icazə deyil. ⚠ Yoxlama lazımdır.", "noteEn": "Not confirmed as an approved standard cabin sanitation method in available public documents from ICAO, EASA, or FAA. Patent is a technical disclosure, not a regulatory approval. ⚠ Needs verification." }
+      }
+    },
+    {
+      "id": "hepa-ventilation",
+      "labelAz": "HEPA + Ventilyasiya",
+      "labelEn": "HEPA + Ventilation",
+      "cells": {
+        "biological":   { "level": "medium", "noteAz": "Geri dönüşlü havadaki aerozol hissəciklərin 99.99%-ni tutur. Səth ötürülməsini aradan qaldırmır. Uzunmüddətli aerozol ötürülməsi riskinizi azaldır. ✅ Təsdiqlənmiş.", "noteEn": "Captures 99.99% of aerosol particles in recirculated air. Does not eliminate surface transmission. Reduces long-range aerosol transmission risk. ✅ Confirmed." },
+        "chemical":     { "level": "low",    "noteAz": "İnsanlar üçün kimyəvi risk yoxdur. ✅ Risksizdır.", "noteEn": "No chemical risk to humans. ✅ Risk-free." },
+        "material":     { "level": "low",    "noteAz": "Material uyğunluğu problemi yoxdur. HEPA filtrinin özü kabin materialları üçün risksizdir. ✅ Risksizdır.", "noteEn": "No material compatibility concerns. HEPA filter itself poses no risk to cabin materials. ✅ Risk-free." },
+        "operational":  { "level": "low",    "noteAz": "Artıq uçaq sistemlərinin bir hissəsidir. FAR 25.831 çərçivəsinde standart tələb. ✅ Standart.", "noteEn": "Already part of aircraft systems. Standard requirement under FAR 25.831. ✅ Standard." },
+        "regulatory":   { "level": "low",    "noteAz": "Aviasiya standartları tərəfindən yaxşı tənzimlənir. Məcburi uçaq sertifikatlaşdırma tələbi. ✅ Yaxşı tənzimlənib.", "noteEn": "Well-regulated by aviation standards. Mandatory aircraft certification requirement. ✅ Well-regulated." }
+      }
+    },
+    {
+      "id": "disinsection",
+      "labelAz": "Dezinseksiya (piretroidlər)",
+      "labelEn": "Disinsection (Pyrethroids)",
+      "cells": {
+        "biological":   { "level": "low",    "noteAz": "Vektor ötürülməsinin qarşısını almaq üçün yüksək səmərəlilik (ağcaqanadlar). Dezinfeksiya deyil — mikroorqanizmlərə təsir göstərmir. ✅ Vektor nəzarəti üçün təsdiqlənmişdir.", "noteEn": "High efficacy for preventing vector-borne transmission (mosquitoes). Not disinfection — does not affect microorganisms. ✅ Confirmed for vector control." },
+        "chemical":     { "level": "medium", "noteAz": "Heyət üçün peşəkar xəstəlik halları sənəsləşdirilmişdir (CDC). Müsafirler sağlamlığı narahatçılığı. Tətbiq zamanı diqqət tələb olunur. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Occupational illness cases in crew documented (CDC). Passenger health concerns. Care required during application. ⚖ Regulation-dependent." },
+        "material":     { "level": "low",    "noteAz": "Kabin materialları üçün ümumiyyətlə aşağı risk. AML yoxlaması tövsiyə olunur. 📖 Rəhbərlik.", "noteEn": "Generally low risk to cabin materials. AML verification recommended. 📖 Guidance." },
+        "operational":  { "level": "low",    "noteAz": "Standart tətbiq metodları. ÜST ADMP-də sənəsləşdirilmişdir. ✅ Standart protokollar.", "noteEn": "Standard application methods. Documented in WHO ADMP. ✅ Standardized protocols." },
+        "regulatory":   { "level": "high",   "noteAz": "Mürəkkəb tənzimlənmə: bəzi ölkələr tələb edir, digərləri məhdudlaşdırır. AİA-da permetrin qadağandır. ABŞ-da kabin içi dezinseksiya üçün EPA tərəfindən qeydiyyata alınmış məhsul yoxdur. ⚖ Ciddi regional fərqlilik.", "noteEn": "Complex regulation: some countries require it, others restrict it. Permethrin banned in EEA. No EPA-registered products for US cabin use. ⚖ Significant regional variation." }
+      }
+    },
+    {
+      "id": "pu-coating",
+      "labelAz": "Qoruyucu poliuretan örtük",
+      "labelEn": "Protective Polyurethane Coating",
+      "cells": {
+        "biological":   { "level": "low",    "noteAz": "Bioloji riski birbaşa azaltmır. Korroziyadan qorunan səthləri isə uzun müddət saxlayır. 📖 Dolayı fayda.", "noteEn": "Does not directly reduce biological risk. Preserves surfaces that protected from corrosion long-term. 📖 Indirect benefit." },
+        "chemical":     { "level": "low",    "noteAz": "Tətbiq zamanı kimyəvi risk (izosianat buxarları, yetərli havalandırma tələb edir). Bərkidikdən sonra risksizdir. ⚖ Tənzimləmədən asılıdır.", "noteEn": "Chemical risk during application (isocyanate vapors, adequate ventilation required). Risk-free after curing. ⚖ Regulation-dependent." },
+        "material":     { "level": "low",    "noteAz": "Korroziyadan qoruma üçün müsbət. Metal səthi qoruyur. Uyğun sistemin seçilməsi vacibdir. ✅ Qoruyucudur.", "noteEn": "Positive for corrosion protection. Protects metal surfaces. Correct system selection is critical. ✅ Protective." },
+        "operational":  { "level": "high",   "noteAz": "İstehsalçı AML-in icazə verdiyi materiallar tələb olunur. Part 145 MRO tərəfindən tətbiq edilməlidir. Texniki xidmət qeydlərinde sənəsləşdirilməlidir. İcazəsiz tətbiq uçuşa yararlılıq pozuntusudur. ⚠ Ciddi əməliyyat tələbləri.", "noteEn": "Requires manufacturer AML-approved materials. Must be applied by Part 145 MRO. Must be documented in maintenance records. Unapproved application is airworthiness violation. ⚠ Strict operational requirements." },
+        "regulatory":   { "level": "high",   "noteAz": "Tətbiq üçün istehsalçı onayı (STC, TC və ya sahə onayı) tələb ola bilər. Qeydiyyatsız örtüklər kabin komponentlərindən kənar istifadəyə icazə verilmir. ⚠ Yüksək normativ risk.", "noteEn": "Manufacturer approval (STC, TC, or field approval) may be required for application. Unapproved coatings on aircraft components not permitted. ⚠ High regulatory risk." }
+      }
+    }
+  ]
+}

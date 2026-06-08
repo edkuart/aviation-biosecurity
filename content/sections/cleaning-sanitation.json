@@ -1,0 +1,164 @@
+{
+  "id": "cleaning-sanitation",
+  "slug": "/cleaning-sanitation",
+  "navLabel": "Cleaning and Sanitation",
+  "title": {
+    "az": "Kabin Təmizliyi və Sanitasiyası: Agentlər, Protokollar, Material Uyğunluğu",
+    "en": "Cabin Cleaning and Sanitation: Agents, Protocols, Material Compatibility"
+  },
+  "summary": {
+    "az": "Təmizlik, dezinfeksiya və sanitasiya anlayışları arasındakı fərq, EASA protokolları, ÜST/IATA rəhbərliyi, dezinfektant agentlərinin müqayisəsi və kabin materiallarına uyğunluq.",
+    "en": "The distinction between cleaning, disinfection, and sanitation concepts, EASA protocols, WHO/IATA guidance, comparison of disinfectant agents, and compatibility with cabin materials."
+  },
+  "tags": ["EASA", "WHO", "ICAO"],
+  "expandableSections": [
+    {
+      "titleAz": "Üç anlayış: Təmizlik, Dezinfeksiya, Sanitasiya",
+      "titleEn": "Three Concepts: Cleaning, Disinfection, Sanitation",
+      "defaultOpen": true,
+      "bodyAz": "<p>Bu üç anlayış tez-tez bir-birinin yerinə istifadə edilir, lakin texniki cəhətdən fərqli mənaları vardır:</p><ul><li><strong>Təmizlik (Cleaning):</strong> Səthdən görünən çirk, toz, orqanik material fiziki olaraq uzaqlaşdırılır. Mikroorqanizmləri öldürmür — lakin onların sayını azaldır və dezinfeksiya üçün səthi hazırlayır. Su + deterjan + mexaniki sürtmə.</li><li><strong>Dezinfeksiya (Disinfection):</strong> Kimyəvi agent vasitəsilə patogen mikroorqanizmlərin sayı sağlamlıq üçün təhlükəsiz hesab edilən səviyyəyə endirilir. Bütün mikroorqanizmləri öldürmür (sterilizasiya deyil). Effektiv olmaq üçün səthin əvvəlcə təmizlənmiş olması şərtdir.</li><li><strong>Sanitasiya (Sanitation):</strong> Geniş anlayış — sağlamlıq şəraitinin yaradılması prosesi. Həm fiziki təmizlik, həm kimyəvi dezinfeksiya, həm də gigiyena standartlarını əhatə edir. Aviasiyada sanitasiya prosedurları uçuş-uçuş (turnaround) arasındakı bütün kabin hazırlıq tədbirlərini əhatə edir.</li><li><strong>Sterilizasiya:</strong> Bütün canlı mikroorqanizmlərin (sporlar da daxil olmaqla) tamamilə yok edilməsi. Aviasiya standart kabin sanasiyasında sterilizasiya tərifi tətbiq edilmir.</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: Bu anlayışların təriflər EASA Kabin Təmizliyi Rəhbərliyindən (2021) və ÜST terminologiyasından götürülmüşdür.</p>",
+      "bodyEn": "<p>These three concepts are frequently used interchangeably, but have technically distinct meanings:</p><ul><li><strong>Cleaning:</strong> Visible dirt, dust, and organic material is physically removed from a surface. Does not kill microorganisms — but reduces their count and prepares the surface for disinfection. Water + detergent + mechanical scrubbing.</li><li><strong>Disinfection:</strong> The count of pathogenic microorganisms is reduced to a level considered safe for health through a chemical agent. Does not kill all microorganisms (not sterilization). Surface must have been cleaned first to be effective.</li><li><strong>Sanitation:</strong> Broad concept — the process of creating health conditions. Covers both physical cleaning, chemical disinfection, and hygiene standards. In aviation, sanitation procedures cover all cabin preparation measures between flights (turnaround).</li><li><strong>Sterilization:</strong> Complete elimination of all living microorganisms (including spores). The sterilization definition is not applied in standard aviation cabin sanitation.</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: Definitions of these concepts are derived from EASA Cabin Cleaning Guidance (2021) and WHO terminology.</p>"
+    },
+    {
+      "titleAz": "Dezinfektant agentlərinin müqayisəsi",
+      "titleEn": "Comparison of Disinfectant Agents",
+      "bodyAz": "<p>Aviasiya kabinlərindəki dezinfeksiya üçün bir neçə əsas agent sinfi mövcuddur:</p><p><strong>Alkol əsaslı agentlər (izopropil alkol %70, etanol %70):</strong></p><ul><li>Geniş bakteriosidal və virusidal spektr</li><li>Tez quruyan — qalıq yoxdur</li><li>EASA rəhbərliyinə görə ən geniş tövsiyə edilən kabin səthi agenti</li><li>Məhdudiyyət: sporosidal deyil, yüksək kontakt vaxtı tələb edir; pəncərə örtükləri, bəzi plastiklərə həlledici effekti ola bilər</li></ul><p><strong>Kvaternar ammonyum birləşmələri (QUAT/QAC):</strong></p><ul><li>Geniş müddət ərzində bakteriostatik effekt (\"qalıq aktivlik\")</li><li>Toksiklik/zəhərlilik riski alkola nisbətən yüksəkdir</li><li>Anodlaşdırılmış alüminium örtüklərinə surtuklanma qalığı riski</li><li>IATA Kabin Təmizliyi Rəhbərliyinə görə kabin səthlərini üçün uyğundur — lakin istehsalçı konsentrasiya limitlərinə riayət etmək lazımdır</li></ul><p><strong>Hidrogen peroksid (%3–6 məhlul):</strong></p><ul><li>Oksidləşdirici — geniş spektrli bakteriosidal, virusidal, fungisidal effekt</li><li>Alüminium və mis ərintilərə yüksək konsentrasiyada zərər verə bilər</li><li>Aerosol forması kabin hava sisteminə məruz qalma riskini artırır</li></ul><p><strong>Hipoklorit (ağartıcı məhlullar):</strong></p><ul><li>Effektiv — lakin alüminium səthlərə yüksək risk (bax: Korroziya bölməsi)</li><li>Zəhərli qazlar ayrıla bilər — havalandırma vacibdir</li><li>Qalıq yaxalanması tələb olunur</li><li>EASA kabin səthlərindəki hipoklorit istifadəsi üçün ciddi ehtiyat tövsiyə edir</li></ul><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: EASA kabin təmizliyi agentlərinin seçimi üçün məcburi siyahı müəyyən etmir — tövsiyəli praktika sənədi dərc edir.</p>",
+      "bodyEn": "<p>Several main agent classes exist for disinfection in aviation cabins:</p><p><strong>Alcohol-based agents (isopropyl alcohol 70%, ethanol 70%):</strong></p><ul><li>Broad bactericidal and virucidal spectrum</li><li>Fast-drying — no residue</li><li>Most widely recommended cabin surface agent per EASA guidance</li><li>Limitations: not sporicidal, requires sufficient contact time; may have solvent effect on window coatings and some plastics</li></ul><p><strong>Quaternary ammonium compounds (QUAT/QAC):</strong></p><ul><li>Bacteriostatic effect over extended period (\"residual activity\")</li><li>Higher toxicity risk compared to alcohol</li><li>Risk of fouling residue on anodized aluminum coatings</li><li>Suitable for cabin surfaces per IATA Cabin Cleaning Guidance — but manufacturer concentration limits must be observed</li></ul><p><strong>Hydrogen peroxide (3–6% solution):</strong></p><ul><li>Oxidizing — broad-spectrum bactericidal, virucidal, fungicidal effect</li><li>Can damage aluminum and copper alloys at high concentration</li><li>Aerosol form increases cabin air system exposure risk</li></ul><p><strong>Hypochlorite (bleach solutions):</strong></p><ul><li>Effective — but high risk to aluminum surfaces (see: Corrosion section)</li><li>Can release toxic gases — ventilation is essential</li><li>Residual rinsing required</li><li>EASA strongly cautions against hypochlorite use on cabin surfaces</li></ul><p class='text-blue-700 font-medium'>📖 Guidance only: EASA does not set a mandatory list for selection of cabin cleaning agents — it publishes a recommended practice document.</p>"
+    },
+    {
+      "titleAz": "EASA Kabin Təmizliyi Rəhbərliyi (2021)",
+      "titleEn": "EASA Cabin Cleaning Guidance (2021)",
+      "bodyAz": "<p>EASA-nın <em>Uçaq Təmizliyi və Dezinfeksiyası üzrə Rəhbərlik</em> (2021) COVID-19 sonrası dərc edilmiş əməliyyat ən yaxşı praktika sənədidir.</p><p><strong>Rəhbərliyin əsas prinsipləri:</strong></p><ul><li><strong>Təmizlik-əvvəl:</strong> Dezinfeksiya əvvəl səthin mütləq təmizlənməsi — orqanik material dezinfektantın effektivliyini azaldır</li><li><strong>Kontakt vaxtı:</strong> Dezinfektantın səthdə qalma müddəti etiketdəki tələbə uyğun olmalıdır — tez silinməməlidir</li><li><strong>PPE:</strong> Əlcək, maska, gözlük — dezinfektant sinfinə görə</li><li><strong>Agent seçimi:</strong> OEM AMM-inə uyğun agent — uçağın texniki xidmət kütlüyündə icazəli olmalıdır</li><li><strong>Konsentrasiya:</strong> İstehsalçı tövsiyəsinə uyğun — yüksək konsentrasiya həmişə daha effektiv demək deyil, lakin material riski artar</li><li><strong>Kabin ventilyasiyası:</strong> Dezinfeksiya zamanı kabin havalandırması açıq saxlanmalıdır</li></ul><p><strong>Turnaround vs. dərin təmizlik:</strong></p><ul><li>Turnaround (uçuşlar arası): yüksək toxunulan səthlər — masa, qol dayağı, kəmər qoşqusu, ekranlar</li><li>Dərin (overnight/C-check): tam kabin, havalandırma sistemləri, hamam, anbar</li></ul><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: EASA 2021 rəhbərliy sənədi məcburi AB tənzimləməsi deyil. Xüsusi OEM AMM tələbləri üstün gəlir.</p>",
+      "bodyEn": "<p>EASA's <em>Guidance on Aircraft Cleaning and Disinfection</em> (2021) is an operational best practice document published after COVID-19.</p><p><strong>Key principles of the guidance:</strong></p><ul><li><strong>Clean-first:</strong> Surface must be cleaned before disinfection — organic material reduces disinfectant effectiveness</li><li><strong>Contact time:</strong> Disinfectant dwell time on surface must comply with label requirement — must not be wiped off too quickly</li><li><strong>PPE:</strong> Gloves, mask, eyewear — per disinfectant class</li><li><strong>Agent selection:</strong> Agent compliant with OEM AMM — must be authorized in the aircraft maintenance manual</li><li><strong>Concentration:</strong> Per manufacturer recommendation — higher concentration does not always mean more effective, but material risk increases</li><li><strong>Cabin ventilation:</strong> Cabin ventilation must remain open during disinfection</li></ul><p><strong>Turnaround vs. deep cleaning:</strong></p><ul><li>Turnaround (between flights): high-touch surfaces — trays, armrests, belt buckles, screens</li><li>Deep (overnight/C-check): full cabin, ventilation systems, lavatories, cargo</li></ul><p class='text-blue-700 font-medium'>📖 Guidance only: EASA 2021 guidance document is not mandatory EU regulation. Specific OEM AMM requirements take precedence.</p>"
+    },
+    {
+      "titleAz": "COVID-19 sonrası protokolların dəyişməsi: IATA rəhbərliyi",
+      "titleEn": "Post-COVID-19 Protocol Changes: IATA Guidance",
+      "bodyAz": "<p>COVID-19 pandemiyası aviasiya sektoru üçün kabin sanasiya protokollarının sürətlə yenilənməsinə səbəb oldu. IATA 2020–2022 dövründə bir sıra rəhbərlik sənədləri dərc etdi.</p><p><strong>IATA COVID-19 Protokolunun əsas dəyişiklikləri:</strong></p><ul><li>Hər uçuşdan əvvəl yüksək-toxunulan səthlər üçün alkol əsaslı dezinfeksiya</li><li>Sertifikatlaşdırılmış dezinfektant agentlərinin tərtibi</li><li>Sanitasiya sənədləşdirməsinin gücləndirilməsi</li><li>Heyət PPE protokolları</li></ul><p><strong>COVID-19 sonrası vəziyyət:</strong> Bir sıra aviasiya operatorları COVID-19 dövründəki gücləndirilmiş protokolları saxlamağa davam etdi, bəziləri isə pandemiya-öncəsi bazeline qayıtdı. Məcburi tənzimləmə olaraq yeni standart müəyyən edilmədi — EASA/ICAO COVID-19 spesifik protokolları məcburi etmədi.</p><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: IATA COVID-19 kabin sanitasiyası protokolları məcburi tənzimləmə deyil. Rəsmi olaraq 2022-ci ildə COVID-19 fəaliyyət spesifik protokolların çoxu ləğv edildi.</p>",
+      "bodyEn": "<p>The COVID-19 pandemic caused rapid updating of cabin sanitation protocols for the aviation sector. IATA published several guidance documents during 2020–2022.</p><p><strong>Key changes in IATA COVID-19 Protocol:</strong></p><ul><li>Alcohol-based disinfection of high-touch surfaces before each flight</li><li>Compilation of certified disinfectant agents</li><li>Strengthened sanitation documentation</li><li>Crew PPE protocols</li></ul><p><strong>Post-COVID-19 situation:</strong> Some aviation operators continued to maintain enhanced protocols from the COVID-19 period, while others returned to pre-pandemic baseline. No new standard was established as mandatory regulation — EASA/ICAO did not make COVID-19-specific protocols mandatory.</p><p class='text-blue-700 font-medium'>📖 Guidance only: IATA COVID-19 cabin sanitation protocols are not mandatory regulation. Most COVID-19 activity-specific protocols were formally retired in 2022.</p>"
+    },
+    {
+      "titleAz": "Yüksək toxunulan səthlər və prioritetləşdirmə",
+      "titleEn": "High-Touch Surfaces and Prioritization",
+      "bodyAz": "<p>Məhdud turnaround vaxtı nəzərə alınaraq, kabin sanasiya protokolları yüksək toxunulan səthlərə prioritet verir:</p><p><strong>Ən yüksək prioritet (hər turnaround):</strong></p><ul><li>Qatlanabilən kütük masaları (masa səthi + alt tərəfi)</li><li>Qol dayaqları (xüsusilə aisle tərəfi)</li><li>Kəmər qoşquları</li><li>Ekranlar (barmaq izlər)</li><li>Hava nozulları</li><li>Çağırış düyməsi</li><li>Kəmər toqaları</li></ul><p><strong>Orta prioritet (günlük/overnight):</strong></p><ul><li>Oturacaq arxa cibləri</li><li>Pəncərə kənarları və örtüklər</li><li>Anbar tutacaqları</li><li>Yerdəki arakəsmə panelləri</li></ul><p><strong>Hamam səthlər (hər uçuşdan sonra):</strong></p><ul><li>Əl yuma dəstəyi, kran, sabun qabı</li><li>Klozet oturacağı və örtüyü</li><li>Döşəmə (məhtəl)</li><li>Qapı qıfılı/dəstəyi</li></ul><p>EASA rəhbərliyi bu prioritet siyahısını əməliyyat perspektivindən dərc edir, lakin xüsusi aviaşirkət prosedurları uçaq növü, marşrut uzunluğu və operasional şərtlərə görə fərqlənir.</p>",
+      "bodyEn": "<p>Given limited turnaround time, cabin sanitation protocols prioritize high-touch surfaces:</p><p><strong>Highest priority (every turnaround):</strong></p><ul><li>Fold-down tray tables (surface + underside)</li><li>Armrests (especially aisle side)</li><li>Seat belt buckles</li><li>Screens (fingerprints)</li><li>Air nozzles</li><li>Call buttons</li><li>Overhead bin latches</li></ul><p><strong>Medium priority (daily/overnight):</strong></p><ul><li>Seatback pockets</li><li>Window ledges and shades</li><li>Overhead bin handles</li><li>Floor-level partition panels</li></ul><p><strong>Lavatory surfaces (after each flight):</strong></p><ul><li>Hand basin, tap, soap dispenser</li><li>Toilet seat and lid</li><li>Floor (wet)</li><li>Door lock/handle</li></ul><p>EASA guidance publishes this priority list from an operational perspective, but specific airline procedures differ by aircraft type, route length, and operational conditions.</p>"
+    },
+    {
+      "titleAz": "Airbus dezinfeksiya rəhbərliyi: OEM perspektivi",
+      "titleEn": "Airbus Disinfection Guidance: OEM Perspective",
+      "bodyAz": "<p>Airbus öz uçaq ailləri üçün spesifik dezinfeksiya rəhbərliyi dərc etmişdir. Bu sənəd uçaq konstruksiyasına əsaslanaraq material uyğunluğu perspektivindən agent seçimini müəyyən edir.</p><p><strong>Airbus rəhbərliyinin əsas nöqtələri:</strong></p><ul><li>Alkol əsaslı agentlər çox səth üçün uyğundur — lakin bəzi dekorativ örtüklər üçün qısa kontakt vaxtı tələb olunur</li><li>Hipoklorit %0.5-dən yüksək konsentrasiyada alüminium səthlər üçün tövsiyə edilmir</li><li>QUAT agentlər uyğundur — lakin konsentrasiya limits-ə riayət edilməlidir</li><li>Kəmər toqaları üçün spesifik agent siyahısı (materialın deqradasiyasına qarşı)</li></ul><p><strong>OEM niyə vacibdir?</strong> Hər uçaq ailəsinin kabin materialları fərqlidir. Airbus A320-nin kabin örtük materialları Boeing 737-nin materialları ilə eyni ola bilməz. Buna görə EASA ümumi rəhbərliyini OEM AMM-ə istinadla tamamlamaq lazımdır.</p><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: Airbus dezinfeksiya rəhbərliyi istehsalçı sənədidir. Uçuş yararlılığı baxımından bağlayıcı tənzimləmə EASA/FAA sertifikatlaşdırma əsaslarından gəlir.</p>",
+      "bodyEn": "<p>Airbus has published specific disinfection guidance for its aircraft families. This document determines agent selection from a material compatibility perspective based on aircraft construction.</p><p><strong>Key points of Airbus guidance:</strong></p><ul><li>Alcohol-based agents are suitable for most surfaces — but short contact time required for some decorative coatings</li><li>Hypochlorite not recommended for aluminum surfaces at concentration above 0.5%</li><li>QUAT agents suitable — but concentration limits must be observed</li><li>Specific agent list for seat buckles (against material degradation)</li></ul><p><strong>Why is OEM important?</strong> Cabin materials differ between aircraft families. Airbus A320 cabin coating materials may not be the same as Boeing 737 materials. Therefore, EASA general guidance must be supplemented with reference to the OEM AMM.</p><p class='text-blue-700 font-medium'>📖 Guidance only: Airbus disinfection guidance is a manufacturer document. The binding regulation for airworthiness comes from EASA/FAA certification bases.</p>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "termAz": "Dezinfeksiya",
+      "termEn": "Disinfection",
+      "definitionAz": "Kimyəvi agent vasitəsilə səthdəki patogen mikroorqanizmlərin sayını sağlamlıq üçün təhlükəsiz səviyyəyə endirmə prosesi. Sterilizasiya deyil.",
+      "definitionEn": "The process of reducing the count of pathogenic microorganisms on a surface to a level considered safe for health through chemical agents. Not sterilization."
+    },
+    {
+      "termAz": "Kontakt vaxtı",
+      "termEn": "Contact time / Dwell time",
+      "definitionAz": "Dezinfektantın səthdə effektiv olması üçün tərk etməzdən əvvəl saxlanılmalı olan minimum müddət. Məhsul etiketinə görə dəyişir.",
+      "definitionEn": "The minimum time a disinfectant must remain on a surface before being removed to be effective. Varies by product label."
+    },
+    {
+      "termAz": "Turnaround",
+      "termEn": "Turnaround",
+      "definitionAz": "Bir uçuşun bitməsi ilə növbəti uçuşun başlanması arasındakı zaman pəncərəsi. Kabin sanasiyası bu dövrdə aparılır.",
+      "definitionEn": "The time window between one flight ending and the next flight beginning. Cabin sanitation is conducted during this period."
+    },
+    {
+      "termAz": "QUAT / QAC",
+      "termEn": "QUAT / QAC",
+      "definitionAz": "Kvaternar Ammonyum Birləşmələri — geniş istifadəli dezinfektant sinfi. Uzunmüddətli bakteriostatik effektə malikdir.",
+      "definitionEn": "Quaternary Ammonium Compounds — widely used disinfectant class. Has long-lasting bacteriostatic effect."
+    },
+    {
+      "termAz": "PPE",
+      "termEn": "PPE",
+      "definitionAz": "Personal Protective Equipment — fərdi mühafizə avadanlığı. Dezinfeksiya prosedurlarında: əlcək, maska, gözlük.",
+      "definitionEn": "Personal Protective Equipment. In disinfection procedures: gloves, mask, eye protection."
+    },
+    {
+      "termAz": "AMM",
+      "termEn": "AMM",
+      "definitionAz": "Aircraft Maintenance Manual — OEM tərəfindən nəşr edilmiş texniki xidmət sənədi. Kabin sanasiyası üçün icazəli kimyəvi agentləri müəyyən edir.",
+      "definitionEn": "Aircraft Maintenance Manual — maintenance document published by the OEM. Specifies authorized chemical agents for cabin sanitation."
+    }
+  ],
+  "studyQuestions": [
+    {
+      "questionAz": "Təmizlik ilə dezinfeksiya arasındakı fərqi izah edin. Hansı ardıcıllıq lazımdır?",
+      "questionEn": "Explain the difference between cleaning and disinfection. Which order is required?",
+      "answerAz": "Təmizlik fiziki çirk/üzvi material uzaqlaşdırılmasıdır (su+deterjan). Dezinfeksiya kimyəvi agent vasitəsilə patogenləri azaldır. Dezinfeksiya effektiv olmaq üçün səthin əvvəlcə TEMİZLƏNMİŞ olması şərtdir — orqanik material dezinfektantı neytrallaşdırır.",
+      "answerEn": "Cleaning is physical removal of dirt/organic material (water+detergent). Disinfection reduces pathogens via chemical agent. For disinfection to be effective, the surface must FIRST be cleaned — organic material neutralizes the disinfectant."
+    },
+    {
+      "questionAz": "EASA kabin dezinfeksiya rəhbərliyi məcburi tənzimləmə sayılırmı?",
+      "questionEn": "Is EASA cabin disinfection guidance considered mandatory regulation?",
+      "answerAz": "Xeyr. EASA 2021 Kabin Təmizliyi Rəhbərliyi məcburi AB tənzimləməsi deyil — tövsiyəli praktika sənədidir. Bağlayıcı tənzimləmə EASA Əsas Nizamnaməsindən (AB 2018/1139) gəlir. Xüsusi agent seçimi OEM AMM-i üstün tutur.",
+      "answerEn": "No. EASA 2021 Cabin Cleaning Guidance is not mandatory EU regulation — it is a recommended practice document. Binding regulation comes from the EASA Basic Regulation (EU 2018/1139). Specific agent selection defers to the OEM AMM."
+    },
+    {
+      "questionAz": "Nə üçün hipoklorit (ağartıcı) kabin alüminium səthlərindən uzaq tutulmalıdır?",
+      "questionEn": "Why should hypochlorite (bleach) be kept away from cabin aluminum surfaces?",
+      "answerAz": "Hipoklorit içindəki xlorid ionları alüminiumun pasif oksid qatını parçalayır. Bu lokallaşdırılmış çukur korroziyasına yol açır. Alüminium gövdə panelləri, çərçivələr üçün yüksək risk deməkdir. Zəhərli qaz ayrılma riski də mövcuddur. EASA bu istifadəyə ciddi ehtiyat tövsiyə edir.",
+      "answerEn": "Chloride ions in hypochlorite break down aluminum's passive oxide layer. This leads to localized pitting corrosion. Means high risk for aluminum fuselage panels, frames. There is also risk of toxic gas release. EASA strongly cautions against this use."
+    },
+    {
+      "questionAz": "Turnaround sanasiyasında hansı səthlərə ən yüksək prioritet verilir?",
+      "questionEn": "Which surfaces receive highest priority in turnaround sanitation?",
+      "answerAz": "Ən yüksək prioritet: qatlanabilən masa səthi və altı, qol dayaqları (xüsusilə aisle tərəfi), kəmər toqaları, ekranlar, hava nozulları, çağırış düyməsi. Bunlar turnaround zamanı hər uçuşdan əvvəl dezinfeksiya edilməlidir.",
+      "answerEn": "Highest priority: fold-down tray table surface and underside, armrests (especially aisle side), seat belt buckles, screens, air nozzles, call buttons. These must be disinfected before each flight during turnaround."
+    },
+    {
+      "questionAz": "OEM AMM niyə EASA ümumi rəhbərliyindən üstündür?",
+      "questionEn": "Why does the OEM AMM take precedence over EASA general guidance?",
+      "answerAz": "Hər uçaq ailəsinin kabin materialları fərqlidir (örtüklər, plastiklər, metallar). OEM AMM o spesifik uçaq üçün test edilmiş agentləri siyahılayır. EASA ümumi rəhbərliyi bütün uçaq növlərini əhatə etdiyi üçün xüsusi material uyğunluğunu müəyyən edə bilmir. Yanlış agent istifadəsi uçuş yararlılığı problemlərə yol aça bilər.",
+      "answerEn": "Each aircraft family has different cabin materials (coatings, plastics, metals). The OEM AMM lists agents tested for that specific aircraft. EASA general guidance cannot determine specific material compatibility as it covers all aircraft types. Incorrect agent use can lead to airworthiness issues."
+    }
+  ],
+  "sourceIds": [
+    "EASA-CLEANING-GUIDE",
+    "IATA-CLEANING-COVID",
+    "AIRBUS-DISINFECTION",
+    "WHO-IHR-2005",
+    "ICAO-ANN9"
+  ],
+  "statusedClaims": [
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "Dezinfeksiya effektiv olmaq üçün səthin əvvəlcə fiziki olaraq təmizlənməsi şərtdir.",
+        "en": "For disinfection to be effective, the surface must first be physically cleaned."
+      },
+      "sourceIds": ["EASA-CLEANING-GUIDE"]
+    },
+    {
+      "status": "guidance-only",
+      "claim": {
+        "az": "EASA 2021 Kabin Təmizliyi Rəhbərliyi məcburi AB tənzimləməsi deyil — tövsiyəli praktika sənədidir.",
+        "en": "EASA 2021 Cabin Cleaning Guidance is not mandatory EU regulation — it is a recommended practice document."
+      },
+      "sourceIds": ["EASA-CLEANING-GUIDE"]
+    },
+    {
+      "status": "guidance-only",
+      "claim": {
+        "az": "IATA COVID-19 kabin sanitasiyası protokolları məcburi tənzimləmə deyil; 2022-ci ildə COVID-19 spesifik protokolların çoxu ləğv edildi.",
+        "en": "IATA COVID-19 cabin sanitation protocols are not mandatory regulation; most COVID-19-specific protocols were retired in 2022."
+      },
+      "sourceIds": ["IATA-CLEANING-COVID"]
+    },
+    {
+      "status": "regulation-dependent",
+      "claim": {
+        "az": "Xüsusi kabin dezinfektant agenti seçimi uçaq OEM AMM-i tərəfindən müəyyən edilir — uçaq növünə görə dəyişir.",
+        "en": "Specific cabin disinfectant agent selection is determined by the aircraft OEM AMM — varies by aircraft type."
+      },
+      "sourceIds": ["AIRBUS-DISINFECTION", "EASA-CLEANING-GUIDE"]
+    }
+  ]
+}

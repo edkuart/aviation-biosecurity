@@ -1,0 +1,164 @@
+{
+  "id": "cabin-air-quality",
+  "slug": "/cabin-air-quality",
+  "navLabel": "Cabin Air Quality",
+  "title": {
+    "az": "Kabin Hava Keyfiyyəti: Ventilyasiya, HEPA Filtrasiyası, Ozon Həddi və Bleed Air",
+    "en": "Cabin Air Quality: Ventilation, HEPA Filtration, Ozone Limits, and Bleed Air"
+  },
+  "summary": {
+    "az": "Kommersial uçaq kabinindəki hava sisteminin texniki quruluşu, HEPA filtrasiyası, FAA ozon həddi, bleed air sistemi, hava keyfiyyəti standartları (FAR 25.831, FAA § 121.578) və müsafir sağlamlığına təsiri.",
+    "en": "Technical structure of commercial aircraft cabin air systems, HEPA filtration, FAA ozone limits, bleed air system, air quality standards (FAR 25.831, FAA § 121.578), and effects on passenger health."
+  },
+  "tags": ["FAA", "ICAO"],
+  "expandableSections": [
+    {
+      "titleAz": "Kabin hava sistemi necə işləyir?",
+      "titleEn": "How does the cabin air system work?",
+      "defaultOpen": true,
+      "bodyAz": "<p>Müasir kommersial uçaqlarda kabin hava sistemi iki mənbədən istifadə edir:</p><p><strong>1. Bleed Air (Mühərrik kompressor havası):</strong></p><ul><li>Jet mühərriklərinin kompressor mərhələsindən götürülən isti, sıxılmış hava</li><li>Soyudulur, tənzimlənir, kabinə verilir</li><li>Çox müasir uçaqlarda istifadə edilir (Boeing 737, 747, Airbus A320 ailləsi)</li><li>Potensial risk: mühərrik yağ sızıntısı bleed air-ə qarışarsa cabin air contamination (CAC) hadisəsi baş verə bilər</li></ul><p><strong>2. Bleed-Free Sistemlər (Nopac):</strong></p><ul><li>Boeing 787 Dreamliner kimi yeni nəsil uçaqlarda mühərrik kompressorundan hava götürülmür</li><li>Bunun əvəzinə xarici hava elektrik kompressorları vasitəsilə götürülür</li><li>CAC riski əhəmiyyətli dərəcədə azalır</li></ul><p><strong>Dövriyyə sistemi:</strong> Xarici (yeni) hava ilə yenilənmiş (HEPA filtrasiyasından keçirilmiş) hava adətən 50–50 nisbətdə qarışdırılır. Bu dövriyyəli sistem yerüstü binalar ilə müqayisədə enerji sərfini azaldır.</p><p class='text-blue-700 font-medium'>⚖ Tənzimləmədən asılıdır: 50–50 nisbəti normativ tələb deyil — müxtəlif uçaq növlərinin konstruksiya parametrləri fərqlənir. FAR 25.831 müsafir başına minimum hava axını tələb edir.</p>",
+      "bodyEn": "<p>Modern commercial aircraft cabin air systems use two sources:</p><p><strong>1. Bleed Air (Engine compressor air):</strong></p><ul><li>Hot, pressurized air extracted from jet engine compressor stages</li><li>Cooled, regulated, and delivered to the cabin</li><li>Used in most modern aircraft (Boeing 737, 747, Airbus A320 family)</li><li>Potential risk: if engine oil leaks into bleed air, a cabin air contamination (CAC) event can occur</li></ul><p><strong>2. Bleed-Free Systems (No-bleed):</strong></p><ul><li>New-generation aircraft such as Boeing 787 Dreamliner do not extract air from engine compressors</li><li>Instead, outside air is taken in via electric compressors</li><li>CAC risk is significantly reduced</li></ul><p><strong>Circulation system:</strong> Fresh (outside) air and recirculated (HEPA-filtered) air are typically mixed in a 50–50 ratio. This recirculation system reduces energy consumption compared to ground buildings.</p><p class='text-blue-700 font-medium'>⚖ Regulation-dependent: The 50–50 ratio is not a regulatory requirement — design parameters differ across aircraft types. FAR 25.831 requires minimum airflow per passenger.</p>"
+    },
+    {
+      "titleAz": "FAR 25.831: Minimum Hava Axını Tələbi",
+      "titleEn": "FAR 25.831: Minimum Airflow Requirement",
+      "bodyAz": "<p>FAA Federal Aviasiya Tənzimləmələri 14 CFR § 25.831 (<em>Ventilyasiya</em>) kommersial uçaqlar üçün minimum hava keyfiyyəti tələblərini müəyyən edir.</p><p><strong>Əsas tələblər:</strong></p><ul><li><strong>Minimum hava axını:</strong> Hər müsafir/ekipaj üçün dəqiqədə minimum 0.55 lb (≈ 0.25 kg/dəq) yeni hava verilməlidir.</li><li><strong>CO₂ həddi:</strong> Kabindəki karbon dioksid konsentrasiyası 0.5% həcm nisbəti (5,000 ppm) həddini aşmamalıdır.</li><li><strong>CO həddi:</strong> Kabindəki karbon monoksit konsentrasiyası 1/2,000 həcm nisbətini (500 ppm) aşmamalıdır.</li><li><strong>Ozon həddi:</strong> FAA § 121.578 (aşağıda ətraflı) ilə birgə oxunmalıdır.</li></ul><p><strong>Kontekst:</strong> FAR 25.831 uçaq sertifikatlaşdırılması zamanı tətbiq olunur — yəni uçağın istehsalçısı bu tələblərə uyğun konstruksiya etməlidir. Hər uçuş zamanı operativ ölçümü tənzimləmir.</p><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: FAR 25.831 14 CFR-in məcburi hissəsidir — ABŞ-da sertifikatlaşdırılan uçaqlar üçün tətbiq olunur.</p>",
+      "bodyEn": "<p>FAA Federal Aviation Regulations 14 CFR § 25.831 (<em>Ventilation</em>) establishes minimum air quality requirements for commercial aircraft.</p><p><strong>Key requirements:</strong></p><ul><li><strong>Minimum airflow:</strong> Minimum 0.55 lb per minute (≈ 0.25 kg/min) of fresh air must be provided per passenger/crew member.</li><li><strong>CO₂ limit:</strong> Carbon dioxide concentration in the cabin must not exceed 0.5% by volume (5,000 ppm).</li><li><strong>CO limit:</strong> Carbon monoxide concentration in the cabin must not exceed 1/2,000 by volume (500 ppm).</li><li><strong>Ozone limit:</strong> To be read alongside FAA § 121.578 (detailed below).</li></ul><p><strong>Context:</strong> FAR 25.831 applies at aircraft certification — meaning the manufacturer must design to these requirements. It does not regulate real-time measurement during each flight.</p><p class='text-emerald-700 font-medium'>✅ Confirmed: FAR 25.831 is a mandatory part of 14 CFR — applicable to aircraft certified in the United States.</p>"
+    },
+    {
+      "titleAz": "FAA § 121.578: Kabin Ozon Konsentrasiyası Həddi",
+      "titleEn": "FAA § 121.578: Cabin Ozone Concentration Limits",
+      "bodyAz": "<p>14 CFR § 121.578 (<em>Kabindəki Ozon Konsentrasiyası</em>) uçuş zamanı kabin ozonu üçün iki ayrı hədd müəyyən edir:</p><table class='w-full text-sm border-collapse mt-2'><thead><tr class='bg-surface'><th class='border border-border px-2 py-1 text-left'>Hədd növü</th><th class='border border-border px-2 py-1'>Dəyər</th><th class='border border-border px-2 py-1'>Şərt</th></tr></thead><tbody><tr><td class='border border-border px-2 py-1'>Maksimum (istənilən vaxt)</td><td class='border border-border px-2 py-1 text-center font-mono font-bold'>0.25 ppm</td><td class='border border-border px-2 py-1'>Hər hansı uçuş anında</td></tr><tr><td class='border border-border px-2 py-1'>3 saatlıq TAO</td><td class='border border-border px-2 py-1 text-center font-mono font-bold'>0.10 ppm</td><td class='border border-border px-2 py-1'>3 saatdan artıq müddətli uçuşlar üçün ortalama</td></tr></tbody></table><p class='mt-3'>Bu həddlər FAA-nın özü tərəfindən 1980-ci illərdə yüksək altituddaki troposfer ozon artışının müsafir sağlamlığına potensial təsirini nəzərə alaraq tənzim edilmişdir.</p><p><strong>Tətbiq sahəsi:</strong> FAA § 121.578 14 CFR Hissə 121 altında sertifikatlaşdırılmış hava daşıyıcılarına tətbiq olunur — ABŞ-da kommersial hava daşıyıcıları.</p><p><strong>Ozon katalitik çeviricilər:</strong> Bir sıra uçaqlarda bleed air sistemindəki ozon konsentrasiyasını azaltmaq üçün katalitik çevirici qurğular quraşdırılır. Bu, xüsusilə yüksək troposfer ozon sıxlığı ilə uçuşlarda (əsasən Pasifik marşrutları) aktualdır.</p><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: FAA § 121.578 məcburi federal qayda — ABŞ hava daşıyıcıları üçün tətbiq olunur.</p>",
+      "bodyEn": "<p>14 CFR § 121.578 (<em>Cabin Ozone Concentration</em>) establishes two separate limits for in-flight cabin ozone:</p><table class='w-full text-sm border-collapse mt-2'><thead><tr class='bg-surface'><th class='border border-border px-2 py-1 text-left'>Limit type</th><th class='border border-border px-2 py-1'>Value</th><th class='border border-border px-2 py-1'>Condition</th></tr></thead><tbody><tr><td class='border border-border px-2 py-1'>Maximum (at any time)</td><td class='border border-border px-2 py-1 text-center font-mono font-bold'>0.25 ppm</td><td class='border border-border px-2 py-1'>At any moment during flight</td></tr><tr><td class='border border-border px-2 py-1'>3-hour TWA</td><td class='border border-border px-2 py-1 text-center font-mono font-bold'>0.10 ppm</td><td class='border border-border px-2 py-1'>Average for flights exceeding 3 hours</td></tr></tbody></table><p class='mt-3'>These limits were set by the FAA in the 1980s in consideration of the potential health effects of increasing tropospheric ozone at high altitude on passenger health.</p><p><strong>Scope:</strong> FAA § 121.578 applies to air carriers certificated under 14 CFR Part 121 — commercial air carriers in the US.</p><p><strong>Ozone catalytic converters:</strong> Some aircraft are fitted with catalytic converter devices to reduce ozone concentration in the bleed air system. This is particularly relevant on routes with high tropospheric ozone density (primarily Pacific routes).</p><p class='text-emerald-700 font-medium'>✅ Confirmed: FAA § 121.578 is mandatory federal regulation — applicable to US air carriers.</p>"
+    },
+    {
+      "titleAz": "Bleed Air Çirklənməsi (Cabin Air Contamination — CAC)",
+      "titleEn": "Bleed Air Contamination (Cabin Air Contamination — CAC)",
+      "bodyAz": "<p>Cabin Air Contamination (CAC) bleed air sistemindəki mühərrik yağı və ya hidravlik maye sızıntısının kabin havasına qarışması nəticəsindəki hadisədir. Bu, aviasiyada müzakirəli sağlamlıq mövzusudur.</p><p><strong>Mexanizm:</strong> Mühərrik kompressor möhürünün xarab olması — mühərrik yağı (adətən TCP: triaryl fosfat ester) bleed air-ə qarışır → kabin havasına verilir → müsafir/ekipaj tərəfindən nəfəs alınır.</p><p><strong>Simptomlar (hadisə hesabatlarında):</strong></p><ul><li>Yanğın/plastik iyi (\"fume event\")</li><li>Başgicəllənmə, ürəkbulanma, başağrısı</li><li>Bəzi hadisələrdə ekipaj üzvlərinin tibbi müdaxilə tələb etməsi</li></ul><p><strong>Tənzimləmə vəziyyəti:</strong></p><ul><li>FAA CAC-i rəsmən tənzimlənmiş hadisə kimi qeydə alır (ASIAS hadisə verilənlər bazası)</li><li>EASA CAC haqqında hesabat dərc etmişdir — lakin bu istiqamətdə müstəqil bir EASA tənzimləmə sənədi mövcud deyil</li><li>Boeing 787 \"no-bleed\" sistemi CAC riskini əhəmiyyətli dərəcədə azaldır</li></ul><p class='text-orange-700 font-medium'>⚠ Yoxlama lazımdır: CAC-in uzunmüddətli sağlamlıq effektləri müstəqil qapalı tibbi konsensusa çatmamışdır. Hadisə tezliyi, şiddəti, əlaqəli sağlamlıq nəticələri hələ tədqiqat subyektidır.</p>",
+      "bodyEn": "<p>Cabin Air Contamination (CAC) is an event resulting from engine oil or hydraulic fluid leakage into the bleed air system mixing with cabin air. This is a debated health topic in aviation.</p><p><strong>Mechanism:</strong> Engine compressor seal failure — engine oil (typically TCP: triaryl phosphate ester) mixes into bleed air → delivered to cabin → inhaled by passengers/crew.</p><p><strong>Symptoms (from incident reports):</strong></p><ul><li>Burning/plastic smell (\"fume event\")</li><li>Dizziness, nausea, headache</li><li>In some cases, crew members requiring medical intervention</li></ul><p><strong>Regulatory status:</strong></p><ul><li>FAA formally records CAC as a categorized event (ASIAS incident database)</li><li>EASA has published reports on CAC — but there is no separate EASA regulatory document on this</li><li>Boeing 787's no-bleed system significantly reduces CAC risk</li></ul><p class='text-orange-700 font-medium'>⚠ Needs verification: Long-term health effects of CAC have not reached independent closed medical consensus. Incident frequency, severity, and associated health outcomes remain subjects of ongoing research.</p>"
+    },
+    {
+      "titleAz": "Hava keyfiyyəti: Kabin ilə yerdəki binanın müqayisəsi",
+      "titleEn": "Air Quality: Cabin vs. Ground Building Comparison",
+      "bodyAz": "<p>NAS 2002 hesabatı (National Academies of Sciences) kabin hava keyfiyyətini müxtəlif yerüstü mühitlərlə müqayisə etmişdir:</p><table class='w-full text-sm border-collapse mt-2'><thead><tr class='bg-surface'><th class='border border-border px-2 py-1 text-left'>Göstərici</th><th class='border border-border px-2 py-1'>Müasir uçaq kabin</th><th class='border border-border px-2 py-1'>Tipik ofis binası</th></tr></thead><tbody><tr><td class='border border-border px-2 py-1'>Hava dəyişmə nisbəti</td><td class='border border-border px-2 py-1 text-center'>20–30 ACH</td><td class='border border-border px-2 py-1 text-center'>4–10 ACH</td></tr><tr><td class='border border-border px-2 py-1'>HEPA filtrasiyası</td><td class='border border-border px-2 py-1 text-center'>Bəli (adətən)</td><td class='border border-border px-2 py-1 text-center'>Nadir</td></tr><tr><td class='border border-border px-2 py-1'>Nisbi rütubət</td><td class='border border-border px-2 py-1 text-center'>10–20%</td><td class='border border-border px-2 py-1 text-center'>30–60%</td></tr><tr><td class='border border-border px-2 py-1'>Müsafir sıxlığı</td><td class='border border-border px-2 py-1 text-center'>Çox yüksək</td><td class='border border-border px-2 py-1 text-center'>Aşağı-orta</td></tr><tr><td class='border border-border px-2 py-1'>Müddət (qapalı)</td><td class='border border-border px-2 py-1 text-center'>1–16 saat</td><td class='border border-border px-2 py-1 text-center'>Dəyişən</td></tr></tbody></table><p class='mt-2 text-sm'>Yüksək hava dəyişmə nisbəti və HEPA filtrasiyası kabin hava keyfiyyətinin müəyyən aspektlərini yaxşılaşdırır. Lakin aşağı rütubət və yüksək sıxlıq risk amili olaraq qalır.</p><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: Bu müqayisə NAS (2002) hesabatından götürülmüşdür — akademik sənəddir, normativ tənzimləmə deyil.</p>",
+      "bodyEn": "<p>The NAS 2002 report (National Academies of Sciences) compared cabin air quality to various ground-level environments:</p><table class='w-full text-sm border-collapse mt-2'><thead><tr class='bg-surface'><th class='border border-border px-2 py-1 text-left'>Indicator</th><th class='border border-border px-2 py-1'>Modern aircraft cabin</th><th class='border border-border px-2 py-1'>Typical office building</th></tr></thead><tbody><tr><td class='border border-border px-2 py-1'>Air change rate</td><td class='border border-border px-2 py-1 text-center'>20–30 ACH</td><td class='border border-border px-2 py-1 text-center'>4–10 ACH</td></tr><tr><td class='border border-border px-2 py-1'>HEPA filtration</td><td class='border border-border px-2 py-1 text-center'>Yes (typically)</td><td class='border border-border px-2 py-1 text-center'>Rare</td></tr><tr><td class='border border-border px-2 py-1'>Relative humidity</td><td class='border border-border px-2 py-1 text-center'>10–20%</td><td class='border border-border px-2 py-1 text-center'>30–60%</td></tr><tr><td class='border border-border px-2 py-1'>Passenger density</td><td class='border border-border px-2 py-1 text-center'>Very high</td><td class='border border-border px-2 py-1 text-center'>Low-medium</td></tr><tr><td class='border border-border px-2 py-1'>Duration (enclosed)</td><td class='border border-border px-2 py-1 text-center'>1–16 hours</td><td class='border border-border px-2 py-1 text-center'>Variable</td></tr></tbody></table><p class='mt-2 text-sm'>High air change rate and HEPA filtration improve certain aspects of cabin air quality. However, low humidity and high density remain as risk factors.</p><p class='text-blue-700 font-medium'>📖 Guidance only: This comparison is derived from the NAS (2002) report — an academic document, not regulatory regulation.</p>"
+    },
+    {
+      "titleAz": "IATA Kabin Hava Keyfiyyəti hesabatı",
+      "titleEn": "IATA Cabin Air Quality Report",
+      "bodyAz": "<p>IATA (Beynəlxalq Hava Nəqliyyatı Assosiasiyası) Kabin Hava Keyfiyyəti hesabatı (IATA-CAQ) aviasiya sənayesinin kabin havasına baxışını əks etdirir.</p><p><strong>Əsas iddialar:</strong></p><ul><li>Müasir uçaqların kabin havası ümumi kamuya açıq binalar ilə müqayisədə yaxşı standartlara malikdir</li><li>HEPA sistemi mikrob yükünü effektiv şəkildə azaldır</li><li>Bleed air CAC hadisəsi nadir olsa da müzakirəli qalır</li></ul><p><strong>Tənzimləmə konteksti:</strong> IATA bir aviasiya sənayesi dərnəyidir, tənzimləyici orqan deyil. IATA-CAQ məcburi tənzimləmə deyil — sənaye perspektivini əks etdirir. Müstəqil akademik qiymətləndirmə ilə birgə oxunmalıdır (NAS-CABIN-ENV).</p><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: IATA-CAQ sənaye mövqe sənədidir. Tənzimləyici əsas üçün FAA FAR 25.831 və FAA § 121.578-ə müraciət edin.</p>",
+      "bodyEn": "<p>The IATA (International Air Transport Association) Cabin Air Quality report (IATA-CAQ) reflects the aviation industry's view on cabin air.</p><p><strong>Key claims:</strong></p><ul><li>Modern aircraft cabin air meets better standards than typical public buildings</li><li>HEPA system effectively reduces microbial load</li><li>Bleed air CAC events, while rare, remain debated</li></ul><p><strong>Regulatory context:</strong> IATA is an aviation industry association, not a regulatory body. IATA-CAQ is not mandatory regulation — it reflects industry perspective. Should be read alongside independent academic assessment (NAS-CABIN-ENV).</p><p class='text-blue-700 font-medium'>📖 Guidance only: IATA-CAQ is an industry position document. For regulatory basis, refer to FAA FAR 25.831 and FAA § 121.578.</p>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "termAz": "Bleed air",
+      "termEn": "Bleed air",
+      "definitionAz": "Jet mühərrikinin kompressor mərhələsindən götürülərək kabin hava sisteminə yönləndirilən isti, sıxılmış hava.",
+      "definitionEn": "Hot, pressurized air extracted from jet engine compressor stages and directed to the cabin air system."
+    },
+    {
+      "termAz": "ACH",
+      "termEn": "ACH",
+      "definitionAz": "Air Changes per Hour — bir otağın havasının saatda neçə dəfə tamamilə yeniləndiyi. Müasir uçaqlarda kabin havası dəqiqədə 20–30 dəfə filtrasiyadan keçirilir.",
+      "definitionEn": "Air Changes per Hour — how many times per hour a room's air is completely renewed. In modern aircraft, cabin air is filtered 20–30 times per minute."
+    },
+    {
+      "termAz": "CAC",
+      "termEn": "CAC",
+      "definitionAz": "Cabin Air Contamination — bleed air sisteminə mühərrik yağı/hidravlik maye sızması nəticəsindəki kabin havası çirklənməsi hadisəsi.",
+      "definitionEn": "Cabin Air Contamination — cabin air contamination event resulting from engine oil/hydraulic fluid leakage into the bleed air system."
+    },
+    {
+      "termAz": "TCP",
+      "termEn": "TCP",
+      "definitionAz": "Triaryl fosfat ester — aviasiya mühərriki yağlarında istifadə edilən əsas baza yağı komponenti. CAC hadisəsindəki əsas kimyəvi agent.",
+      "definitionEn": "Triaryl phosphate ester — primary base oil component used in aviation engine oils. The main chemical agent in CAC events."
+    },
+    {
+      "termAz": "FAR 25.831",
+      "termEn": "FAR 25.831",
+      "definitionAz": "Federal Aviasiya Tənzimləmələri — müsafir/ekipaj başına minimum hava axını (0.55 lb/dəq), CO₂ (5,000 ppm max), CO (500 ppm max) hədlərini müəyyən edir.",
+      "definitionEn": "Federal Aviation Regulations — sets minimum airflow (0.55 lb/min per passenger/crew), CO₂ (5,000 ppm max), CO (500 ppm max) limits."
+    },
+    {
+      "termAz": "Ozon katalitik çevirici",
+      "termEn": "Ozone catalytic converter",
+      "definitionAz": "Bleed air sisteminə quraşdırılan, kabin havasına çatmadan əvvəl ozon konsentrasiyasını parçalayan qurğu. Yüksək altituddaki marşrutlarda xüsusi aktualdır.",
+      "definitionEn": "Device installed in the bleed air system that breaks down ozone concentration before it reaches the cabin. Particularly relevant on high-altitude routes."
+    }
+  ],
+  "studyQuestions": [
+    {
+      "questionAz": "FAR 25.831 müsafir başına minimum hava axınını neçə təyin edir?",
+      "questionEn": "What minimum airflow per passenger does FAR 25.831 set?",
+      "answerAz": "FAR 25.831 hər müsafir/ekipaj üzvü üçün dəqiqədə minimum 0.55 lb (≈ 0.25 kg/dəq) yeni hava axını tələb edir. Bu, uçaq sertifikatlaşdırılması tələbidir — operativ uçuş zamanı ölçümü deyil.",
+      "answerEn": "FAR 25.831 requires minimum 0.55 lb per minute (≈ 0.25 kg/min) of fresh airflow per passenger/crew member. This is an aircraft certification requirement — not an operational in-flight measurement."
+    },
+    {
+      "questionAz": "FAA § 121.578-ə görə uçuş zamanı kabin ozonu üçün iki hədd nədir?",
+      "questionEn": "What are the two limits for in-flight cabin ozone under FAA § 121.578?",
+      "answerAz": "FAA § 121.578 iki hədd müəyyən edir: (1) istənilən vaxt maksimum 0.25 ppm, (2) 3 saatdan artıq uçuşlarda 3 saatlıq zaman ortalama qiymət (TAO) 0.10 ppm.",
+      "answerEn": "FAA § 121.578 sets two limits: (1) maximum 0.25 ppm at any time, (2) 3-hour time-weighted average (TWA) of 0.10 ppm for flights exceeding 3 hours."
+    },
+    {
+      "questionAz": "Boeing 787-nin hava sistemi CAC riski baxımından köhnə uçaqlardan nə ilə fərqlənir?",
+      "questionEn": "How does the Boeing 787's air system differ from older aircraft regarding CAC risk?",
+      "answerAz": "Boeing 787 \"no-bleed\" (bleed-free) sistemi istifadə edir — mühərrik kompressorundan hava götürülmür. Bunun əvəzinə xarici hava elektrik kompressorları vasitəsilə götürülür. Bu, mühərrik yağı sızıntısının bleed air-ə qarışma riskini aradan qaldırdığı üçün CAC riskini əhəmiyyətli dərəcədə azaldır.",
+      "answerEn": "Boeing 787 uses a \"no-bleed\" (bleed-free) system — no air is extracted from the engine compressor. Instead, outside air is taken via electric compressors. This eliminates the risk of engine oil leakage mixing into bleed air, significantly reducing CAC risk."
+    },
+    {
+      "questionAz": "Kabin nisbi rütubəti nə üçün aşağıdır və bu bioloji riskə necə təsir edir?",
+      "questionEn": "Why is cabin relative humidity low and how does this affect biological risk?",
+      "answerAz": "Yüksək altitudda xarici hava çox qurudur (su buxarı donmuş vəziyyətdədir). Bu hava kabin havasının 50%-ni təşkil etdiyi üçün kabin nisbi rütubəti adətən 10–20% səviyyəsinə düşür. Aşağı rütubət bəzi virusların (xüsusilə quruluğa davamlı) havada müddətini uzada bilər — lakin digər viruslar aşağı rütubətdə daha tez inaktiv olur. Münasibət patogendən asılıdır.",
+      "answerEn": "At high altitude, outside air is very dry (water vapor is frozen). Since this air constitutes 50% of cabin air, cabin relative humidity typically drops to 10–20%. Low humidity can extend airborne viability of some viruses (especially those resistant to drying) — but other viruses inactivate faster at low humidity. The relationship is pathogen-dependent."
+    },
+    {
+      "questionAz": "IATA-CAQ hesabatı tənzimləyici sənəd sayılırmı?",
+      "questionEn": "Is the IATA-CAQ report considered a regulatory document?",
+      "answerAz": "Xeyr. IATA bir aviasiya sənayesi dərnəyidir, tənzimləyici orqan deyil. IATA-CAQ sənaye mövqe sənədidir — tənzimləyici əsas üçün FAA FAR 25.831 və FAA § 121.578-ə müraciət edilməlidir.",
+      "answerEn": "No. IATA is an aviation industry association, not a regulatory body. IATA-CAQ is an industry position document — for regulatory basis, FAA FAR 25.831 and FAA § 121.578 should be consulted."
+    }
+  ],
+  "sourceIds": [
+    "FAA-121578",
+    "FAA-AC-120-38",
+    "NAS-CABIN-ENV",
+    "IATA-CAQ",
+    "PALL-WP"
+  ],
+  "statusedClaims": [
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "FAR 25.831 hər müsafir/ekipaj üçün dəqiqədə minimum 0.55 lb yeni hava axınını tələb edir.",
+        "en": "FAR 25.831 requires minimum 0.55 lb/min of fresh airflow per passenger/crew member."
+      },
+      "sourceIds": ["FAA-AC-120-38"]
+    },
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "FAA § 121.578 uçuş kabini ozonu üçün maksimum 0.25 ppm (istənilən vaxt) və 0.10 ppm (3 saatlıq TAO) hədlərini müəyyən edir.",
+        "en": "FAA § 121.578 sets in-flight cabin ozone limits of maximum 0.25 ppm (at any time) and 0.10 ppm (3-hour TWA)."
+      },
+      "sourceIds": ["FAA-121578"]
+    },
+    {
+      "status": "guidance-only",
+      "claim": {
+        "az": "IATA-CAQ müasir kabin hava keyfiyyətinin ümumi ictimai binalara nisbətən daha yaxşı standartlara malik olduğunu iddia edir — lakin bu sənaye mövqe sənədidir.",
+        "en": "IATA-CAQ claims modern cabin air quality meets better standards than typical public buildings — but this is an industry position document."
+      },
+      "sourceIds": ["IATA-CAQ"]
+    },
+    {
+      "status": "needs-verification",
+      "claim": {
+        "az": "CAC-in uzunmüddətli sağlamlıq effektləri müstəqil tibbi konsensusa çatmamışdır.",
+        "en": "Long-term health effects of CAC have not reached independent medical consensus."
+      },
+      "sourceIds": ["NAS-CABIN-ENV"]
+    }
+  ]
+}

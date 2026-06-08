@@ -1,0 +1,173 @@
+[
+  {
+    "id": "hepa-filter",
+    "termAz": "HEPA filtri",
+    "termEn": "HEPA Filter",
+    "definitionAz": "Yüksək Səmərəlili Hissəcik Tutan Hava filtrini (High-Efficiency Particulate Air) bildirir. Aviasiya standartı: 0.3 mikron ölçülü hissəciklərin ən azı 99.99%-ni tutur. Uçaqların kabin hava dövriyyəsi sistemlərinin geri dönüşlü hava hissəsinə quraşdırılır.",
+    "definitionEn": "High-Efficiency Particulate Air filter. Aerospace standard: captures at least 99.99% of particles ≥0.3 microns. Installed in the recirculated air portion of aircraft cabin environmental control systems.",
+    "relatedSections": ["cabin-air-quality", "biological-hazards"],
+    "relatedSources": ["IATA-CAQ", "PALL-WP"]
+  },
+  {
+    "id": "disinsection",
+    "termAz": "Dezinseksiya",
+    "termEn": "Disinsection",
+    "definitionAz": "Xəstəlik daşıyan həşəratların (xüsusilə Anopheles və Aedes cinsi ağcaqanadların) məhv edilməsi proseduru. Dezinfeksiyadan fərqlidir — mikroorqanizmlərə deyil, həşəratlara yönəldilmişdir. ÜST-ün ICAO Əlavə 9 çərçivəsinde tövsiyə etdiyi xüsusi metodlara uyğun olaraq həyata keçirilir.",
+    "definitionEn": "The procedure for killing disease-carrying insects, especially Anopheles and Aedes mosquitoes. Distinct from disinfection — targets insects, not microorganisms. Carried out according to WHO-recommended methods within the ICAO Annex 9 framework.",
+    "relatedSections": ["disinsection"],
+    "relatedSources": ["WHO-ADMP-2023", "ICAO-ANN9"]
+  },
+  {
+    "id": "icao-sarp",
+    "termAz": "ICAO SARP (Standartlar və Tövsiyə Edilmiş Praktikalar)",
+    "termEn": "ICAO SARPs (Standards and Recommended Practices)",
+    "definitionAz": "Beynəlxalq Mülki Aviasiya Təşkilatının Chicago Konvensiyasına Əlavələrə daxil olan texniki tələblər. 'Standart' termini — uyğunluq məcburi sayılır; 'Tövsiyə Edilmiş Praktika' — uyğunluq arzu edilir. Dövlətlər SARP-lardan fərqli üsullarla fəaliyyət göstərə bilər, lakin ICAO-ya bu barədə məlumat verməlidirlər.",
+    "definitionEn": "Technical requirements in ICAO's Annexes to the Chicago Convention. 'Standard' — compliance is mandatory; 'Recommended Practice' — compliance is desirable. States may differ but must notify ICAO.",
+    "relatedSections": ["regulatory-framework"],
+    "relatedSources": ["ICAO-ANN9"]
+  },
+  {
+    "id": "ozone",
+    "termAz": "Ozon (O₃)",
+    "termEn": "Ozone (O₃)",
+    "definitionAz": "Güclü oksidləşdirici xassəyə malik üç oksigen atomundan ibarən qaz. Yüksək hündürlükdə (>10,000 m) stratosfer ozonu uçaq motorlarının hava sıxma sistemləri vasitəsilə kabin havasına daxil ola bilər. Sanasiya məqsədilə istifadə edildikdə, bakteriya, virus, göbələk və iyləri məhv etmək üçün nəzarət altında kabin mühitinə yeridilir. Həm məruz qalma riski, həm də material uyğunluğu baxımından ciddi nəzarət tələb edir.",
+    "definitionEn": "A gas consisting of three oxygen atoms with strong oxidizing properties. Stratospheric ozone at high altitude can enter cabin air through engine bleed air systems. When used for sanitation, it is injected under controlled conditions to destroy bacteria, viruses, fungi, and odors. Requires strict control for both human exposure risk and material compatibility.",
+    "relatedSections": ["ozone-sanitation", "cabin-air-quality"],
+    "relatedSources": ["FAA-121578", "WO2018137003", "NIOSH-IDLH"]
+  },
+  {
+    "id": "ihr-2005",
+    "termAz": "Beynəlxalq Sağlamlıq Qaydaları 2005 (BSQ)",
+    "termEn": "International Health Regulations 2005 (IHR)",
+    "definitionAz": "ÜST-ün beynəlxalq səviyyədə hüquqi olaraq məcburi olan çərçivəsi. Beynəlxalq xəstəlik yayılmasının qarşısını almaq üçün dövlətlərin hava limanlarında, limanlarında və quru keçid məntəqələrindən giriş-çıxışlarda görəcəyi tədbirləri müəyyən edir. Maddə 27: nəqliyyat vasitələrini dezinfeksiya, dezinseksiya, deşiləmə və ya deratizasiya edilməsi səlahiyyəti.",
+    "definitionEn": "WHO's internationally legally binding framework. Specifies measures states take at airports, seaports, and ground crossings to prevent international disease spread. Article 27: authorizes disinfection, disinsection, decontamination, or deratting of conveyances.",
+    "relatedSections": ["regulatory-framework", "disinsection"],
+    "relatedSources": ["WHO-IHR-2005"]
+  },
+  {
+    "id": "ozone-cracking",
+    "termAz": "Ozon çatlaması",
+    "termEn": "Ozone Cracking",
+    "definitionAz": "Rezin və elastomerlərə ozonu məruz qaldıqda yaranan mexaniki zədənin bir növü. Ozon, rezindəki ikiqat karbon-karbon bağlarını parçalayır, bu da uzanma altında səth çatlarına səbəb olur. Hətta ~1 ppm ozon konsentrasiyasında möhürlər zədələnə bilər. Yüksək ozon müqavimətli materiallar: EPDM, silikon, Viton (ftorəlastomer).",
+    "definitionEn": "A type of mechanical damage to rubber and elastomers caused by ozone exposure. Ozone attacks the carbon-carbon double bonds in rubber, causing surface cracking under strain. Seals can fail at ~1 ppm ozone concentration. Highly ozone-resistant materials include EPDM, silicone, and Viton (fluoroelastomer).",
+    "relatedSections": ["ozone-sanitation", "corrosion-materials"],
+    "relatedSources": ["OZONE-RESIST-CHART"]
+  },
+  {
+    "id": "easa",
+    "termAz": "EASA (Avropa Aviasiya Təhlükəsizliyi Agentliyi)",
+    "termEn": "EASA (European Union Aviation Safety Agency)",
+    "definitionAz": "Avropa İttifaqı üçün aviasiya təhlükəsizliyi tənzimçisi. Sertifikatlaşdırma, işletmə standartları, hava limanı standartları və uçuş ekipajı lisenziyalarını əhatə edir. ICAO SARP-larını Avropa hüquq sisteminə köçürür, lakin ola bilsin ki, bu prosesdə əlavə tələblər əlavə edir.",
+    "definitionEn": "Aviation safety regulator for the European Union. Covers certification, operational standards, airport standards, and flight crew licensing. Transposes ICAO SARPs into European law, potentially adding additional requirements.",
+    "relatedSections": ["regulatory-framework"],
+    "relatedSources": ["EASA-CLEANING-GUIDE", "EASA-HEALTH-ANALYSIS"]
+  },
+  {
+    "id": "faa",
+    "termAz": "FAA (Federal Aviasiya İdarəsi)",
+    "termEn": "FAA (Federal Aviation Administration)",
+    "definitionAz": "ABŞ-ın aviasiya tənzimçisi. 14 CFR (Ərazi Qayda) titulusuna uyğun federal qanunvericilik çərçivəsini tətbiq edir. FAA-nın məcburi qaydaları ABŞ məkanında qeydiyyata alınmış uçaq operatorlarına tətbiq olunur.",
+    "definitionEn": "US aviation regulator. Enforces the regulatory framework in Title 14 CFR (Code of Federal Regulations). FAA mandatory rules apply to aircraft operators registered in the US.",
+    "relatedSections": ["regulatory-framework"],
+    "relatedSources": ["FAA-121578", "FAA-AC-43-4B"]
+  },
+  {
+    "id": "corrosion",
+    "termAz": "Korroziya",
+    "termEn": "Corrosion",
+    "definitionAz": "Kimyəvi və ya elektrokimyəvi reaksiyalar nəticəsində metalların dağılması. Uçaqlarda ən geniş yayılmış növlər: yüzey korroziyası, çukur korroziyası, çatlaq korroziyası, qapalı-bənd korroziyası, intermetallik korroziya. Alüminium xəlitələri pH < 4.5 və ya > 8.5 olduqda daha həssasdır.",
+    "definitionEn": "Degradation of metals through chemical or electrochemical reactions. Most common types in aircraft: surface, pitting, crevice, intergranular, and exfoliation corrosion. Aluminum alloys are most vulnerable below pH 4.5 or above pH 8.5.",
+    "relatedSections": ["corrosion-materials"],
+    "relatedSources": ["FAA-AC-43-4B", "FAA-CORR-PRTS"]
+  },
+  {
+    "id": "polyurethane-coating",
+    "termAz": "Poliuretan örtük",
+    "termEn": "Polyurethane Coating",
+    "definitionAz": "İki komponentli polimer örtük sistemi. Aviasiya örtüklərinin standart sistemi: epoksi primer (metala yapışır, korroziyaya qarşı qalxan kimi) + poliuretan üst örtük (UV müqaviməti, çeviklik, rəng saxlama). ADI (alifatik diizosianat) əsaslı poliuretanlar xüsusilə UV müqavimətlidir.",
+    "definitionEn": "Two-component polymer coating system. Standard aviation system: epoxy primer (adheres to metal, acts as corrosion barrier) + polyurethane topcoat (UV resistance, flexibility, color retention). ADI (aliphatic diisocyanate)-based polyurethanes are particularly UV-resistant.",
+    "relatedSections": ["protective-coatings"],
+    "relatedSources": ["ADI-COATINGS", "CORROSIONPEDIA-COATINGS"]
+  },
+  {
+    "id": "disinfection",
+    "termAz": "Dezinfeksiya",
+    "termEn": "Disinfection",
+    "definitionAz": "Kimyəvi agentlər vasitəsilə patogenlerin (bakteriyalar, viruslar, göbələklər) məhv edilməsi və ya aktivliyinin azaldılması. Dezinseksiyadan fərqlidir (həşəratlara yönəlmişdir). Tam sterilizasiyaya nisbətən daha az ciddidir — bütün mikroorqanizmləri məhv etmir. Kabin dezinfeksiyası üçün ümumi agentlər: spirt, hidrogen peroksid, xlor birləşmələri, kvaterner ammonium birləşmələri.",
+    "definitionEn": "Killing or inactivating pathogens (bacteria, viruses, fungi) using chemical agents. Distinct from disinsection (targets insects). Less stringent than sterilization — does not eliminate all microorganisms. Common agents for cabin disinfection: alcohol, hydrogen peroxide, chlorine compounds, quaternary ammonium compounds.",
+    "relatedSections": ["cleaning-sanitation"],
+    "relatedSources": ["EASA-CLEANING-GUIDE", "IATA-CLEANING-COVID"]
+  },
+  {
+    "id": "uas-pua",
+    "termAz": "PUA / UAS (Pilotsuz Uçuş Aparatı / Unmanned Aircraft System)",
+    "termEn": "UAS / PUA (Unmanned Aircraft System / Pilotsuz Uçuş Aparatı)",
+    "definitionAz": "Uzaqdan idarə olunan və ya avtonom qaydada uçan uçuş aparatı. Hava limanı kontekstində perimetr müşahidəsi, görsel yoxlama, infrastruktur qiymətləndirilməsi üçün istifadə olunur. ICAO 101, 102, 149 hissə model qaydaları çərçivəsini müəyyən edir. Hər kəsin hava limanında istifadəsi ciddi icazə, ATC koordinasiyası və hava sahəsi inteqrasiyası tələb edir.",
+    "definitionEn": "A remotely piloted or autonomous aircraft. In airport context, used for perimeter surveillance, visual inspection, and infrastructure assessment. ICAO Parts 101, 102, 149 Model Regulations define the framework. Any use at airports requires strict authorization, ATC coordination, and airspace integration.",
+    "relatedSections": ["uas-airport-safety"],
+    "relatedSources": ["ICAO-UAS-MODEL", "FAA-UAS-AIRPORT"]
+  },
+  {
+    "id": "idlh",
+    "termAz": "IDLH (Həyat və Sağlamlığa Dərhal Təhlükəli Hədd)",
+    "termEn": "IDLH (Immediately Dangerous to Life or Health)",
+    "definitionAz": "Hər hansı bir kimyəvi maddənin hava konsentrasiyasının 30 dəqiqəlik məruz qalmada həyat üçün dərhal təhlükə, geri dönüşsüz sağlamlıq zərəri və ya qaçış qabiliyyətinin zədələnməsinə səbəb olacağı səviyyəsi (NIOSH tərəfindən müəyyən edilir). Ozon üçün IDLH dəyəri: 5 ppm.",
+    "definitionEn": "The concentration of a chemical in air that NIOSH defines as posing an immediate threat to life, causing irreversible health effects, or impairing escape ability after 30 minutes exposure. For ozone: IDLH = 5 ppm.",
+    "relatedSections": ["ozone-sanitation"],
+    "relatedSources": ["NIOSH-IDLH"]
+  },
+  {
+    "id": "bleed-air",
+    "termAz": "Qaçırılan hava (Bleed Air)",
+    "termEn": "Bleed Air",
+    "definitionAz": "Uçaq mühərrikinin kompressor mərhələsindən çəkilən isti, yüksək təzyiqli hava. Kabin hava mühiti nəzarət sisteminin (ECS) giriş havasının 50%-ni təşkil edir. Bu hava kabin hündürlüyünə görə ozon ehtiva edə bilər. Ozon çevircilər (katalitik) bu ozonun O₂-yə çevrilməsi üçün bleed hava xəttinə quraşdırılır.",
+    "definitionEn": "Hot, high-pressure air extracted from an aircraft engine's compressor stage. Makes up ~50% of the input air for the cabin Environmental Control System (ECS). This air may contain ozone at altitude. Ozone converters (catalytic) are installed in the bleed air ducting to convert ozone to O₂.",
+    "relatedSections": ["cabin-air-quality"],
+    "relatedSources": ["PALL-WP", "FAA-121578"]
+  },
+  {
+    "id": "aml",
+    "termAz": "Təsdiqlənmiş Materiallar Siyahısı (AML)",
+    "termEn": "Approved Materials List (AML)",
+    "definitionAz": "Hər uçaq istehsalçısının (Airbus, Boeing, Embraer və s.) xüsusi uçaq tipi üçün istifadəsinə icazə verdiyi materialların — o cümlədən təmizləyici agentlər, dezinfektantlar, örtüklər — siyahısı. Daxilindəki materiallardan kənar hər hansı bir maddənin istifadəsi uçağın texniki yararlılığını təhlükəyə ata bilər.",
+    "definitionEn": "A list published by each aircraft manufacturer (Airbus, Boeing, Embraer, etc.) of materials — including cleaning agents, disinfectants, and coatings — approved for use on a specific aircraft type. Using materials outside this list may compromise the aircraft's airworthiness.",
+    "relatedSections": ["corrosion-materials", "protective-coatings", "cleaning-sanitation"],
+    "relatedSources": ["AIRBUS-DISINFECTION"]
+  },
+  {
+    "id": "pyrethroid",
+    "termAz": "Piretroid insektisid",
+    "termEn": "Pyrethroid Insecticide",
+    "definitionAz": "Xrisantemum çiçəyindən əldə edilən piretrinlərin sintetik analoqları. Dezinseksiya üçün ÜST tərəfindən icazə verilmiş iki aktiv maddəyə daxildir: d-fenothrin (%2, aerozol) və permetrin (%2, qalıcı səthi müalicə). Avropa İqtisadi Ərazisinde permetrin qadağandır; d-fenothrin icazəlidir.",
+    "definitionEn": "Synthetic analogs of pyrethrins from chrysanthemum flowers. Two active substances approved by WHO for disinsection: d-phenothrin (2%, aerosol) and permethrin (2%, residual surface treatment). Permethrin banned in the EEA; d-phenothrin permitted.",
+    "relatedSections": ["disinsection"],
+    "relatedSources": ["WHO-ADMP-2023", "EPA-DISINSECTION"]
+  },
+  {
+    "id": "scaa-azerbaijan",
+    "termAz": "SCAA (Azərbaycan Dövlət Mülki Aviasiya Administrasiyası)",
+    "termEn": "SCAA (State Civil Aviation Administration, Azerbaijan)",
+    "definitionAz": "Azərbaycanın milli mülki aviasiya tənzimçisi. ICAO SARP-larına uyğun aviasiya qaydaları hazırlayır. Azərbaycan ICAO IASA Kateqoriya 1 statusuna malikdir — bu ABŞ IASA qiymətləndirməsi zamanı ICAO standartlarına uyğunluğu bildirir. Müəyyən kabin sağlamlığı qaydaları ⚠ əlavə yoxlama tələb edir.",
+    "definitionEn": "Azerbaijan's national civil aviation regulator. Develops aviation regulations aligned with ICAO SARPs. Azerbaijan holds ICAO IASA Category 1 status — indicating compliance with ICAO standards per US IASA assessment. Specific cabin health regulations ⚠ require additional verification.",
+    "relatedSections": ["regulatory-framework"],
+    "relatedSources": ["AZ-NASP-2024"]
+  },
+  {
+    "id": "airworthiness",
+    "termAz": "Uçuşa yararlılıq",
+    "termEn": "Airworthiness",
+    "definitionAz": "Uçağın güvənli uçuş üçün müvafiq vəziyyətdə olmasını ifadə edən anlayış. Texniki yararlılıq sertifikatı, texniki xidmət qeydiyyatları, istehsalçı spesifikasiyalarına uyğunluq tələb edir. Bütün texniki xidmət müdaxilələri — örtüklər, sanasiya agentləri, materiallar da daxil olmaqla — istehsalçı sənədlərinin tələblərinə uyğun olmalıdır.",
+    "definitionEn": "The state of an aircraft being fit and safe for flight. Requires airworthiness certificate, maintenance records, and compliance with manufacturer specifications. All maintenance interventions — including coatings, sanitation agents, and materials — must comply with manufacturer documentation requirements.",
+    "relatedSections": ["corrosion-materials", "protective-coatings"],
+    "relatedSources": ["FAA-AC-43-4B"]
+  },
+  {
+    "id": "epa-pel",
+    "termAz": "PEL (İcazə Verilən Məruz Qalma Həddi)",
+    "termEn": "PEL (Permissible Exposure Limit)",
+    "definitionAz": "OSHA tərəfindən məcburi hüquqi standart kimi müəyyən edilmiş iş yerindəki kimyəvi konsentrasiya həddi. Ozon üçün PEL: 0.1 ppm (8 saatlıq zaman ağırlıqlı ortalama). REL (NIOSH Tövsiyəsi) ilə eyni, lakin STEL: 0.3 ppm (15 dəqiqə). Kabin heyəti üçün xüsusi narahatçılıq: § 121.578-ə uyğun tək bir uçuş PEL-i aşmasa da, bir gün ərzindəki bir neçə uçuşun kumulyativ məruz qalması onu aşa bilər.",
+    "definitionEn": "Mandatory legal standard set by OSHA for chemical concentration in workplaces. PEL for ozone: 0.1 ppm (8-hour TWA). Same as NIOSH REL, but STEL: 0.3 ppm (15 min). Special concern for cabin crew: cumulative exposure across multiple daily flights may exceed PEL even if each individual flight complies with § 121.578.",
+    "relatedSections": ["ozone-sanitation", "cabin-air-quality"],
+    "relatedSources": ["OSHA-PEL-Z1", "NIOSH-IDLH"]
+  }
+]

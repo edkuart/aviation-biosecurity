@@ -1,0 +1,102 @@
+[
+  {
+    "id": "q-ozone-sanitation",
+    "tagsAz": ["ozon", "sanasiya", "dezinfeksiya", "o3", "ozonla"],
+    "tagsEn": ["ozone", "sanitation", "disinfection", "o3"],
+    "questionAz": "Ozonla sanasiya nədir?",
+    "questionEn": "What is ozone-based sanitation?",
+    "answerAz": "Ozon (O₃) — güclü oksidləşdirici xassəsinə malik qazdır. Sanasiya məqsədilə, möhürlənmiş kabin boşaldıldıqdan sonra nəzarətli şəkildə ozon yeridilir. Bu üsul bakteriya, virus, göbələk və iyləri məhv edir. WO2018137003 Azərbaycan pateniti oksigen konsentratoru ilə azotoksid zərərini azaldır. Proses ciddi sensorlar, parçalanma yoxlaması və yenidən giriş protokolları tələb edir. Ozon insan sağlamlığı üçün təhlükəlidir (NIOSH REL: 0.1 ppm; IDLH: 5 ppm) — kabin heyəti məruz qalmadan tam qorunmalıdır.",
+    "answerEn": "Ozone (O₃) is a powerful oxidizing gas. For sanitation, it is injected into a sealed, evacuated cabin under controlled conditions. The method destroys bacteria, viruses, fungi, and odors. The Azerbaijani patent WO2018137003 uses an oxygen concentrator to reduce nitrogen oxide damage. The process requires strict sensors, decomposition verification, and re-entry protocols. Ozone is hazardous to human health (NIOSH REL: 0.1 ppm; IDLH: 5 ppm) — cabin crew must be fully protected from exposure.",
+    "sourceIds": ["WO2018137003", "FAA-121578", "NIOSH-IDLH"]
+  },
+  {
+    "id": "q-hepa-filter",
+    "tagsAz": ["hepa", "filtr", "filtrlər", "hava filtr", "hava keyfiyyəti"],
+    "tagsEn": ["hepa", "filter", "filtration", "air quality", "cabin air"],
+    "questionAz": "HEPA filtrləri kabində necə işləyir?",
+    "questionEn": "How do HEPA filters work in aircraft cabins?",
+    "answerAz": "Uçaq kabin hava sistemi hava axınının ~50%-ni geri dönüşür, digər 50% isə xaricdən alınır. Geri dönüşlü hava HEPA filtrindən keçir. Aviasiya standartı HEPA 0.3 mikrondan böyük hissəciklərin ən azı 99.99%-ni tutur (adi tibbi HEPA 99.97%). Bütün kabin saatda 20–30 dəfə hava dəyişdirir. Hər müsafir dəqiqədə ~15–20 kubfut hava alır. Bu sistem aerozol ötürülməsi riskini azaldır, lakin səth (fomit) ötürülməsinin qarşısını almır.",
+    "answerEn": "Aircraft cabin air systems recirculate ~50% of airflow while 50% comes from outside. Recirculated air passes through HEPA filters. Aerospace-standard HEPA captures at least 99.99% of particles ≥0.3 microns (vs. standard medical HEPA at 99.97%). The entire cabin air is exchanged 20-30 times per hour. Each passenger receives ~15-20 cubic feet of air per minute. This system reduces aerosol transmission risk but does not prevent surface (fomite) transmission.",
+    "sourceIds": ["IATA-CAQ", "PALL-WP", "NAS-CABIN-ENV"]
+  },
+  {
+    "id": "q-ozone-corrosion",
+    "tagsAz": ["ozon korroziya", "ozon material", "rezin", "elastomer", "ozon zərər"],
+    "tagsEn": ["ozone corrosion", "ozone material", "rubber", "elastomer", "ozone damage"],
+    "questionAz": "Ozon korroziyaya təsir göstərə bilərmi?",
+    "questionEn": "Can ozone cause corrosion or material damage?",
+    "answerAz": "Bəli. Ozon metala deyil, əsasən rezin və elastomerlərə ciddi zərər verir — buna 'ozon çatlaması' deyilir. ~1 ppm konsentrasiyasında belə möhürlər zədələnə bilər. Həssas materiallar: poliolfid möhürlər, neoprene, nitril, təbii kauçuk, bəzi polimerlər. Müqavimətli materiallar: EPDM, silikon, Viton (ftorəlastomer). Azərbaycan patenti WO2018137003 oksigen konsentratoru vasitəsilə azotoksid (NOx) əmələ gəlməsini azaldır — bu da kabin materiallarına kimyəvi zərəri minimuma endirir.",
+    "answerEn": "Yes. Ozone causes serious damage primarily to rubber and elastomers — called ozone cracking. Even at ~1 ppm, seals can fail. Vulnerable materials: polysulfide sealants, neoprene, nitrile, natural rubber, some polymers. Resistant materials: EPDM, silicone, Viton (fluoroelastomer). The Azerbaijani patent WO2018137003 uses an oxygen concentrator to reduce nitrogen oxide (NOx) formation — minimizing chemical damage to cabin materials.",
+    "sourceIds": ["OZONE-RESIST-CHART", "WO2018137003", "AIRBUS-DISINFECTION"]
+  },
+  {
+    "id": "q-disinfection-vs-disinsection",
+    "tagsAz": ["dezinfeksiya dezinseksiya fərq", "dezinfeksiya", "dezinseksiya", "fərq"],
+    "tagsEn": ["disinfection disinsection difference", "disinfection", "disinsection", "difference"],
+    "questionAz": "Dezinfeksiya və dezinseksiya arasında fərq nədir?",
+    "questionEn": "What is the difference between disinfection and disinsection?",
+    "answerAz": "Dezinfeksiya: kimyəvi agentlər vasitəsilə bakteriya, virus, göbələk kimi patogenlerin məhv edilməsidir. Məqsəd — mikroorqanizmləri öldürmək. Dezinseksiya: vektor daşıyan həşəratları (xüsusən ağcaqanadları — Anopheles malaria, Aedes dengə, Zika, sarı qızdırma üçün) məhv etmə proseduurudur. Məqsəd — vektor ötürülməsinin qarşısını almaq. İki prosedur tamamilə fərqli agentlər, metodlar və normativ çərçivələr tələb edir. ICAO Əlavə 9 həm dezinfeksiya, həm də dezinseksiya tələblərini müəyyən edir, lakin onları fərqli bölmələrdə tənzimləyir.",
+    "answerEn": "Disinfection: destruction of pathogens (bacteria, viruses, fungi) using chemical agents. Goal — kill microorganisms. Disinsection: procedure for killing disease-carrying insects (especially mosquitoes — Anopheles for malaria, Aedes for dengue, Zika, yellow fever). Goal — prevent vector-borne transmission. The two procedures require entirely different agents, methods, and regulatory frameworks. ICAO Annex 9 covers both but regulates them in different sections.",
+    "sourceIds": ["WHO-ADMP-2023", "ICAO-ANN9", "EPA-DISINSECTION"]
+  },
+  {
+    "id": "q-uas-airport",
+    "tagsAz": ["pua", "dron", "hava limanı", "dron müşahidə", "uas"],
+    "tagsEn": ["uas", "drone", "airport", "surveillance", "uav", "pua"],
+    "questionAz": "PUA hava limanı təhlükəsizliyində necə istifadə olunur?",
+    "questionEn": "How are UAS/drones used in airport safety?",
+    "answerAz": "Hava limanlarında PUA-lar (Pilotsuz Uçuş Aparatları) çevre müşahidəsi, görsel yoxlama, infrastruktur qiymətləndirilməsi üçün istifadə olunur. Yüksək ayırdedici güclü kameralar, termal görüntüləmə ilə gecə şəraitini əhatə edə bilir. FAA tədqiqatı: PUA-lar mövcud çevrə yoxlama metodlarını tamamlaya bilər, lakin bu metodları tam əvəz edə bilməz. Hər kəsin hava limanında PUA istifadəsi ciddi icazə, ATC (Hava Hərəkəti Nəzarəti) koordinasiyası, NOTAM (Pilotlara Xəbərdarlıq) tələb edir. ICAO Model PUA Qaydaları (101, 102, 149 hissə) çərçivəni müəyyən edir.",
+    "answerEn": "At airports, UAS (Unmanned Aircraft Systems) are used for perimeter surveillance, visual inspection, and infrastructure assessment. High-resolution cameras and thermal imaging can cover difficult areas including at night. FAA research: UAS can supplement existing perimeter inspection methods but cannot fully replace them. Any UAS operation at an airport requires strict authorization, ATC (Air Traffic Control) coordination, and NOTAM (Notice to Air Missions). ICAO Model UAS Regulations (Parts 101, 102, 149) define the framework.",
+    "sourceIds": ["FAA-UAS-AIRPORT", "ICAO-UAS-MODEL", "ACI-COUNTER-DRONE"]
+  },
+  {
+    "id": "q-regulatory-framework",
+    "tagsAz": ["icao", "who", "normativ", "qayda", "çərçivə", "beynəlxalq"],
+    "tagsEn": ["icao", "who", "regulation", "framework", "international", "easa", "faa"],
+    "questionAz": "Beynəlxalq aviasiya sağlamlıq qaydaları necə işləyir?",
+    "questionEn": "How does the international aviation health regulatory framework work?",
+    "answerAz": "Üç əsas səviyyə var. Birinci: ICAO (beynəlxalq standartlar) — Chicago Konvensiyası Əlavələrinə əsaslanaraq SARP-lar yaradır; Əlavə 9 sağlamlıq tədbirləri, dezinseksiya, dezinfeksiyanı əhatə edir. İkinci: ÜST BSQ 2005 — beynəlxalq sağlamlıq tədbirləri üçün hüquqi olaraq məcburi çərçivə. Üçüncü: Regional/milli tənzimçilər — EASA (Avropa), FAA (ABŞ), Azərbaycan SCAA — ICAO SARP-larını yerli qanunvericilyə köçürür. Azərbaycan ICAO IASA Kateqoriya 1 statusuna malikdir — yəni SCAA ICAO standartlarına uyğundur.",
+    "answerEn": "Three main levels. First: ICAO (international standards) — creates SARPs based on the Chicago Convention Annexes; Annex 9 covers health measures, disinsection, disinfection. Second: WHO IHR 2005 — legally binding framework for international health measures. Third: Regional/national regulators — EASA (Europe), FAA (US), Azerbaijan SCAA — transpose ICAO SARPs into local law. Azerbaijan holds ICAO IASA Category 1 status — meaning SCAA complies with ICAO standards.",
+    "sourceIds": ["ICAO-ANN9", "WHO-IHR-2005", "AZ-NASP-2024"]
+  },
+  {
+    "id": "q-cabin-transmission",
+    "tagsAz": ["kabin", "ötürülmə", "infeksiya", "xəstəlik", "uçuş riski"],
+    "tagsEn": ["cabin", "transmission", "infection", "disease", "flight risk"],
+    "questionAz": "Uçuş kabinləri xəstəlik yayılması üçün nə qədər risklidir?",
+    "questionEn": "How risky are aircraft cabins for disease transmission?",
+    "answerAz": "Risk bir neçə amildən asılıdır: yoluxucu şəxsin varlığı, oturma yaxınlığı (2 cərgə daxilində), uçuşun müddəti (>8 saat daha risklidir), kabinin ventilyasiyası və fərdin həssaslığı. Lancet araşdırması göstərir ki, aerozolların 60-70%-i qaynağa yaxın sahəyə çökür. HEPA filtrasiyası aerozol ötürülməsini əhəmiyyətli dərəcədə azaldır. Hava dəyişmə sürəti saat başına 20-30 dəfədir — ofis binalarından (12 dəfə) daha yüksəkdir. Fomit (səth) ötürülməsi əlavə risk təşkil edir.",
+    "answerEn": "Risk depends on several factors: presence of an infectious person, seating proximity (within 2 rows), flight duration (>8 hours is higher risk), cabin ventilation, and individual susceptibility. A Lancet study shows 60-70% of aerosols settle near the source. HEPA filtration significantly reduces aerosol transmission. Air exchange rate is 20-30 times per hour — higher than office buildings (12 times). Fomite (surface) transmission poses additional risk.",
+    "sourceIds": ["LANCET-TRANSMISSION", "NAS-CABIN-ENV", "EMORY-TRANSMISSION"]
+  },
+  {
+    "id": "q-corrosion-materials",
+    "tagsAz": ["korroziya", "alüminium", "material", "dezinfektant", "metal"],
+    "tagsEn": ["corrosion", "aluminum", "material", "disinfectant", "metal"],
+    "questionAz": "Dezinfektantlar uçaq materiallarına zərər verə bilərmi?",
+    "questionEn": "Can disinfectants damage aircraft materials?",
+    "answerAz": "Bəli. Alüminium xəlitələri (2024-T3, 7075-T6) pH < 4.5 və ya > 8.5 olduqda daha həssasdır. Yüksək konsentrasiyalı hidrogen peroksid (>10%) poliolfid möhürlər, LDPE, nylon, təbii kauçuk, yun, dəri zədələyir. Yüksək konsentrasiyalı qələvi dezinfektantlar alüminiumu zədələyə bilər. Buna görə hər uçaq istehsalçısı Təsdiqlənmiş Materiallar Siyahısı (AML) dərc edir — yalnız siyahıda olan agentlər istifadə edilməlidir. FAA AC 43-4B korroziya nəzarəti proqramları üçün rəhbərlik sənədidir.",
+    "answerEn": "Yes. Aluminum alloys (2024-T3, 7075-T6) are most vulnerable below pH 4.5 or above 8.5. High-concentration hydrogen peroxide (>10%) damages polysulfide sealants, LDPE, nylon, natural rubber, wool, leather. High-concentration alkaline disinfectants can damage aluminum. This is why each aircraft manufacturer publishes an Approved Materials List (AML) — only listed agents should be used. FAA AC 43-4B is the guidance document for corrosion control programs.",
+    "sourceIds": ["FAA-AC-43-4B", "AIRBUS-DISINFECTION", "FAA-CORR-PRTS"]
+  },
+  {
+    "id": "q-disinsection-countries",
+    "tagsAz": ["dezinseksiya ölkə", "dezinseksiya tələb", "hansı ölkə", "permetrin"],
+    "tagsEn": ["disinsection country", "disinsection required", "which countries", "permethrin"],
+    "questionAz": "Hansı ölkələr uçuşlarda dezinseksiya tələb edir?",
+    "questionEn": "Which countries require aircraft disinsection?",
+    "answerAz": "Dezinseksiya tələb edən ölkələrə Avstraliya, Yeni Zelandiya, Hindistan, bir sıra Afrika ölkələri (yüksək malyariya yükü) və bəzi Sakit okean adaları daxildir. ABŞ daxili marşrutlar üçün dezinseksiya tələb etmir (EPA-nın kabin içi istifadə üçün qeydiyyata alınmış məhsulları yoxdur). Avropa İqtisadi Ərazisinde permetrin qadağandır — AİA aviaşirkətləri yalnız d-fenothrin (aerozol) istifadə edə bilər. ÜST ADMP 4 icazə verilmiş metodu müəyyən edir. ICAO Əlavə 9 'qarşılıqlı tanıma' prinsipini müəyyən edir.",
+    "answerEn": "Countries requiring disinsection include Australia, New Zealand, India, several African countries (high malaria burden), and some Pacific island nations. The US does not require disinsection for incoming flights (EPA has no registered products for aircraft cabin use). Within the EEA, permethrin is banned — EEA airlines may only use d-phenothrin (aerosol). WHO ADMP defines 4 authorized methods. ICAO Annex 9 establishes the 'mutual recognition' principle.",
+    "sourceIds": ["WHO-ADMP-2023", "EPA-DISINSECTION", "ICAO-ANN9"]
+  },
+  {
+    "id": "q-protective-coatings",
+    "tagsAz": ["poliuretan örtük", "epoksi primer", "korroziyadan qorunma", "örtük"],
+    "tagsEn": ["polyurethane coating", "epoxy primer", "corrosion protection", "coating"],
+    "questionAz": "Uçaq metalları üçün qoruyucu örtüklər hansılardır?",
+    "questionEn": "What protective coatings are used for aircraft metals?",
+    "answerAz": "Standart sistem: epoksi primer (metala yapışır, korroziyaya qarşı birinci qalxan kimi) + poliuretan üst örtük (UV müqaviməti, çeviklik, rəng saxlama). ADI (alifatik diizosianat) əsaslı poliuretanlar xüsusilə UV müqavimətlidir. Kabin daxilinde 3M qoruyucu lentlər/filmlər istifadə olunur. Döşəmə panelləri, konstruktiv elementlər üçün korroziya qoruyucu örtüklər tətbiq olunur (korroziya dəyəri: hər uçaq üçün $100,000+). VACIB: İstənilən örtüyün tətbiqi istehsalçının AML-ə uyğun olmalı, Part 145 MRO tərəfindən edilməli və texniki xidmət qeydlərinə daxil edilməlidir.",
+    "answerEn": "Standard system: epoxy primer (adheres to metal, first corrosion barrier) + polyurethane topcoat (UV resistance, flexibility, color retention). ADI (aliphatic diisocyanate)-based polyurethanes are particularly UV-resistant. 3M protective tapes/films used inside cabins. Anticorrosive coatings for floor panels and structural elements (corrosion cost: $100,000+ per aircraft). IMPORTANT: Any coating application must comply with manufacturer AML, be applied by a Part 145 MRO, and documented in maintenance records.",
+    "sourceIds": ["ADI-COATINGS", "CORROSIONPEDIA-COATINGS", "FAA-AC-43-4B"]
+  }
+]

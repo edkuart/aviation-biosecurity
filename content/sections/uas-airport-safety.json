@@ -1,0 +1,167 @@
+{
+  "id": "uas-airport-safety",
+  "slug": "/uas-airport-safety",
+  "navLabel": "UAS Airport Safety",
+  "title": {
+    "az": "Hava Limanı PUA Təhlükəsizliyi: ICAO/FAA/EASA Normativ Çərçivəsi, Counter-Drone Sistemləri və ATC Koordinasiyası",
+    "en": "Airport UAS Safety: ICAO/FAA/EASA Regulatory Framework, Counter-Drone Systems, and ATC Coordination"
+  },
+  "summary": {
+    "az": "PUA (Pilotasız Uçan Aparat) hava limanı mühitinə yaranan risklər, ICAO Model UAS Qaydaları, FAA 14 CFR Part 107, EASA EU 2019/947, hava limanı perimetr müşahidəsi, counter-drone texnologiyaları, ATC koordinasiyası və Azərbaycan konteksti.",
+    "en": "UAS (Unmanned Aircraft Systems) risks in airport environments, ICAO Model UAS Regulations, FAA 14 CFR Part 107, EASA EU 2019/947, airport perimeter surveillance, counter-drone technologies, ATC coordination, and Azerbaijan context."
+  },
+  "tags": ["ICAO", "FAA", "EASA", "UAS"],
+  "expandableSections": [
+    {
+      "titleAz": "PUA / Drone nədir? Hava limanı kontekstindəki risklər",
+      "titleEn": "What is UAS/drone? Risks in airport context",
+      "defaultOpen": true,
+      "bodyAz": "<p>PUA (Pilotasız Uçan Aparat) — insan pilotu olmadan uçan hava vasitəsidir. ICAO terminologiyasında <em>Unmanned Aircraft System (UAS)</em>, məişət dilində isə <em>drone</em> adlanır.</p><p><strong>Hava limanı əhatəsindəki əsas risklər:</strong></p><ul><li><strong>Hava sahəsi pozuntusu:</strong> İcazəsiz dronların hava limanı ətrafdakı qadağan edilmiş hava sahəsinə (Temporary Flight Restriction / TFR zonası) daxil olması — kommersiya uçuşlarına mane olur</li><li><strong>Müsadimə riski (bird-strike analoqu):</strong> 1 kq-lıq dron uçaq qanından keçdikdə 25 kq quşla ekvivalent ziyan vura bilər (EASA tədqiqatı)</li><li><strong>Mühərrik sorulması riski:</strong> Dron materialları (litium-ion batareyası, karbon fiber) uçaq mühərrikinə kritik ziyan vura bilər</li><li><strong>Gözetleme / casusluq riski:</strong> Hava limanı infrastrukturunu kəşfiyyat məqsədli istifadə</li><li><strong>Yük daşıyıcısı riski:</strong> Icazəsiz yükdaşıma (narkomadda, partlayıcı)</li></ul><p><strong>Əhəmiyyətli hadisələr:</strong> 2018 — Gatwick (London) hava limanı 36 saat bağlandı, 1000-dən çox uçuş ləğv edildi, hər ikisi dron görüntüsü ilə əlaqəli idi.</p><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: EASA tədqiqatları dronun uçaq qanı ilə müsadimə riskinin əhəmiyyətli olduğunu sübut etmişdir.</p>",
+      "bodyEn": "<p>UAS (Unmanned Aircraft System) — an aircraft operating without a human pilot aboard. In ICAO terminology called <em>Unmanned Aircraft System (UAS)</em>, commonly known as <em>drone</em>.</p><p><strong>Key risks in airport environments:</strong></p><ul><li><strong>Airspace violation:</strong> Unauthorized drones entering prohibited airspace around airports (Temporary Flight Restriction / TFR zone) — interfering with commercial flights</li><li><strong>Collision risk (bird-strike analogue):</strong> A 1 kg drone passing through an aircraft wing can cause equivalent damage to a 25 kg bird (EASA study)</li><li><strong>Engine ingestion risk:</strong> Drone materials (lithium-ion battery, carbon fiber) can cause critical damage to aircraft engine</li><li><strong>Surveillance / espionage risk:</strong> Airport infrastructure reconnaissance</li><li><strong>Payload delivery risk:</strong> Unauthorized cargo (narcotics, explosives)</li></ul><p><strong>Notable incidents:</strong> 2018 — Gatwick (London) airport closed for 36 hours, 1000+ flights cancelled, both linked to drone sightings.</p><p class='text-emerald-700 font-medium'>✅ Confirmed: EASA studies have demonstrated that the risk of drone-wing collision is significant.</p>"
+    },
+    {
+      "titleAz": "ICAO Model UAS Qaydaları: Beynəlxalq çərçivə",
+      "titleEn": "ICAO Model UAS Regulations: International framework",
+      "bodyAz": "<p>ICAO dövlətlərə milli UAS tənzimləmə sistemi yaratmağa kömək etmək üçün Model UAS Regulations sənədi hazırlamışdır (ən son: 2020). Bu sənəd məcburi SARP deyil — qəbul edilməsi ixtiyari olan model qaydalardır.</p><p><strong>ICAO Model UAS Regulations əsas müddəaları:</strong></p><ul><li><strong>Qeydiyyat tələbi:</strong> Müəyyən kütləyə (ölkəyə görə dəyişir, adətən 250 q+) çatan bütün UAS-ların qeydiyyatdan keçməsi</li><li><strong>Operator sertifikasiyası:</strong> Kommersiya operatoru üçün Remote Pilot Certificate tələbi</li><li><strong>Hava sahəsi idarəetməsi:</strong> U-space / UAS Traffic Management (UTM) infrastrukturu tövsiyəsi</li><li><strong>Uçuş məhdudiyyətləri:</strong> Hava limanından müəyyən məsafə (adətən 5 km) daxilindəki uçuşlar üçün xüsusi icazə tələbi</li><li><strong>Uzaqdan identifikasiya (Remote ID):</strong> UAS-ın real vaxt rejimində müəyyən edilməsi üçün texniki tələb</li></ul><p>ICAO çərçivəsi üç əsas sənəddə əhatə olunur: Annex 2 (Uçuş Qaydaları), Annex 7 (Hava Vasitəsi Qeydiyyatı) və yeni UAS-spesifik proqram elementləri.</p><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: ICAO Model UAS Regulations ixtiyari model qaydalardır — hər dövlət öz milli sistemini müstəqil müəyyən edir.</p>",
+      "bodyEn": "<p>ICAO has prepared a Model UAS Regulations document (latest: 2020) to help states establish national UAS regulatory systems. This document is not mandatory SARP — it is voluntary model rules.</p><p><strong>Key provisions of ICAO Model UAS Regulations:</strong></p><ul><li><strong>Registration requirement:</strong> All UAS reaching certain weight (varies by country, typically 250g+) must be registered</li><li><strong>Operator certification:</strong> Remote Pilot Certificate requirement for commercial operators</li><li><strong>Airspace management:</strong> U-space / UAS Traffic Management (UTM) infrastructure recommendation</li><li><strong>Flight restrictions:</strong> Special authorization required for flights within a certain distance from airports (typically 5 km)</li><li><strong>Remote ID:</strong> Technical requirement for real-time identification of UAS</li></ul><p>The ICAO framework is covered in three key documents: Annex 2 (Rules of the Air), Annex 7 (Aircraft Nationality and Registration Marks), and new UAS-specific programme elements.</p><p class='text-blue-700 font-medium'>📖 Guidance only: ICAO Model UAS Regulations are voluntary model rules — each state independently determines its national system.</p>"
+    },
+    {
+      "titleAz": "FAA 14 CFR Part 107 (ABŞ) və EASA EU 2019/947 (Avropa)",
+      "titleEn": "FAA 14 CFR Part 107 (US) and EASA EU 2019/947 (Europe)",
+      "bodyAz": "<p>ABŞ və Avropa dünyanın ən inkişaf etmiş UAS tənzimləmə sistemlərindən ikisini tətbiq edir.</p><p><strong>FAA 14 CFR Part 107 (2016, dəfələrlə yenilənib):</strong></p><ul><li>Kommersiya UAS əməliyyatları üçün Remote Pilot Certificate tələbi</li><li>Kütlə limiti: 55 lbs (25 kq) altı</li><li>Hündürlük limiti: 400 fut (120 m) AGL</li><li>Görüş xətti (Visual Line of Sight — VLOS) tələbi</li><li>Hava limanından 5 düym mil (8 km) daxilindəki uçuşlar üçün FAA LAANC sistemi vasitəsilə avtomatlaşdırılmış icazə</li><li>Remote ID tələbi 2023-dən effektiv</li></ul><p><strong>EASA EU 2019/947 (Drone Regulation, 2021-dən tətbiq):</strong></p><ul><li>Üç kateqoriya: Open (açıq), Specific (spesifik), Certified (sertifikatlı)</li><li>Open kateqoriyası: 25 kq altı, 120 m hündürlük altı, VLOS — icazəsiz əməliyyat</li><li>Specific kateqoriyası: SORA (Specific Operations Risk Assessment) tələbi</li><li>Hava limanı ətraflı uçuşlar üçün Specific/Certified kateqoriya və xüsusi icazə</li><li>Drone Operator Registration — 250 q+ kütlə üçün</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: FAA Part 107 və EASA EU 2019/947 hər iki sistemin əsas normativ çərçivəsidir.</p>",
+      "bodyEn": "<p>The US and Europe implement two of the world's most developed UAS regulatory systems.</p><p><strong>FAA 14 CFR Part 107 (2016, repeatedly updated):</strong></p><ul><li>Remote Pilot Certificate required for commercial UAS operations</li><li>Weight limit: under 55 lbs (25 kg)</li><li>Altitude limit: 400 feet (120 m) AGL</li><li>Visual Line of Sight (VLOS) requirement</li><li>Automated authorization via FAA LAANC system for flights within 5 nautical miles (8 km) of airports</li><li>Remote ID requirement effective from 2023</li></ul><p><strong>EASA EU 2019/947 (Drone Regulation, applied since 2021):</strong></p><ul><li>Three categories: Open, Specific, Certified</li><li>Open category: under 25 kg, under 120 m altitude, VLOS — unauthorized operation</li><li>Specific category: SORA (Specific Operations Risk Assessment) required</li><li>Flights near airports require Specific/Certified category and special authorization</li><li>Drone Operator Registration — for weight 250g+</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: FAA Part 107 and EASA EU 2019/947 are the primary regulatory framework for both systems.</p>"
+    },
+    {
+      "titleAz": "Hava limanı perimetr müşahidəsi: PUA-larla mücadilə",
+      "titleEn": "Airport perimeter surveillance: combating UAS",
+      "bodyAz": "<p>Hava limanları icazəsiz dronların aşkarlanması üçün xüsusi surveillance texnologiyaları tətbiq edir.</p><p><strong>Aşkarlama texnologiyaları (Detection):</strong></p><ul><li><strong>Radar:</strong> Kiçik, aşağı sürətli UAS-lar üçün xüsusi tənzimlənmiş radar sistemləri — ənənəvi hava limanı radarları 1 kq-lıq drone-u aşkar etmək üçün hazırlanmayıb</li><li><strong>RF (Radio Frequency) sensoru:</strong> UAS-ın pilot idarəetmə siqnalını aşkarlamaq — istisna: avtonomik dronlar RF siqnalı göndərmir</li><li><strong>Elektro-optik / infraqırmızı kamera:</strong> Görüntü emal texnologiyası ilə vizual aşkarlama</li><li><strong>Akustik sensor:</strong> Dron propeller səsinin tezlik analizi — məsafəli mühitdə effektiv</li><li><strong>Hibrid sistemlər:</strong> Yuxarıdakı texnologiyaların kombinasiyası — yalançı həyəcan siqnallarını azaltmaq üçün sensor fusion tətbiqi</li></ul><p><strong>Azaldılma / Müdaxilə texnologiyaları (Mitigation / Counter-UAS):</strong></p><ul><li><strong>RF jamming:</strong> UAS nəzarət siqnalını kəsmək — istisna: qonşu kommunikasiya sistemlərinə təsir riski; hava limanı mühitindəki rabitə sistemi ilə ziddiyyət</li><li><strong>GPS spoofing:</strong> UAS GPS siqnalını aldatmaq — autonomik uçuş planına müdaxilə</li><li><strong>Net-gun / drone-catcher:</strong> Fiziki tutma sistemləri</li><li><strong>Lazer sistemlər:</strong> Hədəf-dron imha — yalnız hərbi kontekstdə praktik</li></ul><p class='text-orange-700 font-medium'>⚠ Yoxlama lazımdır: Counter-UAS texnologiyalarının hava limanı əməliyyat mühitinə uyğunluğu ölkəyə və hüquqi çərçivəyə görə dəyişir — hər texnologiyanın müstəqil tənzimləmə icazəsi tələb olunur.</p>",
+      "bodyEn": "<p>Airports apply specialized surveillance technologies to detect unauthorized drones.</p><p><strong>Detection technologies:</strong></p><ul><li><strong>Radar:</strong> Specially tuned radar systems for small, low-speed UAS — traditional airport radars not designed to detect 1 kg drones</li><li><strong>RF (Radio Frequency) sensor:</strong> Detecting pilot control signal of UAS — exception: autonomous drones don't emit RF signal</li><li><strong>Electro-optical / infrared camera:</strong> Visual detection with image processing technology</li><li><strong>Acoustic sensor:</strong> Frequency analysis of drone propeller sound — effective in remote environments</li><li><strong>Hybrid systems:</strong> Combination of above technologies — sensor fusion applied to reduce false alarms</li></ul><p><strong>Mitigation / Counter-UAS technologies:</strong></p><ul><li><strong>RF jamming:</strong> Interrupting UAS control signal — exception: risk of affecting neighboring communication systems; conflict with airport communication system</li><li><strong>GPS spoofing:</strong> Deceiving UAS GPS signal — interfering with autonomous flight plan</li><li><strong>Net-gun / drone-catcher:</strong> Physical capture systems</li><li><strong>Laser systems:</strong> Target-drone neutralization — practical only in military context</li></ul><p class='text-orange-700 font-medium'>⚠ Needs verification: Suitability of counter-UAS technologies for airport operational environment varies by country and legal framework — independent regulatory authorization required for each technology.</p>"
+    },
+    {
+      "titleAz": "ATC koordinasiyası və UAS Traffic Management (UTM)",
+      "titleEn": "ATC coordination and UAS Traffic Management (UTM)",
+      "bodyAz": "<p>Ənənəvi hava trafik nəzarəti (ATC) pilotlu uçuşlar üçün hazırlanmışdır. PUA-ların inteqrasiyası yeni infrastruktur tələb edir.</p><p><strong>UTM (UAS Traffic Management) — U-space konsepti:</strong></p><ul><li>ICAO UAS Traffic Management (UTM) Framework — pilotlu ATM-ə paralel ayrı bir ekosistem</li><li>EASA U-space (EU 2021/664, 2021/665, 2021/666): 4 xidmət səviyyəsi — U1 (qeydiyyat), U2 (icazə), U3 (tracking), U4 (yüksək sıxlıqlı şəhər mühiti)</li><li>FAA UAS Service Suppliers (USS) sistemi: LAANC (Low Altitude Authorization and Notification Capability) — hava limanı ətrafdakı Low Altitude sahələr üçün avtomatlaşdırılmış icazə</li></ul><p><strong>Hava limanı koordinasiya prosedurları:</strong></p><ul><li>Remote ID məlumatlarının ATC sistemine inteqrasiyası</li><li>Qeydiyyatsız UAS aşkarlandıqda standart Runway Incursion proseduruna bənzər əməliyyat protokolu</li><li>NOTAM (Notice to Airmen) vasitəsilə TFR (Temporary Flight Restriction) elanı</li><li>ATC-nin UTM provayderləri ilə interfeys tələbi</li></ul><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: UTM/U-space çərçivəsi hələ tam tətbiq mərhələsindədir. ICAO UTM Framework-in milli sistemlərə inteqrasiyası dövam edir.</p>",
+      "bodyEn": "<p>Traditional Air Traffic Control (ATC) is designed for piloted flights. Integration of UAS requires new infrastructure.</p><p><strong>UTM (UAS Traffic Management) — U-space concept:</strong></p><ul><li>ICAO UAS Traffic Management (UTM) Framework — a separate ecosystem parallel to piloted ATM</li><li>EASA U-space (EU 2021/664, 2021/665, 2021/666): 4 service levels — U1 (registration), U2 (authorization), U3 (tracking), U4 (high-density urban environment)</li><li>FAA UAS Service Suppliers (USS) system: LAANC (Low Altitude Authorization and Notification Capability) — automated authorization for Low Altitude areas around airports</li></ul><p><strong>Airport coordination procedures:</strong></p><ul><li>Integration of Remote ID data into ATC system</li><li>Standard operational protocol similar to Runway Incursion procedure when unregistered UAS detected</li><li>TFR (Temporary Flight Restriction) declaration via NOTAM (Notice to Airmen)</li><li>ATC interface requirement with UTM providers</li></ul><p class='text-blue-700 font-medium'>📖 Guidance only: UTM/U-space framework is still in full implementation phase. Integration of ICAO UTM Framework into national systems is ongoing.</p>"
+    },
+    {
+      "titleAz": "Azərbaycan PUA tənzimləmə konteksti",
+      "titleEn": "Azerbaijan UAS regulatory context",
+      "bodyAz": "<p>Azərbaycan Mülki Aviasiya Dövlət Agentliyi (MADA) PUA tənzimləməsini daha geniş aviasiya tənzimləmə islahatı çərçivəsindəki fəaliyyətin bir hissəsi kimi inkişaf etdirir.</p><p><strong>Azərbaycan PUA tənzimləməsi üzrə mövcud vəziyyət:</strong></p><ul><li>Dronların kommersiya istifadəsi üçün MADA-dan icazə tələb olunur</li><li>Hava limanı ətrafdakı TFR zonalar NOTAM sistemi vasitəsilə elan olunur</li><li>Azərbaycan Milli Aviasiya Strategiyası 2024-2026 (NASP) UAS inteqrasiyasını prioritet kimi müəyyən edir</li><li>ICAO Model UAS Regulations-a uyğunlaşdırma prosesi davam edir</li></ul><p><strong>Heydər Əliyev Beynəlxalq Hava Limanı konteksti:</strong></p><ul><li>Bakı TMA (Terminal Maneuvering Area) daxilindəki hava sahəsi müvafiq dövlət nəzarətinin altındadır</li><li>MADA hava limanı ətrafdakı qadağan edilmiş zonalar üçün aktual NOTAM-lar yayımlayır</li></ul><p class='text-blue-700 font-medium'>⚖ Tənzimləmədən asılıdır: Azərbaycan PUA tənzimləməsi inkişaf mərhələsindədir. Aktual tələblər üçün MADA-nın rəsmi qaydalar çərçivəsinə müraciət edilməlidir.</p>",
+      "bodyEn": "<p>The Azerbaijan Civil Aviation State Agency (CASA) is developing UAS regulation as part of broader aviation regulatory reform activities.</p><p><strong>Current status of Azerbaijan UAS regulation:</strong></p><ul><li>CASA authorization required for commercial use of drones</li><li>TFR zones around airports declared via NOTAM system</li><li>Azerbaijan National Aviation Strategy 2024-2026 (NASP) identifies UAS integration as a priority</li><li>Alignment process with ICAO Model UAS Regulations is ongoing</li></ul><p><strong>Heydar Aliyev International Airport context:</strong></p><ul><li>Airspace within Baku TMA (Terminal Maneuvering Area) is under relevant state control</li><li>CASA publishes current NOTAMs for prohibited zones around airport</li></ul><p class='text-blue-700 font-medium'>⚖ Regulation-dependent: Azerbaijan UAS regulation is in development phase. For current requirements, consult CASA's official regulatory framework.</p>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "termAz": "UAS / PUA",
+      "termEn": "UAS",
+      "definitionAz": "Unmanned Aircraft System / Pilotasız Uçan Aparat. Hava vasitəsi, idarəetmə stansiyası və rabitə kanalından ibarət sistem.",
+      "definitionEn": "Unmanned Aircraft System. System comprising the aircraft, ground control station, and communication link."
+    },
+    {
+      "termAz": "Remote ID",
+      "termEn": "Remote ID",
+      "definitionAz": "UAS-ın uçuş zamanı real vaxt rejimində müəyyən edilməsini təmin edən texniki sistem. FAA 2023-dən, EASA EU 2019/947 ilə tələb edir.",
+      "definitionEn": "Technical system enabling real-time identification of UAS during flight. Required by FAA since 2023, by EASA under EU 2019/947."
+    },
+    {
+      "termAz": "VLOS",
+      "termEn": "VLOS",
+      "definitionAz": "Visual Line of Sight — pilot UAS-ı birbaşa gözü ilə görə bilər. Əksər ölkədə əsas şərt; bunun kənara çıxılması xüsusi icazə tələb edir (BVLOS).",
+      "definitionEn": "Visual Line of Sight — pilot can see the UAS directly with naked eye. Primary condition in most countries; exceeding this requires special authorization (BVLOS)."
+    },
+    {
+      "termAz": "UTM / U-space",
+      "termEn": "UTM / U-space",
+      "definitionAz": "UAS Traffic Management — pilotlu ATM-ə paralel, aşağı yüksəklikdəki UAS uçuşlarının idarəolunması infrastrukturu. Avropada U-space adlanır.",
+      "definitionEn": "UAS Traffic Management — infrastructure for managing low-altitude UAS flights, parallel to piloted ATM. Called U-space in Europe."
+    },
+    {
+      "termAz": "LAANC",
+      "termEn": "LAANC",
+      "definitionAz": "Low Altitude Authorization and Notification Capability — FAA-nın hava limanı ətrafdakı aşağı yüksəklikli sahələrdə avtomatlaşdırılmış UAS icazə sistemi.",
+      "definitionEn": "Low Altitude Authorization and Notification Capability — FAA's automated UAS authorization system for low-altitude areas around airports."
+    },
+    {
+      "termAz": "Counter-UAS",
+      "termEn": "Counter-UAS",
+      "definitionAz": "İcazəsiz UAS-ları aşkarlamaq, izləmək və zərərsizləşdirmək üçün texnologiyalar toplusu. RF jamming, GPS spoofing, net-gun, lazer daxildir.",
+      "definitionEn": "Collection of technologies to detect, track, and neutralize unauthorized UAS. Includes RF jamming, GPS spoofing, net-gun, laser."
+    }
+  ],
+  "studyQuestions": [
+    {
+      "questionAz": "Hava limanı mühitindəki əsas UAS risklerini sıralayın.",
+      "questionEn": "List the key UAS risks in an airport environment.",
+      "answerAz": "Hava sahəsi pozuntusu (TFR zonasına giriş), uçaq qanı ilə fiziki müsadimə riski (EASA tədqiqatı: 1 kq drone = 25 kq quş), mühərrik sorulması riski (Li-ion batareyası, karbon fiber), gözetleme/casusluq riski, icazəsiz yük daşıyıcısı riski. Gatwick 2018 hadisəsi bu riskin reallığını göstərdi.",
+      "answerEn": "Airspace violation (entry to TFR zone), physical collision risk with aircraft wing (EASA study: 1 kg drone = 25 kg bird), engine ingestion risk (Li-ion battery, carbon fiber), surveillance/espionage risk, unauthorized payload carrier risk. The Gatwick 2018 incident demonstrated the reality of this risk."
+    },
+    {
+      "questionAz": "ICAO Model UAS Qaydaları məcburi tənzimləmə sənədidir?",
+      "questionEn": "Are ICAO Model UAS Regulations mandatory regulatory documents?",
+      "answerAz": "Xeyr. ICAO Model UAS Regulations ixtiyari model qaydalardır — SARP (Standards and Recommended Practices) statusu daşımır. Hər dövlət öz milli UAS sistemini müstəqil müəyyən edir. ICAO çərçivəsi tövsiyəedici xarakter daşıyır. FAA Part 107 və EASA EU 2019/947 müvafiq ölkələrdə məcburi normativ sənədlərdir.",
+      "answerEn": "No. ICAO Model UAS Regulations are voluntary model rules — they do not carry SARP (Standards and Recommended Practices) status. Each state independently determines its national UAS system. The ICAO framework is advisory in nature. FAA Part 107 and EASA EU 2019/947 are mandatory regulatory documents in their respective jurisdictions."
+    },
+    {
+      "questionAz": "EASA U-space-in 4 xidmət səviyyəsini izah edin.",
+      "questionEn": "Explain the 4 service levels of EASA U-space.",
+      "answerAz": "U1: Qeydiyyat — UAS və operatorların qeydiyyatı. U2: İcazə — uçuş planı icazəsi. U3: İzləmə (Tracking) — uçuş zamanı real vaxt rejimli izləmə. U4: Yüksək sıxlıqlı şəhər mühiti — çoxlu UAS-ın eyni vaxtda idarə edilməsi üçün mürəkkəb infrastruktur. Hər səviyyə əvvəlki üzərində qurulur.",
+      "answerEn": "U1: Registration — registration of UAS and operators. U2: Authorization — flight plan authorization. U3: Tracking — real-time tracking during flight. U4: High-density urban environment — complex infrastructure for simultaneously managing multiple UAS. Each level builds on the previous."
+    },
+    {
+      "questionAz": "FAA LAANC sistemi nədir?",
+      "questionEn": "What is the FAA LAANC system?",
+      "answerAz": "LAANC (Low Altitude Authorization and Notification Capability) FAA-nın hava limanı ətrafdakı aşağı yüksəklikli sahələrdə UAS uçuşu üçün avtomatlaşdırılmış icazə sistemidir. Operator tələb göndərir, sistem saniyələr içərisində cavab verir — ənənəvi ATC koordinasiyasına alternativ çoxdaha sürətli yanaşma təmin edir.",
+      "answerEn": "LAANC (Low Altitude Authorization and Notification Capability) is the FAA's automated authorization system for UAS flight in low-altitude areas around airports. The operator sends a request, the system responds within seconds — providing a much faster approach than traditional ATC coordination."
+    },
+    {
+      "questionAz": "RF jamming-in hava limanı mühitindəki əsas məhdudiyyəti nədir?",
+      "questionEn": "What is the main limitation of RF jamming in an airport environment?",
+      "answerAz": "RF jamming qonşu kommunikasiya sistemlərinə (ATC rabitəsi, aviasiya naviqasiya sistemləri, pilot-ATC radio əlaqəsi) ciddi təsir göstərə bilər. Hava limanı mühitindəki elektromaqnit mühiti (EME) çox kritikdir. Bundan əlavə, avtonomik dronlar RF siqnalı göndərmirlər — jamming bu tipə təsir etmir. Hüquqi çərçivə: RF jamming əksər ölkədə FCC/ofcom lisenziyası olmadan qeyri-qanunidır.",
+      "answerEn": "RF jamming can seriously affect neighboring communication systems (ATC communications, aviation navigation systems, pilot-ATC radio link). The electromagnetic environment (EME) in airport settings is very critical. Additionally, autonomous drones don't emit RF signals — jamming has no effect on this type. Legal framework: RF jamming is illegal in most countries without FCC/Ofcom license."
+    }
+  ],
+  "sourceIds": [
+    "ICAO-ANN2",
+    "ICAO-UAS-MODEL-REG",
+    "FAA-PART107",
+    "EASA-EU-2019-947",
+    "EASA-DRONE-IMPACT",
+    "EUROCONTROL-UTM",
+    "FAA-LAANC",
+    "AZ-NASP-2024"
+  ],
+  "statusedClaims": [
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "1 kq-lıq dronun uçaq qanı ilə müsadimə riski 25 kq quşla ekvivalentdir (EASA tədqiqatı).",
+        "en": "Collision risk of a 1 kg drone with aircraft wing is equivalent to a 25 kg bird (EASA study)."
+      },
+      "sourceIds": ["EASA-DRONE-IMPACT"]
+    },
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "FAA 14 CFR Part 107 və EASA EU 2019/947 müvafiq ölkələrdə kommersiya UAS əməliyyatları üçün məcburi normativ çərçivədir.",
+        "en": "FAA 14 CFR Part 107 and EASA EU 2019/947 are mandatory regulatory framework for commercial UAS operations in their respective jurisdictions."
+      },
+      "sourceIds": ["FAA-PART107", "EASA-EU-2019-947"]
+    },
+    {
+      "status": "guidance-only",
+      "claim": {
+        "az": "ICAO Model UAS Qaydaları ixtiyari model qaydalardır — SARP statusu daşımır.",
+        "en": "ICAO Model UAS Regulations are voluntary model rules — they do not carry SARP status."
+      },
+      "sourceIds": ["ICAO-UAS-MODEL-REG"]
+    },
+    {
+      "status": "regulation-dependent",
+      "claim": {
+        "az": "Azərbaycan PUA tənzimləməsi inkişaf mərhələsindədir — NASP 2024-2026 prioritet olaraq müəyyən etmişdir.",
+        "en": "Azerbaijan UAS regulation is in development phase — identified as priority in NASP 2024-2026."
+      },
+      "sourceIds": ["AZ-NASP-2024"]
+    }
+  ]
+}

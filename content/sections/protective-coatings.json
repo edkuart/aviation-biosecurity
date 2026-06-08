@@ -1,0 +1,152 @@
+{
+  "id": "protective-coatings",
+  "slug": "/protective-coatings",
+  "navLabel": "Protective Coatings",
+  "title": {
+    "az": "Aviasiyada Qoruyucu Örtüklər: Epoksi, Poliuretan, ADI Sistemləri və Sertifikatlaşdırma",
+    "en": "Protective Coatings in Aviation: Epoxy, Polyurethane, ADI Systems, and Certification"
+  },
+  "summary": {
+    "az": "Uçaq konstruksiyasında korroziyaya qarşı örtük sistemlərinin layları, epoksi primer, poliuretan topcoat, ADI örtük sistemləri, sertifikatlaşdırma tələbləri (FAA/EASA) və sanasiya agentlərinin örtüklərə təsiri.",
+    "en": "Layers of anti-corrosion coating systems in aircraft structures, epoxy primer, polyurethane topcoat, ADI coating systems, certification requirements (FAA/EASA), and effects of sanitation agents on coatings."
+  },
+  "tags": ["FAA"],
+  "expandableSections": [
+    {
+      "titleAz": "Qoruyucu örtük sistemlərinin laylanması",
+      "titleEn": "Layering of protective coating systems",
+      "defaultOpen": true,
+      "bodyAz": "<p>Aviasiya qoruyucu örtük sistemi adətən üç əsas laydan ibarətdir:</p><p><strong>1. Səthi hazırlıq:</strong></p><ul><li>Metal səthin kimyəvi həll etmə (stripping) ilə köhnə örtükdən azad edilməsi</li><li>Anodlaşdırma — alüminium səthlərə elektrokimyəvi oksid qatı əlavə edilməsi (korroziyaya müqavimət üçün)</li><li>Kimyəvi konversiya örtüyü (Alodine/Chromate) — alüminium üçün birbaşa metalın üzərindəki nazik korroziya inhibitoru qat</li></ul><p><strong>2. Primer (Epoksi):</strong></p><ul><li>Metalın üzərinə birbaşa tətbiq edilən korroziya inhibitoru baza örtüyü</li><li>Ən geniş istifadə edilən: xromatı epoksi primer (MIL-PRF-23377 / MIL-PRF-85582)</li><li>Xromat birləşmələri güclü korroziya inhibitorudur — lakin toksiklik endişəsi var (hexavalent xrom)</li><li>Xromatı olmayan alternativlər inkişaf etdirilməkdədir — lakin hələ tam bərabər effektivlik sənədləşdirilməmişdir</li></ul><p><strong>3. Topcoat (Poliuretan):</strong></p><ul><li>Primer üzərinə tətbiq edilən yekun örtük qatı</li><li>Mexaniki zərər, UV şüalanması, kimyəvi agentlər, su girişindən qoruyur</li><li>MIL-PRF-85285 tipli poliuretan topcoat-lar standart aviasiya tətbiqidir</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: Üçqatlı örtük sistemi (səthi hazırlıq + primer + topcoat) FAA AC 43-4B və MIL-SPEC standartları ilə uyğundur.</p>",
+      "bodyEn": "<p>An aviation protective coating system typically consists of three main layers:</p><p><strong>1. Surface preparation:</strong></p><ul><li>Chemical stripping of old coatings from metal surface</li><li>Anodizing — electrochemical addition of oxide layer to aluminum surfaces (for corrosion resistance)</li><li>Chemical conversion coating (Alodine/Chromate) — thin corrosion inhibitor layer directly on metal for aluminum</li></ul><p><strong>2. Primer (Epoxy):</strong></p><ul><li>Base corrosion inhibitor coating applied directly to metal</li><li>Most widely used: chromate epoxy primer (MIL-PRF-23377 / MIL-PRF-85582)</li><li>Chromate compounds are strong corrosion inhibitors — but toxicity concern exists (hexavalent chromium)</li><li>Non-chromate alternatives are being developed — but fully equivalent effectiveness has not yet been documented</li></ul><p><strong>3. Topcoat (Polyurethane):</strong></p><ul><li>Final coating layer applied over primer</li><li>Protects against mechanical damage, UV radiation, chemical agents, water ingress</li><li>MIL-PRF-85285 type polyurethane topcoats are the standard aviation application</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: Three-layer coating system (surface prep + primer + topcoat) is consistent with FAA AC 43-4B and MIL-SPEC standards.</p>"
+    },
+    {
+      "titleAz": "Poliuretan örtüklər: xüsusiyyətlər və aviasiya tətbiqi",
+      "titleEn": "Polyurethane coatings: properties and aviation application",
+      "bodyAz": "<p>Poliuretan (PU) örtüklər kommersial aviasiyada ən geniş istifadə edilən topcoat sinfidir.</p><p><strong>Kimyəvi quruluş:</strong> İzosianat + poliol birləşməsindən əmələ gəlir. İki komponentli sistemlər (2K PU) havacılıqda ən geniş yayılmışdır — yüksək çarpaz-bağlanma sıxlığı ilə daha yaxşı kimyəvi müqavimət göstərir.</p><p><strong>Aviasiya PU örtüklərinin xüsusiyyətləri:</strong></p><ul><li>UV müqaviməti — yüksək altitudda güclü UV məruziyyəti altında rəng davamlılığı</li><li>Mexaniki davamlılıq — sürtünmə, taxılma, kiçik zərbələr</li><li>Kimyəvi müqavimət — yanacaq, hidravlik maye, sanasiya agentlərinin bir çoxuna qarşı</li><li>Aşağı ağırlıq — uçuşda ağırlıq optimal saxlanır</li><li>Açıq rəng (gümüşü/ağ) — istilik əks etdirmə üçün</li></ul><p><strong>Məhdudiyyətlər:</strong></p><ul><li>İzosianat buxarları toksikdir — tətbiq zamanı PPE tələb olunur</li><li>Yüksək konsentrasiyalı ozon məruziyyəti uzunmüddətli deqradasiyaya yol açır</li><li>Kəskin kimyəvi agentlər (hipoklorit, yüksək konsentrasiyalı alkol) örtüyü zəiflədə bilər</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: MIL-PRF-85285 aviasiya poliuretan topcoat standartı FAA tərəfindən tanınmış çərçivədir.</p>",
+      "bodyEn": "<p>Polyurethane (PU) coatings are the most widely used topcoat class in commercial aviation.</p><p><strong>Chemical structure:</strong> Formed from isocyanate + polyol combination. Two-component systems (2K PU) are most widespread in aviation — showing better chemical resistance with higher cross-linking density.</p><p><strong>Properties of aviation PU coatings:</strong></p><ul><li>UV resistance — color durability under strong UV exposure at high altitude</li><li>Mechanical durability — abrasion, wear, minor impacts</li><li>Chemical resistance — against fuel, hydraulic fluid, and most sanitation agents</li><li>Low weight — flight weight remains optimized</li><li>Light color (silver/white) — heat reflection</li></ul><p><strong>Limitations:</strong></p><ul><li>Isocyanate vapors are toxic — PPE required during application</li><li>Prolonged high-concentration ozone exposure leads to long-term degradation</li><li>Aggressive chemical agents (hypochlorite, high-concentration alcohol) can weaken coating</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: MIL-PRF-85285 aviation polyurethane topcoat standard is a FAA-recognized framework.</p>"
+    },
+    {
+      "titleAz": "ADI örtük sistemləri",
+      "titleEn": "ADI coating systems",
+      "bodyAz": "<p>ADI (American Decal and Ink / Advanced Coating Systems) aviasiya sənayesindəki ixtisaslaşmış örtük sistemlərindən birinin ticarət adıdır. Geniş mənada \"ADI sistemi\" termini müəyyən performans xüsusiyyətlərini qarşılayan mürəkkəb çoxlaylı örtük sistemlərini ifadə edir.</p><p><strong>ADI tipli sistemlərin xüsusiyyətləri:</strong></p><ul><li>Xromatı-olmayan (xrom-sız) korroziya inhibitoru primerləri</li><li>İkili funksional örtüklər — həm qoruyucu, həm də uçaq şəxsiyyəti/rənglənmə</li><li>REACH tənzimləməsinə uyğunluq (Avropa kimyəvi maddələr tənzimləmə çərçivəsi) — hexavalent xromdan uzaqlaşma</li></ul><p><strong>Sənaye konteksti:</strong> Aviasiya örtük sənayesi son onillikdə xromatı sistemlərdən xromatı-olmayan alternativlərə keçid yaşayır. Bu keçid həm toksiklik endişəsi (REACH), həm də istifadəçi sağlamlığı tələbi ilə əlaqədardır.</p><p class='text-orange-700 font-medium'>⚠ Yoxlama lazımdır: \"ADI sistemi\" termini sənayedə müxtəlif istehsalçılar tərəfindən müxtəlif mənaları ilə istifadə edilir. Bu platformada Corrosionpedia-ya istinadla verilmiş ümumi örtük sistemi xüsusiyyətləri kimi başa düşülməlidir.</p>",
+      "bodyEn": "<p>ADI (American Decal and Ink / Advanced Coating Systems) is a trade name for one of the specialized coating systems in the aviation industry. In a broad sense, the term \"ADI system\" refers to complex multi-layer coating systems meeting certain performance characteristics.</p><p><strong>Characteristics of ADI-type systems:</strong></p><ul><li>Non-chromate corrosion inhibitor primers</li><li>Dual-function coatings — both protective and aircraft identity/livery</li><li>REACH regulation compliance (European chemical regulation framework) — moving away from hexavalent chromium</li></ul><p><strong>Industry context:</strong> The aviation coating industry has been experiencing a transition from chromate to non-chromate alternatives over the last decade. This transition relates to both toxicity concerns (REACH) and user health requirements.</p><p class='text-orange-700 font-medium'>⚠ Needs verification: The term \"ADI system\" is used by different manufacturers in the industry with different meanings. On this platform it should be understood as general coating system characteristics referenced via Corrosionpedia.</p>"
+    },
+    {
+      "titleAz": "Sertifikatlaşdırma tələbləri: FAA / EASA çərçivəsi",
+      "titleEn": "Certification requirements: FAA / EASA framework",
+      "bodyAz": "<p>Aviasiyada qoruyucu örtük sistemləri uçuş yararlılığı sertifikatı ilə əlaqəlidir.</p><p><strong>FAA çərçivəsi:</strong></p><ul><li><strong>14 CFR Hissə 43:</strong> Texniki xidmət, profilaktik texniki xidmət, yenidən qurma, dəyişdirmə — örtük dəyişikliyi bu kontekstdə qiymətləndirilir</li><li><strong>FAA AC 43-4B:</strong> Korroziya müalicəsi üçün örtük sistemlərinin seçiminə rəhbərlik edir (məcburi deyil, tövsiyəli)</li><li><strong>STCs (Supplemental Type Certificates):</strong> Standart olmayan örtük sistemlərinin tətbiqi üçün STC tələb oluna bilər</li></ul><p><strong>EASA çərçivəsi:</strong></p><ul><li>EASA Part-M (Uçuş yararlılığının davamlılığı) — örtük dəyişikliklərini texniki xidmət kontekstinə yerləşdirir</li><li>EASA Sertifikatlaşdırma Spesifikasiyaları (CS-25) quruluşun korroziyadan qorunması üçün tələbləri əhatə edir</li></ul><p><strong>Material Approval (Materialın Onaylanması):</strong> Hər örtük komponenti (primer, topcoat, converter) uçuş yararlılığı ilə uyğun olduğu sübut edilmiş olmalıdır. Adətən MIL-SPEC uyğunluq sənədi, OEM təsdiqi və ya ayrıca FAA/EASA onayı ilə sübut edilir.</p><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: 14 CFR Hissə 43 örtük dəyişikliklərinə tətbiq olunan ABŞ məcburi federal qaydadır.</p>",
+      "bodyEn": "<p>Protective coating systems in aviation are linked to airworthiness certification.</p><p><strong>FAA framework:</strong></p><ul><li><strong>14 CFR Part 43:</strong> Maintenance, preventive maintenance, rebuilding, and alteration — coating changes are evaluated in this context</li><li><strong>FAA AC 43-4B:</strong> Guides selection of coating systems for corrosion treatment (not mandatory, recommended)</li><li><strong>STCs (Supplemental Type Certificates):</strong> STCs may be required for application of non-standard coating systems</li></ul><p><strong>EASA framework:</strong></p><ul><li>EASA Part-M (Continuing airworthiness) — places coating changes within maintenance context</li><li>EASA Certification Specifications (CS-25) cover requirements for structural corrosion protection</li></ul><p><strong>Material Approval:</strong> Each coating component (primer, topcoat, converter) must be demonstrated as compliant with airworthiness. Typically demonstrated by MIL-SPEC compliance documentation, OEM approval, or separate FAA/EASA approval.</p><p class='text-emerald-700 font-medium'>✅ Confirmed: 14 CFR Part 43 is a mandatory US federal regulation applicable to coating changes.</p>"
+    },
+    {
+      "titleAz": "Sanasiya agentlərinin örtük sistemlərinə təsiri",
+      "titleEn": "Effects of sanitation agents on coating systems",
+      "bodyAz": "<p>Kabin sanasiyasında istifadə edilən kimyəvi agentlər qoruyucu örtük sistemləri ilə müxtəlif şəkildə reaksiya verə bilər:</p><table class='w-full text-xs border-collapse mt-2'><thead><tr class='bg-surface'><th class='border border-border px-2 py-1 text-left'>Agent</th><th class='border border-border px-2 py-1'>Epoksi Primer</th><th class='border border-border px-2 py-1'>PU Topcoat</th><th class='border border-border px-2 py-1'>Anodlaşdırma</th></tr></thead><tbody><tr><td class='border border-border px-2 py-1 font-medium'>Alkol %70</td><td class='border border-border px-2 py-1 text-center text-green-700'>Aşağı risk</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Orta — uzun kontakt</td><td class='border border-border px-2 py-1 text-center text-green-700'>Aşağı</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>QUAT (%0.5)</td><td class='border border-border px-2 py-1 text-center text-green-700'>Aşağı</td><td class='border border-border px-2 py-1 text-center text-green-700'>Aşağı</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Orta — qalıq</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>H₂O₂ (%3)</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Orta</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Orta</td><td class='border border-border px-2 py-1 text-center text-green-700'>Aşağı</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>Hipoklorit (%0.5+)</td><td class='border border-border px-2 py-1 text-center text-red-600'>Yüksək risk</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Orta</td><td class='border border-border px-2 py-1 text-center text-red-600'>Yüksək risk</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>Ozon (> 1 ppm)</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Orta</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Orta</td><td class='border border-border px-2 py-1 text-center text-green-700'>Aşağı</td></tr></tbody></table><p class='text-xs text-tech-gray mt-2'>Bu cədvəl ümumi rəhbərlik məqsədi daşıyır. Xüsusi örtük uyğunluğu üçün OEM AMM-ə müraciət edin.</p><p class='text-blue-700 font-medium mt-3'>⚖ Tənzimləmədən asılıdır: Örtük deqradasiyasının uçuş yararlılığına təsiri OEM onayı çərçivəsindən asılıdır.</p>",
+      "bodyEn": "<p>Chemical agents used in cabin sanitation can react with protective coating systems in various ways:</p><table class='w-full text-xs border-collapse mt-2'><thead><tr class='bg-surface'><th class='border border-border px-2 py-1 text-left'>Agent</th><th class='border border-border px-2 py-1'>Epoxy Primer</th><th class='border border-border px-2 py-1'>PU Topcoat</th><th class='border border-border px-2 py-1'>Anodizing</th></tr></thead><tbody><tr><td class='border border-border px-2 py-1 font-medium'>Alcohol 70%</td><td class='border border-border px-2 py-1 text-center text-green-700'>Low risk</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Medium — long contact</td><td class='border border-border px-2 py-1 text-center text-green-700'>Low</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>QUAT (0.5%)</td><td class='border border-border px-2 py-1 text-center text-green-700'>Low</td><td class='border border-border px-2 py-1 text-center text-green-700'>Low</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Medium — residue</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>H₂O₂ (3%)</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Medium</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Medium</td><td class='border border-border px-2 py-1 text-center text-green-700'>Low</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>Hypochlorite (0.5%+)</td><td class='border border-border px-2 py-1 text-center text-red-600'>High risk</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Medium</td><td class='border border-border px-2 py-1 text-center text-red-600'>High risk</td></tr><tr><td class='border border-border px-2 py-1 font-medium'>Ozone (> 1 ppm)</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Medium</td><td class='border border-border px-2 py-1 text-center text-amber-600'>Medium</td><td class='border border-border px-2 py-1 text-center text-green-700'>Low</td></tr></tbody></table><p class='text-xs text-tech-gray mt-2'>This table is for general guidance purposes. Consult the OEM AMM for specific coating compatibility.</p><p class='text-blue-700 font-medium mt-3'>⚖ Regulation-dependent: The impact of coating degradation on airworthiness depends on the OEM approval framework.</p>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "termAz": "Epoksi primer",
+      "termEn": "Epoxy primer",
+      "definitionAz": "Metal səthinə birbaşa tətbiq edilən korroziya inhibitoru baza örtüyü. Adətən xromatı birləşmələr içerir (MIL-PRF-23377).",
+      "definitionEn": "Base corrosion inhibitor coating applied directly to metal surface. Typically contains chromate compounds (MIL-PRF-23377)."
+    },
+    {
+      "termAz": "Poliuretan topcoat",
+      "termEn": "Polyurethane topcoat",
+      "definitionAz": "Primer üzərinə tətbiq edilən son örtük qatı. UV, mexaniki zərər, kimyəvi agentlərə qarşı qoruyur. Aviasiya standartı: MIL-PRF-85285.",
+      "definitionEn": "Final coating layer applied over primer. Protects against UV, mechanical damage, chemical agents. Aviation standard: MIL-PRF-85285."
+    },
+    {
+      "termAz": "Anodlaşdırma",
+      "termEn": "Anodizing",
+      "definitionAz": "Alüminium səthinə elektrokimyəvi yolla nazik oksid qatı əlavə edilməsi. Korroziyaya müqaviməti artırır, boyaların yapışmasını yaxşılaşdırır.",
+      "definitionEn": "Electrochemical addition of thin oxide layer to aluminum surfaces. Increases corrosion resistance and improves paint adhesion."
+    },
+    {
+      "termAz": "Kimyəvi konversiya örtüyü",
+      "termEn": "Chemical conversion coating",
+      "definitionAz": "Alüminium üçün birbaşa metal səthinə tətbiq olunan nazik korroziya inhibitoru qat (Alodine, Chromate). Primer üçün əlavə əsas funksiyası da yerinə yetirir.",
+      "definitionEn": "Thin corrosion inhibitor layer applied directly to aluminum metal surface (Alodine, Chromate). Also serves as bonding base for primer."
+    },
+    {
+      "termAz": "STC",
+      "termEn": "STC",
+      "definitionAz": "Supplemental Type Certificate — standart olmayan dəyişikliklərin (o cümlədən örtük sistemlərinin) uçuş yararlılığı ilə uyğunluğunu sübut edən əlavə tip sertifikatı.",
+      "definitionEn": "Supplemental Type Certificate — supplemental type certificate demonstrating airworthiness compliance of non-standard modifications (including coating systems)."
+    },
+    {
+      "termAz": "REACH",
+      "termEn": "REACH",
+      "definitionAz": "Registration, Evaluation, Authorisation and Restriction of Chemicals — AB kimyəvi maddələr tənzimləmə çərçivəsi. Hexavalent xrom məhdudiyyəti bu çərçivədən gəlir.",
+      "definitionEn": "Registration, Evaluation, Authorisation and Restriction of Chemicals — EU chemical regulation framework. Hexavalent chromium restrictions come from this framework."
+    }
+  ],
+  "studyQuestions": [
+    {
+      "questionAz": "Aviasiya qoruyucu örtük sisteminin üç əsas layını adlandırın.",
+      "questionEn": "Name the three main layers of an aviation protective coating system.",
+      "answerAz": "1. Səthi hazırlıq (anodlaşdırma, kimyəvi konversiya örtüyü — Alodine). 2. Primer (epoksi — xromatı/xromatı-olmayan korroziya inhibitoru). 3. Topcoat (poliuretan — mexaniki, UV, kimyəvi qoruyucu son qat).",
+      "answerEn": "1. Surface preparation (anodizing, chemical conversion coating — Alodine). 2. Primer (epoxy — chromate/non-chromate corrosion inhibitor). 3. Topcoat (polyurethane — mechanical, UV, chemical protective final layer)."
+    },
+    {
+      "questionAz": "Xromatı epoksi primerin məhdudiyyəti nədir?",
+      "questionEn": "What is the limitation of chromate epoxy primer?",
+      "answerAz": "Xromatı epoksi primer (MIL-PRF-23377) güclü korroziya inhibitorudur. Lakin hexavalent xrom (Cr⁶⁺) toksikdir — REACH çərçivəsində AB-də məhdudlaşdırılır. Bu, aviasiya örtük sənayesini xromatı-olmayan alternativlərə keçidə sövq etmişdir. Lakin hələ tam bərabər effektivlik sənədləşdirilməmişdir.",
+      "answerEn": "Chromate epoxy primer (MIL-PRF-23377) is a strong corrosion inhibitor. However, hexavalent chromium (Cr⁶⁺) is toxic — restricted in the EU under the REACH framework. This has driven the aviation coating industry to transition to non-chromate alternatives. But fully equivalent effectiveness has not yet been documented."
+    },
+    {
+      "questionAz": "Hipoklorit niyə anodlaşdırılmış alüminium səthlər üçün yüksək risk daşıyır?",
+      "questionEn": "Why does hypochlorite pose high risk for anodized aluminum surfaces?",
+      "answerAz": "Hipoklorit içindəki xlorid ionları anodlaşdırma qatını — alüminiumun qoruyucu oksid örtüyünü — parçalayır. Bu qoruma itdikdən sonra alüminium səthi birbaşa kimyəvi məruziyyətə açıq qalır və çukur korroziyası inkişaf edə bilər.",
+      "answerEn": "Chloride ions in hypochlorite break down the anodizing layer — aluminum's protective oxide coating. After this protection is lost, the aluminum surface is exposed directly to chemical exposure and pitting corrosion can develop."
+    },
+    {
+      "questionAz": "STC nə vaxt lazım olur?",
+      "questionEn": "When is an STC required?",
+      "answerAz": "Supplemental Type Certificate (STC) standart olmayan dəyişiklikler üçün tələb olunur. Örtük sistemləri kontekstinde: uçağın tip sertifikatında nəzərdə tutulmayan və ya OEM AMM-də icazəli olmayan örtük sistemi istifadəsi üçün STC prosesi tələb oluna bilər.",
+      "answerEn": "An STC is required for non-standard modifications. In the coating systems context: the STC process may be required for use of a coating system not specified in the aircraft type certificate or authorized in the OEM AMM."
+    }
+  ],
+  "sourceIds": [
+    "FAA-AC-43-4B",
+    "CORROSIONPEDIA-COATINGS",
+    "ADI-COATINGS",
+    "OZONE-RESIST-CHART",
+    "FAA-CORR-PRTS"
+  ],
+  "statusedClaims": [
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "14 CFR Hissə 43 örtük dəyişikliklərinə tətbiq olunan ABŞ məcburi federal qaydadır.",
+        "en": "14 CFR Part 43 is mandatory US federal regulation applicable to coating changes."
+      },
+      "sourceIds": ["FAA-AC-43-4B"]
+    },
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "MIL-PRF-85285 poliuretan topcoat standartı FAA-nın tanıdığı aviasiya örtük çərçivəsidir.",
+        "en": "MIL-PRF-85285 polyurethane topcoat standard is a FAA-recognized aviation coating framework."
+      },
+      "sourceIds": ["FAA-AC-43-4B", "CORROSIONPEDIA-COATINGS"]
+    },
+    {
+      "status": "needs-verification",
+      "claim": {
+        "az": "\"ADI sistemi\" termini sənayedə müxtəlif istehsalçılar tərəfindən müxtəlif mənaları ilə istifadə edilir.",
+        "en": "The term \"ADI system\" is used by different manufacturers in the industry with different meanings."
+      },
+      "sourceIds": ["ADI-COATINGS"]
+    },
+    {
+      "status": "regulation-dependent",
+      "claim": {
+        "az": "Örtük deqradasiyasının uçuş yararlılığına təsiri OEM onayı çərçivəsindən asılıdır.",
+        "en": "The impact of coating degradation on airworthiness depends on the OEM approval framework."
+      },
+      "sourceIds": ["FAA-AC-43-4B"]
+    }
+  ]
+}

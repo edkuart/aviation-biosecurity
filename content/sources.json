@@ -1,0 +1,586 @@
+[
+  {
+    "id": "ICAO-ANN9",
+    "title": {
+      "az": "ICAO Əlavə 9 — Asanlaşdırma (Sağlamlıq Tədbirləri və Dezinseksiya)",
+      "en": "ICAO Annex 9 — Facilitation (Health Measures and Disinsection)"
+    },
+    "organization": "ICAO",
+    "year": 2022,
+    "region": "International",
+    "categories": ["regulatory-framework", "disinsection", "disinfection"],
+    "url": "https://www.icao.int/sites/default/files/safety/CAPSCA/PublishingImages/Pages/ICAO-SARPs-(Annexes-and-PANS)/Annex%209%20PHC.pdf",
+    "reliability": 1,
+    "type": "Regulation",
+    "summary": {
+      "az": "ICAO-nun beynəlxalq mülki aviasiya üzrə standartları — dezinseksiya, dezinfeksiya, karantina tədbirləri və sağlamlıq sənədlərini əhatə edir.",
+      "en": "ICAO standards for international civil aviation — covers disinsection, disinfection, quarantine measures, and health documentation."
+    },
+    "notes": "Chapter 2 covers health measures. References WHO IHR 2005."
+  },
+  {
+    "id": "WHO-IHR-2005",
+    "title": {
+      "az": "Beynəlxalq Sağlamlıq Qaydaları (2005) — 2014, 2022 və 2024-cü il dəyişiklikləri ilə",
+      "en": "International Health Regulations (2005) — as amended 2014, 2022, and 2024"
+    },
+    "organization": "WHO",
+    "year": 2024,
+    "region": "International",
+    "categories": ["regulatory-framework", "disinfection", "disinsection"],
+    "url": "https://apps.who.int/gb/bd/pdf_files/IHR_2014-2022-2024-en.pdf",
+    "reliability": 1,
+    "type": "Regulation",
+    "summary": {
+      "az": "Qanuni olaraq məcburi beynəlxalq sənəd. Maddə 27: dövlətlərə icazə verir ki, nəqliyyat vasitələrini dezinfeksiya, dezinseksiya, deşilmə və ya deratizasiya etsinlər.",
+      "en": "Legally binding international instrument. Article 27 authorizes states to require disinfection, disinsection, decontamination, or deratting of conveyances."
+    }
+  },
+  {
+    "id": "WHO-ADMP-2023",
+    "title": {
+      "az": "ÜST Uçaq Dezinseksiya Metodları və Prosedurları — 2-ci Nəşr (2023)",
+      "en": "WHO Aircraft Disinsection Methods and Procedures — 2nd Edition (2023)"
+    },
+    "organization": "WHO",
+    "year": 2023,
+    "region": "International",
+    "categories": ["disinsection"],
+    "url": "https://www.who.int/publications/i/item/9789240080317",
+    "reliability": 2,
+    "type": "Guidance",
+    "summary": {
+      "az": "Uçaqların dezinseksiyası üçün ÜST-ün normativ rəhbərliyi. 4 icazə verilmiş metodu, insektisidləri, hesablama cədvəllərini və ICAO Əlavə 9-a istinadları əhatə edir.",
+      "en": "WHO's authoritative guidance on aircraft disinsection. Covers 4 authorized methods, approved insecticides, calculation tables, and references to ICAO Annex 9."
+    },
+    "notes": "Updated in response to record-high 2024 global dengue cases (14+ million). 2nd edition supersedes 2021 edition."
+  },
+  {
+    "id": "FAA-121578",
+    "title": {
+      "az": "14 CFR § 121.578 — Kabindəki Ozon Konsentrasiyası",
+      "en": "14 CFR § 121.578 — Cabin Ozone Concentration"
+    },
+    "organization": "FAA / US DOT",
+    "year": 1985,
+    "region": "United States",
+    "categories": ["cabin-air-quality", "ozone-sanitation"],
+    "url": "https://www.law.cornell.edu/cfr/text/14/121.578",
+    "reliability": 1,
+    "type": "Regulation",
+    "summary": {
+      "az": "ABŞ federal qaydasıdır. Kabin ozon konsentrasiyasının maksimum həddini müəyyən edir: istənilən anda 0.25 ppm (250 ppb); 3 saatlıq ortalama 0.10 ppm (100 ppb).",
+      "en": "US federal regulation. Sets maximum cabin ozone: 0.25 ppm (250 ppb) at any time; 0.10 ppm (100 ppb) 3-hour time-weighted average. Applies above 32,000 ft on segments over 4 hours."
+    }
+  },
+  {
+    "id": "FAA-AC-120-38",
+    "title": {
+      "az": "FAA AC 120-38 — Nəqliyyat Kateqoriyalı Təyyarə Kabin Ozon Konsentrasiyaları",
+      "en": "FAA AC 120-38 — Transport Category Airplanes Cabin Ozone Concentrations"
+    },
+    "organization": "FAA",
+    "year": 1980,
+    "region": "United States",
+    "categories": ["cabin-air-quality", "ozone-sanitation"],
+    "url": "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22760",
+    "reliability": 2,
+    "type": "Advisory Circular",
+    "summary": {
+      "az": "FAA-nın § 121.578 uyğunluğunu göstərmək üçün statistik analiz metodlarına dair rəhbər sənədi.",
+      "en": "FAA guidance on statistical analysis methods for demonstrating compliance with § 121.578 ozone concentration limits."
+    }
+  },
+  {
+    "id": "FAA-AC-43-4B",
+    "title": {
+      "az": "FAA AC 43-4B — Uçaqlar üçün Korroziya Nəzarəti (2018)",
+      "en": "FAA AC 43-4B — Corrosion Control for Aircraft (2018)"
+    },
+    "organization": "FAA",
+    "year": 2018,
+    "region": "United States",
+    "categories": ["corrosion-materials"],
+    "url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43-4B_Ed_Update.pdf",
+    "reliability": 2,
+    "type": "Advisory Circular",
+    "summary": {
+      "az": "Uçaq konstruksiyaları və mühərrik materiallarındakı korroziyanın müəyyənləşdirilməsi, qiymətləndirilməsi və müalicəsi üçün cari məlumatların rəhbər xülasəsi. 14 CFR hissələri 121, 129 və 135 operatorlarına aiddir.",
+      "en": "Guidance summary of current data for identifying, evaluating, and treating corrosive attack on aircraft structures and engine materials. Applies to 14 CFR Parts 121, 129, and 135 operators."
+    },
+    "notes": "Advisory — not itself a mandatory federal regulation, but references mandatory 14 CFR Part 43 compliance."
+  },
+  {
+    "id": "NIOSH-IDLH",
+    "title": {
+      "az": "NIOSH — Dərhal Həyat və Sağlamlığa Təhlükəli Ozon Səviyyəsi (IDLH)",
+      "en": "NIOSH — Immediately Dangerous to Life or Health (IDLH) Value for Ozone"
+    },
+    "organization": "NIOSH / CDC",
+    "year": 1994,
+    "region": "United States",
+    "categories": ["ozone-sanitation", "cabin-air-quality"],
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK208281/",
+    "reliability": 2,
+    "type": "Guidance",
+    "summary": {
+      "az": "Ozon üçün IDLH dəyəri 5 ppm-dir. NIOSH tövsiyə olunan məruz qalma həddi (REL): istənilən vaxt 0.1 ppm. OSHA icazə verilən məruz qalma həddi (PEL): 0.1 ppm (8 saatlıq TAO).",
+      "en": "IDLH value for ozone is 5 ppm. NIOSH Recommended Exposure Limit (REL): 0.1 ppm at all times. OSHA Permissible Exposure Limit (PEL): 0.1 ppm (8-hour TWA); STEL: 0.3 ppm (15 min)."
+    }
+  },
+  {
+    "id": "OSHA-PEL-Z1",
+    "title": {
+      "az": "OSHA İzahlı İcazə verilən Məruz qalma Hədləri Cədvəli Z-1",
+      "en": "OSHA Annotated Permissible Exposure Limits — Table Z-1"
+    },
+    "organization": "OSHA / US DOL",
+    "year": 2024,
+    "region": "United States",
+    "categories": ["ozone-sanitation"],
+    "url": "https://www.osha.gov/annotated-pels/table-z-1",
+    "reliability": 1,
+    "type": "Regulation",
+    "summary": {
+      "az": "Ozon üçün OSHA PEL: 0.1 ppm (8 saatlıq TAO) və qısamüddətli məruz qalma həddi (STEL): 0.3 ppm 15 dəqiqə üçün.",
+      "en": "OSHA PEL for ozone: 0.1 ppm (8-hour TWA) and STEL: 0.3 ppm for 15 minutes."
+    }
+  },
+  {
+    "id": "WO2018137003",
+    "title": {
+      "az": "Patent WO2018137003 — Uçuş Kabini Sanitasiyası üçün Metod və Cihaz (Azərbaycan PCT)",
+      "en": "Patent WO2018137003 — Method and Device for Aircraft Cabin Sanitation (Azerbaijan PCT)"
+    },
+    "organization": "WIPO / PCT",
+    "year": 2018,
+    "region": "Azerbaijan",
+    "categories": ["ozone-sanitation"],
+    "url": "https://patents.google.com/patent/WO2018137003",
+    "reliability": 5,
+    "type": "Patent",
+    "summary": {
+      "az": "Azərbaycanlı ixtiraçılar (Paşayev, Əsgərov, Nizamov və b.) tərəfindən işlənmiş PCT patenti. Kabin sanasiyası üçün oksigen konsentratoru + ozon generatoru istifadə edir. Azotoksid (NOx) zərərini azaldır. 75 q/m³ ozon, 20 dəqiqə, möhkəmlənmiş kabin.",
+      "en": "PCT patent by Azerbaijani inventors (Pashaev, Askerov, Nizamov et al.). Uses oxygen concentrator + ozone generator for cabin sanitation. Reduces nitrogen oxide (NOx) damage. 75 g/m³ ozone, 20 minutes, sealed cabin."
+    },
+    "notes": "Patent is a technical disclosure — not evidence of regulatory approval for operational use. Deployment status not confirmed from public sources. ⚠ Needs verification."
+  },
+  {
+    "id": "EASA-CLEANING-GUIDE",
+    "title": {
+      "az": "EASA Uçaq Təmizlənməsi və Dezinfeksiyası üzrə Rəhbərlik",
+      "en": "EASA Guidance on Aircraft Cleaning and Disinfection"
+    },
+    "organization": "EASA",
+    "year": 2021,
+    "region": "Europe",
+    "categories": ["cleaning-sanitation"],
+    "url": "https://www.easa.europa.eu/en/document-library/general-publications/guidance-aircraft-cleaning-and-disinfection",
+    "reliability": 2,
+    "type": "Guidance",
+    "summary": {
+      "az": "Pandemiya dövründə əsas prosedurları müəyyən edən EASA rəhbərliyi. Yuxarıdan aşağıya, təmiz sahələrdən çirkli sahələrə ardıcıllığı; lavaratorlar, qalereyalar, oturacaqlar üçün xüsusi protokollar daxildir.",
+      "en": "EASA guidance that established core procedures during the pandemic. Top-to-bottom, clean-to-dirty sequence; specific protocols for lavatories, galleys, seats."
+    },
+    "notes": "Mandatory COVID-era SIB 2022-03 formally retired. This guidance document remains as best-practice reference. 📖 Guidance only."
+  },
+  {
+    "id": "IATA-CAQ",
+    "title": {
+      "az": "IATA — Kabin Hava Keyfiyyəti Məlumat Vərəqi",
+      "en": "IATA — Cabin Air Quality Briefing Paper"
+    },
+    "organization": "IATA",
+    "year": 2022,
+    "region": "International",
+    "categories": ["cabin-air-quality", "biological-hazards"],
+    "url": "https://www.iata.org/contentassets/f1163430bba94512a583eb6d6b24aa56/cabin-air-quality.pdf",
+    "reliability": 4,
+    "type": "Report",
+    "summary": {
+      "az": "HEPA filtrasiyası, hava dəyişmə nisbəti, kabin hava keyfiyyəti standartları və biosəlamatlıqla əlaqədar texniki brifinq.",
+      "en": "Technical briefing on HEPA filtration, air exchange rates, cabin air quality standards, and biosecurity implications."
+    }
+  },
+  {
+    "id": "PALL-WP",
+    "title": {
+      "az": "Pall Corporation — Qabaqcıl Kabin Hava Filtrəsi Texniki Ağ Kağız",
+      "en": "Pall Corporation — Advanced Cabin Air Filtration Technical White Paper"
+    },
+    "organization": "Pall Corporation",
+    "year": 2021,
+    "region": "Other",
+    "categories": ["cabin-air-quality"],
+    "url": "https://www.pall.com/content/dam/pall/aerospace-defense/literature-library/non-gated/white-paper/advanced-cabin-air-filtration.pdf",
+    "reliability": 4,
+    "type": "Report",
+    "summary": {
+      "az": "Aviasiya üçün HEPA filtr standartlarını izah edir: 99.99% yığım səmərəliliyi, hava çatışmazlığı mixeri, hava dəyişmə nisbəti texniki məlumatları.",
+      "en": "Explains aerospace HEPA filter standards: 99.99% collection efficiency, air mixing, and air exchange rate technical data."
+    }
+  },
+  {
+    "id": "LANCET-TRANSMISSION",
+    "title": {
+      "az": "Lancet — Kommersiya Hava Səyahəti zamanı Yoluxucu Xəstəliklərin Ötürülməsi",
+      "en": "The Lancet — Transmission of Infectious Diseases during Commercial Air Travel"
+    },
+    "organization": "The Lancet",
+    "year": 2005,
+    "region": "International",
+    "categories": ["biological-hazards"],
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7134995/",
+    "reliability": 3,
+    "type": "Paper",
+    "summary": {
+      "az": "Aviasiyada yoluxucu xəstəliklərin ötürülməsi üçün məsafə (2 cərgə), vaxt (>8 saat) və kabin şəraitinin rolunu araşdırır.",
+      "en": "Studies the role of proximity (2 rows), duration (>8 hours), and cabin conditions in infectious disease transmission during air travel."
+    }
+  },
+  {
+    "id": "NAS-CABIN-ENV",
+    "title": {
+      "az": "Milli Akademiya — Hava Yolu Kabin Mühiti və Sərnişin və Heyətin Sağlamlığı",
+      "en": "National Academy of Sciences — The Airliner Cabin Environment and the Health of Passengers and Crew"
+    },
+    "organization": "NAS / NCBI",
+    "year": 2002,
+    "region": "United States",
+    "categories": ["biological-hazards", "cabin-air-quality"],
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK207479/",
+    "reliability": 3,
+    "type": "Report",
+    "summary": {
+      "az": "Hava yolu kabin mühitinin hərtərəfli elmi icmalı. HEPA filtrəsi, hava dövriyyəsi, bioloji agentlər, kimyəvi məruz qalma əhatə olunur.",
+      "en": "Comprehensive scientific review of the airliner cabin environment. Covers HEPA filtration, air circulation, biological agents, and chemical exposures."
+    }
+  },
+  {
+    "id": "AZ-NASP-2024",
+    "title": {
+      "az": "Azərbaycan Respublikasının Milli Aviasiya Təhlükəsizliyi Planı 2024–2026",
+      "en": "National Aviation Safety Plan of the Republic of Azerbaijan 2024–2026"
+    },
+    "organization": "Azerbaijan SCAA / ICAO",
+    "year": 2024,
+    "region": "Azerbaijan",
+    "categories": ["regulatory-framework"],
+    "url": "https://www.icao.int/sites/default/files/safety/GASP/GASP%20Library/National%20aviation%20safety%20plans/Azerbaijan-NASP-2024-2026.pdf",
+    "reliability": 2,
+    "type": "Report",
+    "summary": {
+      "az": "Azərbaycanın aviasiya təhlükəsizliyini idarə etmək, ICAO SARP-larına uyğunluğu artırmaq üçün strategiyası. ICAO IASA Kateqoriya 1 statusu qeyd edilmişdir.",
+      "en": "Azerbaijan's roadmap for managing aviation safety and enhancing compliance with ICAO SARPs. Notes ICAO IASA Category 1 status."
+    },
+    "notes": "⚠ Specific cabin hygiene regulations referenced in this plan require additional verification from SCAA primary sources."
+  },
+  {
+    "id": "EPA-DISINSECTION",
+    "title": {
+      "az": "EPA — Uçaq Dezinseksiyası",
+      "en": "EPA — Aircraft Disinsection"
+    },
+    "organization": "EPA",
+    "year": 2024,
+    "region": "United States",
+    "categories": ["disinsection"],
+    "url": "https://www.epa.gov/mosquitocontrol/aircraft-disinsection",
+    "reliability": 2,
+    "type": "Guidance",
+    "summary": {
+      "az": "EPA-nın mövcud vəziyyəti: müsafir kabirəri üçün EPA tərəfindən qeydiyyata alınmış dezinseksiya məhsulları yoxdur. ABŞ daxili marşrutlarda dezinseksiya tələb olunmur.",
+      "en": "EPA's current position: no EPA-registered disinsection products for use in passenger aircraft cabins. Disinsection not required for US domestic routes."
+    }
+  },
+  {
+    "id": "ICAO-UAS-MODEL",
+    "title": {
+      "az": "ICAO Model PUA Qaydaları (Hissələr 101, 102, 149)",
+      "en": "ICAO Model UAS Regulations (Parts 101, 102, 149)"
+    },
+    "organization": "ICAO",
+    "year": 2023,
+    "region": "International",
+    "categories": ["uas-airport-safety"],
+    "url": "https://www.icao.int/safety/UA/UAID/Pages/Model-UAS-Regulations.aspx",
+    "reliability": 2,
+    "type": "Guidance",
+    "summary": {
+      "az": "Dövlətlərə PUA qaydaları həyata keçirmək üçün şablon. ICAO çərçivəsi ilə uyğun olan canlı sənəd kimi qurulub.",
+      "en": "Template framework for Member States to implement UAS regulations. Designed as a living document consistent with the ICAO framework."
+    }
+  },
+  {
+    "id": "FAA-CORR-PRTS",
+    "title": {
+      "az": "Uçaqlar üçün Korroziya (AircraftSystemsTech Texniki Xülasə)",
+      "en": "Corrosion of Aircraft Metals, Alloys and Treatment (AircraftSystemsTech)"
+    },
+    "organization": "AircraftSystemsTech",
+    "year": 2019,
+    "region": "Other",
+    "categories": ["corrosion-materials"],
+    "url": "https://www.aircraftsystemstech.com/2019/11/corrosion-of-ferrous-metals-aluminum.html",
+    "reliability": 6,
+    "type": "Report",
+    "summary": {
+      "az": "Uçaq metallarında korroziya növlərini, alüminium xəlitələrinin pH zəifliyini (pH < 4.5 və ya > 8.5) əhatə edir.",
+      "en": "Covers corrosion types in aircraft metals, aluminum alloy pH vulnerability (below 4.5 or above 8.5)."
+    }
+  },
+  {
+    "id": "AIRBUS-DISINFECTION",
+    "title": {
+      "az": "Airbus — Kabin Dezinfeksiyası: Material Uyğunluğu Rəhbərliyi",
+      "en": "Airbus — Cabin Disinfection: Material Compatibility Guidance"
+    },
+    "organization": "Airbus",
+    "year": 2021,
+    "region": "International",
+    "categories": ["cleaning-sanitation", "corrosion-materials"],
+    "url": "https://www.aircraft.airbus.com/en/newsroom/news/2021-08-cabin-disinfection",
+    "reliability": 4,
+    "type": "Report",
+    "summary": {
+      "az": "Airbus-un dezinfeksiya agentlərinin kabin materialları ilə uyğunluğuna dair rəhbərliyi. H₂O₂-nin polimerlər, rezin, elastomerlər üzərindəki zərərini əhatə edir.",
+      "en": "Airbus guidance on compatibility of disinfection agents with cabin materials. Covers H₂O₂ damage to polymers, rubber, elastomers."
+    },
+    "notes": "4 Guidance only — not an ICAO or FAA standard. Specific to Airbus aircraft."
+  },
+  {
+    "id": "OZONE-RESIST-CHART",
+    "title": {
+      "az": "Oxidation Technologies — Materialların Ozon Müqaviməti Cədvəli",
+      "en": "Oxidation Technologies — Materials Ozone Resistance Chart"
+    },
+    "organization": "Oxidation Technologies",
+    "year": 2022,
+    "region": "Other",
+    "categories": ["ozone-sanitation", "corrosion-materials"],
+    "url": "https://www.oxidationtech.com/blog/materials-ozone-resistance-chart/",
+    "reliability": 6,
+    "type": "Report",
+    "summary": {
+      "az": "Rezin, elastomer, polimer materialların ozon müqaviməti cədvəli. EPDM, silikon, Viton (ftorəlastomer) müqaviməti yüksəkdir. Neoprene, nitril, təbii rezin zəifdir.",
+      "en": "Chart of ozone resistance for rubber, elastomer, and polymer materials. EPDM, silicone, Viton (fluoroelastomer) highly resistant. Neoprene, nitrile, natural rubber are vulnerable."
+    }
+  },
+  {
+    "id": "CORROSIONPEDIA-COATINGS",
+    "title": {
+      "az": "Corrosionpedia — Aviasiyada Korroziyadan Qorunma üçün Örtüklər",
+      "en": "Corrosionpedia — Aviation Coatings for Corrosion Prevention"
+    },
+    "organization": "Corrosionpedia",
+    "year": 2021,
+    "region": "Other",
+    "categories": ["protective-coatings", "corrosion-materials"],
+    "url": "https://www.corrosionpedia.com/2/1823/industries/transportation/aviation-coatings-for-corrosion-prevention",
+    "reliability": 6,
+    "type": "Report",
+    "summary": {
+      "az": "Epoksi primer + poliuretan örtük sistemi, ADI əsaslı poliuretan xüsusiyyətləri, döşəmə panel korroziya xərcləri ($100,000+ hər uçaq).",
+      "en": "Covers epoxy primer + polyurethane coating systems, ADI-based polyurethane properties, floor panel corrosion costs ($100,000+ per aircraft)."
+    }
+  },
+  {
+    "id": "ADI-COATINGS",
+    "title": {
+      "az": "American Chemistry Council — Uçaq Örtükləri (ADI Poliuretan)",
+      "en": "American Chemistry Council — Aircraft Coatings (ADI Polyurethane)"
+    },
+    "organization": "American Chemistry Council",
+    "year": 2023,
+    "region": "United States",
+    "categories": ["protective-coatings"],
+    "url": "https://www.americanchemistry.com/industry-groups/aliphatic-diisocyanates-adi/applications/aircraft-coatings",
+    "reliability": 4,
+    "type": "Report",
+    "summary": {
+      "az": "Alifatik diizosianat (ADI) əsaslı poliuretan örtüklər: UV müqaviməti, aşınma müqaviməti, çeviklik, korroziyaya qarşı oksidləşmənin ləngiməsi.",
+      "en": "Aliphatic diisocyanate (ADI)-based polyurethane coatings: UV resistance, weathering resistance, flexibility, and corrosion prevention through oxidation retardation."
+    }
+  },
+  {
+    "id": "NCBI-OZONE-SYMPTOMS",
+    "title": {
+      "az": "PMC — Kommersiya Uçaqlarında Kabin Ozon Konsentrasiyalarının Sərnişinlərə Təsiri",
+      "en": "PMC — Impact of Cabin Ozone Concentrations on Passenger Reported Symptoms"
+    },
+    "organization": "PMC / NCBI",
+    "year": 2015,
+    "region": "International",
+    "categories": ["cabin-air-quality", "ozone-sanitation"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4444275/",
+    "reliability": 3,
+    "type": "Paper",
+    "summary": {
+      "az": "Kabin ozon konsentrasiyalarının gözün, dərinin, tənəffüsün qıcıqlanmasına səbəb olduğunu araşdırır. Kabin heyəti kumulyativ məruz qalmasına dair narahatçılığa istinad edir.",
+      "en": "Studies cabin ozone concentrations causing eye, skin, and respiratory irritation. References concerns about cumulative crew exposure exceeding OSHA limits."
+    }
+  },
+  {
+    "id": "INTERSCAN-OZONE",
+    "title": {
+      "az": "Interscan — Uçaq Kabini Ozon Səviyyəsi Uyğunluğu",
+      "en": "Interscan — Aircraft Cabin Ozone Level Compliance"
+    },
+    "organization": "Interscan Corporation",
+    "year": 2020,
+    "region": "United States",
+    "categories": ["ozone-sanitation", "cabin-air-quality"],
+    "url": "https://gasdetection.com/articles/are-your-aircraft-cabin-ozone-levels-within-compliance/",
+    "reliability": 6,
+    "type": "Report",
+    "summary": {
+      "az": "§ 121.578 uyğunluq tələbləri, ozon çevirici deqradasiyası, kabin heyəti kumulyativ məruz qalma hesablamalarını açıqlayır.",
+      "en": "Explains § 121.578 compliance requirements, ozone converter degradation, and cabin crew cumulative exposure calculations."
+    }
+  },
+  {
+    "id": "EASA-HEALTH-ANALYSIS",
+    "title": {
+      "az": "EASA — Uçaqlarda Yeni Sağlamlıq Tədbirləri — Hərtərəfli Analiz",
+      "en": "EASA — New Health Safety Measures in Aircraft — Comprehensive Analysis"
+    },
+    "organization": "EASA",
+    "year": 2021,
+    "region": "Europe",
+    "categories": ["biological-hazards", "cleaning-sanitation"],
+    "url": "https://www.easa.europa.eu/en/downloads/141768/en",
+    "reliability": 2,
+    "type": "Report",
+    "summary": {
+      "az": "Kabin hava keyfiyyəti, infeksiya ötürülmə riskləri, ventilyasiya, HEPA filtrəsi, sosial məsafə tədbirlərinin hərtərəfli EASA analizi.",
+      "en": "EASA's comprehensive analysis of cabin air quality, infection transmission risks, ventilation, HEPA filtration, and distancing measures."
+    }
+  },
+  {
+    "id": "IATA-CLEANING-COVID",
+    "title": {
+      "az": "IATA — Pandemiya zamanı və sonrasında Uçaq Təmizlənməsi Rəhbərliyi",
+      "en": "IATA — Aircraft Cleaning Guidance During and Post Pandemic"
+    },
+    "organization": "IATA",
+    "year": 2021,
+    "region": "International",
+    "categories": ["cleaning-sanitation"],
+    "url": "https://www.iata.org/contentassets/094560b4bd9844fda520e9058a0fbe2e/aircraft-cleaning-guidance-covid.pdf",
+    "reliability": 4,
+    "type": "Guidance",
+    "summary": {
+      "az": "IATA-nın COVID dövrü kabin təmizlənməsi prosedurları üzrə əməliyyat rəhbərliyi. Dezinfeksiya agentləri, tezlik və material uyğunluğu daxildir.",
+      "en": "IATA operational guidance on cabin cleaning procedures during COVID. Includes disinfection agents, frequency, and material compatibility."
+    },
+    "notes": "📖 Guidance only — not a mandatory standard."
+  },
+  {
+    "id": "ACI-COUNTER-DRONE",
+    "title": {
+      "az": "ACI World — Əks-Dron Sistemləri və Hava Limanı Dron Müdafiəsi",
+      "en": "ACI World — Counter Drone Systems and Airport Drone Protection"
+    },
+    "organization": "ACI World",
+    "year": 2023,
+    "region": "International",
+    "categories": ["uas-airport-safety"],
+    "url": "https://aci.aero/airport-advocacy/security/counter-drones/",
+    "reliability": 4,
+    "type": "Report",
+    "summary": {
+      "az": "Hava limanı əks-dron texnologiyası, qaydaları və infrastruktur müdafiəsi üçün ACI resurs kitabxanası.",
+      "en": "ACI resource library for airport counter-drone technology, regulations, and infrastructure protection."
+    }
+  },
+  {
+    "id": "FAA-UAS-AIRPORT",
+    "title": {
+      "az": "FAA — Hava Limanında PUA Əməliyyatları",
+      "en": "FAA — On Airport Unmanned Aircraft System Operations"
+    },
+    "organization": "FAA",
+    "year": 2024,
+    "region": "United States",
+    "categories": ["uas-airport-safety"],
+    "url": "https://www.faa.gov/airports/new_entrants/on_airport_operations",
+    "reliability": 2,
+    "type": "Guidance",
+    "summary": {
+      "az": "FAA-nın hava limanındakı PUA əməliyyatları üzrə rəhbərliyi. PUA-ların çevre yoxlamasını tamamlaya biləcəyi, lakin mövcud metodları tam əvəz edə bilməyəcəyi nəticəsi.",
+      "en": "FAA guidance on UAS operations at airports. Finding: UAS can supplement perimeter inspection but cannot replace existing methods as sole means of compliance."
+    }
+  },
+  {
+    "id": "EMORY-TRANSMISSION",
+    "title": {
+      "az": "Emory Universiteti — Uçaqlarda Tənəffüs Yoluxucu Xəstəlik Ötürülmə Yolları",
+      "en": "Emory University — Routes of Respiratory Infectious Disease Transmission on Aircraft"
+    },
+    "organization": "Emory University",
+    "year": 2018,
+    "region": "United States",
+    "categories": ["biological-hazards"],
+    "url": "https://news.emory.edu/stories/2018/03/airline_disease_transmission_study/",
+    "reliability": 3,
+    "type": "Paper",
+    "summary": {
+      "az": "Müsafirlərin 40%-nin uçuş zamanı heç vaxt oturacağından qalxmadığını, 40%-nin bir dəfə qalxdığını, koridorda oturanların 80%-nin gəzdiyini müəyyən etdi.",
+      "en": "Found 40% of passengers never leave their seat, 40% move once, and 80% of aisle passengers move during flights — relevant to fomite and contact transmission."
+    }
+  },
+  {
+    "id": "NCBI-DISINSECTION-REVIEW",
+    "title": {
+      "az": "NCBI — Uçaq Dezinseksiyası Səmərəliliyinin Sistematik İcmalı",
+      "en": "NCBI — A Systematic Review of Aircraft Disinsection Efficacy"
+    },
+    "organization": "NCBI / PMC",
+    "year": 2025,
+    "region": "International",
+    "categories": ["disinsection"],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12470303/",
+    "reliability": 3,
+    "type": "Paper",
+    "summary": {
+      "az": "2025-ci ilə kimi mövcud dezinseksiya metodlarının səmərəliliyini sistematik şəkildə icmal edir.",
+      "en": "Systematic review of disinsection method efficacy up to 2025."
+    }
+  },
+  {
+    "id": "CDC-PESTICIDE-ILLNESS",
+    "title": {
+      "az": "CDC — Uçaq Dezinseksiyasından Qaynaqlanan Pestisid Xəstəliyi (Uçuş Müşayiətçiləri)",
+      "en": "CDC — Pesticide Illness Among Flight Attendants Due to Aircraft Disinsection"
+    },
+    "organization": "CDC",
+    "year": 2019,
+    "region": "United States",
+    "categories": ["disinsection"],
+    "url": "https://stacks.cdc.gov/view/cdc/189078/cdc_189078_DS1.pdf",
+    "reliability": 3,
+    "type": "Report",
+    "summary": {
+      "az": "Dezinseksiya tətbiqi zamanı pestisidə məruz qalma nəticəsində uçuş müşayiətçilərinin peşəkar xəstəliyi hallarını sənəsləşdirir.",
+      "en": "Documents occupational illness cases among flight attendants due to pesticide exposure during disinsection procedures."
+    }
+  },
+  {
+    "id": "ICAO-CIR328",
+    "title": {
+      "az": "ICAO Sirkular 328 AN/190 — Pilotsuz Uçaq Sistemləri (PUS)",
+      "en": "ICAO Circular 328 AN/190 — Unmanned Aircraft Systems (UAS)"
+    },
+    "organization": "ICAO",
+    "year": 2011,
+    "region": "International",
+    "categories": ["uas-airport-safety"],
+    "url": "https://skybrary.aero/sites/default/files/bookshelf/3202.pdf",
+    "reliability": 2,
+    "type": "Guidance",
+    "summary": {
+      "az": "ICAO-nun PUS/dron tənzimlənməsinə dair əsas sənədi. Sertifikatlaşdırma, lisenziyalaşdırma, əməliyyat qaydaları, xüsusi icazələr daxildir.",
+      "en": "ICAO's foundational document on UAS/drone regulation. Covers certification, licensing, operating rules, and special authorizations."
+    }
+  }
+]

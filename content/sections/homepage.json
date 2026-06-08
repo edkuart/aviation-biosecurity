@@ -1,0 +1,86 @@
+[
+  {
+    "id": "home", "slug": "/", "navLabel": "Home",
+    "title": { "az": "Aviasiya Biosəlamatlıq Bilgi Platformu", "en": "Aviation Biosecurity Knowledge Platform" },
+    "summary": { "az": "Kabin biosəlamatlığı, sanasiya, ozon, korroziya, dezinseksiya və hava limanı dron təhlükəsizliyi üzrə akademik tədris platforması.", "en": "Academic study platform for aviation cabin biosecurity, sanitation, ozone, corrosion, disinsection, and airport drone safety." },
+    "tags": ["ICAO", "WHO", "FAA", "EASA", "AZ"], "color": "#1A3A5C", "icon": "🏠"
+  },
+  {
+    "id": "regulatory-framework", "slug": "/regulatory-framework", "navLabel": "Regulatory Framework",
+    "title": { "az": "Normativ Çərçivə", "en": "Regulatory Framework" },
+    "summary": { "az": "ICAO, ÜST BSQ 2005, EASA, FAA, Azərbaycan SCAA — beynəlxalq, regional və milli tənzimləmə səviyyələri.", "en": "ICAO, WHO IHR 2005, EASA, FAA, Azerbaijan SCAA — international, regional, and national regulatory layers." },
+    "tags": ["ICAO", "WHO", "EASA", "FAA", "AZ"], "color": "#1E7A4A", "icon": "⚖️"
+  },
+  {
+    "id": "biological-hazards", "slug": "/biological-hazards", "navLabel": "Biological Hazards",
+    "title": { "az": "Bioloji Təhlükələr", "en": "Biological Hazards" },
+    "summary": { "az": "Kabin şəraitində xəstəlik ötürülməsi, risk amilləri, aerozol, fomit, məsafə və müddətin rolu.", "en": "Disease transmission in cabin environments, risk factors, aerosol, fomite, proximity and duration." },
+    "tags": ["WHO", "ICAO", "EASA"], "color": "#DC2626", "icon": "🦠"
+  },
+  {
+    "id": "cabin-air-quality", "slug": "/cabin-air-quality", "navLabel": "Cabin Air Quality",
+    "title": { "az": "Kabin Hava Keyfiyyəti", "en": "Cabin Air Quality" },
+    "summary": { "az": "Hava dəyişmə nisbəti, HEPA filtrəsi, ozon konsentrasiyası həddi, ventilyasiya sistemləri.", "en": "Air exchange rates, HEPA filtration, ozone concentration limits, ventilation systems." },
+    "tags": ["FAA", "ICAO"], "color": "#1D4ED8", "icon": "💨"
+  },
+  {
+    "id": "cleaning-sanitation", "slug": "/cleaning-sanitation", "navLabel": "Cleaning and Sanitation",
+    "title": { "az": "Təmizlik və Sanitasiya", "en": "Cleaning and Sanitation" },
+    "summary": { "az": "Təmizlik, dezinfeksiya, sanitasiya anlayışları, EASA protokolları, agent müqayisəsi, material uyğunluğu.", "en": "Cleaning, disinfection, sanitation concepts, EASA protocols, agent comparison, material compatibility." },
+    "tags": ["EASA", "WHO", "ICAO"], "color": "#6B7280", "icon": "🧹"
+  },
+  {
+    "id": "ozone-sanitation", "slug": "/ozone-sanitation", "navLabel": "Ozone Sanitation",
+    "title": { "az": "Ozon Sanitasiyası", "en": "Ozone Sanitation" },
+    "summary": { "az": "Nəzarətli ozon sanitasiyası, Azərbaycan patenti WO2018137003, məruz qalma həddi, material uyğunluğu.", "en": "Controlled ozone sanitation, Azerbaijani patent WO2018137003, exposure limits, material compatibility." },
+    "tags": ["FAA", "NIOSH", "WIPO", "AZ"], "color": "#7C3AED", "icon": "⚗️"
+  },
+  {
+    "id": "corrosion-materials", "slug": "/corrosion-materials", "navLabel": "Corrosion and Materials",
+    "title": { "az": "Korroziya və Materiallar", "en": "Corrosion and Materials" },
+    "summary": { "az": "Uçaq metalları, kimyəvi uyğunluq, dezinfektant-material münasibəti, FAA AC 43-4B rəhbərliyi.", "en": "Aircraft metals, chemical compatibility, disinfectant-material relationships, FAA AC 43-4B guidance." },
+    "tags": ["FAA", "EASA"], "color": "#92400E", "icon": "🔩"
+  },
+  {
+    "id": "protective-coatings", "slug": "/protective-coatings", "navLabel": "Protective Coatings",
+    "title": { "az": "Qoruyucu Örtüklər", "en": "Protective Coatings" },
+    "summary": { "az": "Epoksi primer, poliuretan örtüklər, ADI örtük sistemləri, sertifikatlaşdırma tələbləri.", "en": "Epoxy primer, polyurethane coatings, ADI coating systems, certification requirements." },
+    "tags": ["FAA"], "color": "#065F46", "icon": "🛡️"
+  },
+  {
+    "id": "disinsection", "slug": "/disinsection", "navLabel": "Disinsection",
+    "title": { "az": "Dezinseksiya", "en": "Disinsection" },
+    "summary": { "az": "ÜST dezinseksiya metodları, onaylı insektisidlər, tələb edən ölkələr, EPA/AİA məhdudiyyətləri.", "en": "WHO disinsection methods, approved insecticides, countries requiring it, EPA/EEA restrictions." },
+    "tags": ["WHO", "ICAO", "EPA"], "color": "#065F46", "icon": "🦟"
+  },
+  {
+    "id": "uas-airport-safety", "slug": "/uas-airport-safety", "navLabel": "UAS Airport Safety",
+    "title": { "az": "Hava Limanı PUA Təhlükəsizliyi", "en": "UAS Airport Safety" },
+    "summary": { "az": "Hava limanı perimetr müşahidəsi, ICAO model PUA qaydaları, icazə, ATC koordinasiyası.", "en": "Airport perimeter surveillance, ICAO model UAS regulations, authorization, ATC coordination." },
+    "tags": ["ICAO", "FAA", "EASA", "AZ"], "color": "#1A3A5C", "icon": "🚁"
+  },
+  {
+    "id": "risk-matrix", "slug": "/risk-matrix", "navLabel": "Risk Matrix",
+    "title": { "az": "Risk Matrisi", "en": "Risk Matrix" },
+    "summary": { "az": "Bütün sanasiya metodları üçün bioloji, kimyəvi, material, əməliyyat və normativ risk müqayisəsi.", "en": "Biological, chemical, material, operational, and regulatory risk comparison across all sanitation methods." },
+    "tags": ["ICAO", "FAA", "WHO"], "color": "#DC2626", "icon": "📊"
+  },
+  {
+    "id": "research-library", "slug": "/research-library", "navLabel": "Research Library",
+    "title": { "az": "Tədqiqat Kitabxanası", "en": "Research Library" },
+    "summary": { "az": "Bütün istinad edilən mənbələrin annotasiyalı bibliografiyası — qaydalar, rəhbərlik, məqalələr, patentlər.", "en": "Annotated bibliography of all cited sources — regulations, guidance, papers, patents." },
+    "tags": ["ICAO", "WHO", "FAA", "EASA", "AZ"], "color": "#1A3A5C", "icon": "📚"
+  },
+  {
+    "id": "study-assistant", "slug": "/study-assistant", "navLabel": "Study Assistant",
+    "title": { "az": "Tədris Köməkçisi", "en": "Study Assistant" },
+    "summary": { "az": "Aviasiya biosəlamatlığı mövzularında suallarınızı verin. Mənbə istinadları ilə cavab alın.", "en": "Ask questions about aviation biosecurity topics. Get answers with source citations." },
+    "tags": ["ICAO", "WHO"], "color": "#1A3A5C", "icon": "💬"
+  },
+  {
+    "id": "glossary", "slug": "/glossary", "navLabel": "Glossary",
+    "title": { "az": "Lüğət", "en": "Glossary" },
+    "summary": { "az": "Aviasiya biosəlamatlığı üzrə əsas texniki terminlər — Azərbaycan və ingilis dillərində.", "en": "Key technical terms in aviation biosecurity — in Azerbaijani and English." },
+    "tags": [], "color": "#6B7280", "icon": "📖"
+  }
+]

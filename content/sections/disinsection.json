@@ -1,0 +1,166 @@
+{
+  "id": "disinsection",
+  "slug": "/disinsection",
+  "navLabel": "Disinsection",
+  "title": {
+    "az": "Aviasiya Dezinseksiyası: ÜST Metodları, İnsektisidlər, Ölkə Tələbləri və Məhdudiyyətlər",
+    "en": "Aviation Disinsection: WHO Methods, Insecticides, Country Requirements, and Restrictions"
+  },
+  "summary": {
+    "az": "Dezinseksiya tərifi, ICAO Əlavə 9 / ÜST BSQ çərçivəsi, ÜST ADMP 2023-ün onaylı metodları (permetrin, d-fenotrin), dezinseksiya tələb edən ölkələr, AİA/EPA məhdudiyyətləri və müsafir sağlamlığı məsələləri.",
+    "en": "Disinsection definition, ICAO Annex 9 / WHO IHR framework, WHO ADMP 2023 approved methods (permethrin, d-phenothrin), countries requiring disinsection, EEA/EPA restrictions, and passenger health concerns."
+  },
+  "tags": ["WHO", "ICAO", "EPA"],
+  "expandableSections": [
+    {
+      "titleAz": "Dezinseksiya nədir və niyə tələb olunur?",
+      "titleEn": "What is disinsection and why is it required?",
+      "defaultOpen": true,
+      "bodyAz": "<p>Aviasiya dezinseksiyası uçağa ziyankar həşəratların daxil olmasını və ya yayılmasını aradan qaldırmaq üçün həyata keçirilən prosedurlardır.</p><p><strong>Əsas məqsəd — vektoral xəstəliyin qarşısını almaq:</strong></p><ul><li>Anofel ağcaqanadı (Anopheles) — malaria ötürür</li><li>Aedes ağcaqanadı — denqe qızdırması, Zika virusu, chikungunya ötürür</li><li>Culex ağcaqanadı — Qərb Nil virusu ötürür</li></ul><p>Bu xəstəliklərin yayılma coğrafiyası (endemik regionlar) ile həşəratın mövcud olmadığı regionlar arasındakı hava yolu seyahəti vektoral yayılma riskini yaradır.</p><p><strong>Hüquqi əsas:</strong></p><ul><li><strong>ÜST BSQ 2005 Maddə 27:</strong> Dövlətlərə ictimai sağlamlıq riski mövcud olduqda nəqliyyat vasitələrini dezinseksiya etmək səlahiyyəti verir</li><li><strong>ICAO Əlavə 9:</strong> Dövlətlərin dezinseksiya metodlarını ÜST-ün tövsiyə etdiyi metodlara uyğun olaraq tətbiq etmələrini tələb edir</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: ÜST BSQ Maddə 27 dezinseksiyanın hüquqi əsasıdır. ICAO Əlavə 9 ÜST metodlarına uyğunluğu tələb edir.</p>",
+      "bodyEn": "<p>Aviation disinsection refers to procedures carried out to eliminate or prevent the introduction and spread of harmful insects in aircraft.</p><p><strong>Primary purpose — preventing vector-borne disease:</strong></p><ul><li>Anopheles mosquito — transmits malaria</li><li>Aedes mosquito — transmits dengue fever, Zika virus, chikungunya</li><li>Culex mosquito — transmits West Nile virus</li></ul><p>Air travel between the geographic distribution of these diseases (endemic regions) and regions where the insect does not exist creates the risk of vectorial spread.</p><p><strong>Legal basis:</strong></p><ul><li><strong>WHO IHR 2005 Article 27:</strong> Authorizes states to require disinsection of conveyances when a public health risk exists</li><li><strong>ICAO Annex 9:</strong> Requires states to apply disinsection methods in accordance with WHO recommended methods</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: WHO IHR Article 27 is the legal basis for disinsection. ICAO Annex 9 requires compliance with WHO methods.</p>"
+    },
+    {
+      "titleAz": "ÜST ADMP 2023: Onaylı dezinseksiya metodları",
+      "titleEn": "WHO ADMP 2023: Approved disinsection methods",
+      "bodyAz": "<p>ÜST Aircraft Disinsection Methods and Procedures (ADMP) sənədi (ən son redaksiya: 2023) aviasiya dezinseksiyası üçün onaylı metodları müəyyən edir.</p><p><strong>Dörd ÜST onaylı metod:</strong></p><ol><li><strong>Uçuş zamanı kabin spreyi (in-flight):</strong> Müsafirlərin yerinde olduğu halda permetrin aerosolu tətbiqi. Müsafirlərin pəncərəni bağlaması və əşyaları örtməsi tələb olunur. Effektivlik: yüksək. Müsafir reaksiyası riski: mövcud.</li><li><strong>Uçuşdan əvvəl kabin spreyi (pre-departure):</strong> Müsafirlərin kabindən çıxarılmasından sonra insektisid spreyi. Kabin 30 dəqiqə qapalı saxlanılır. İçerdən Permetrin.</li><li><strong>Blokaj spreyi (residual):</strong> Uçuşdan əvvəl qalıcı (residual) insektisid uçağın gizli sahələrinə (anbar, panel arasıları) tətbiq olunur. 8 həftəyə qədər effektiv.</li><li><strong>Uçuşdan əvvəl kabin spreyi + blokaj (kombinasiya):</strong> Ən tam qoruma üçün hər iki metodun birlikdə tətbiqi.</li></ol><p><strong>ÜST tərəfindən onaylı aktiv maddələr:</strong></p><ul><li><strong>Permetrin:</strong> Sintetik piretroid — aerosol və residual tətbiq üçün</li><li><strong>d-Fenotrin (d-phenothrin):</strong> Sintetik piretroid — aerosol üçün (daha az uzun sürəli)</li></ul><p class='text-emerald-700 font-medium'>✅ Təsdiqlənmiş: ADMP 2023 ÜST-ün onaylı metodlarını siyahılayan birinci mənbə sənədidir.</p>",
+      "bodyEn": "<p>The WHO Aircraft Disinsection Methods and Procedures (ADMP) document (latest revision: 2023) establishes approved methods for aviation disinsection.</p><p><strong>Four WHO approved methods:</strong></p><ol><li><strong>In-flight cabin spray:</strong> Permethrin aerosol application while passengers are in their seats. Passengers required to close windows and cover belongings. Effectiveness: high. Risk of passenger reaction: present.</li><li><strong>Pre-departure cabin spray:</strong> Insecticide spray after passengers are evacuated from cabin. Cabin kept closed for 30 minutes. Permethrin inside.</li><li><strong>Residual (block) spray:</strong> Residual insecticide applied to hidden areas of aircraft (cargo, between panels) before departure. Effective up to 8 weeks.</li><li><strong>Pre-departure cabin spray + residual (combination):</strong> Combined application of both methods for most complete protection.</li></ol><p><strong>Active substances approved by WHO:</strong></p><ul><li><strong>Permethrin:</strong> Synthetic pyrethroid — for aerosol and residual application</li><li><strong>d-Phenothrin (d-phenothrin):</strong> Synthetic pyrethroid — for aerosol (less long-lasting)</li></ul><p class='text-emerald-700 font-medium'>✅ Confirmed: ADMP 2023 is a primary source document listing WHO approved methods.</p>"
+    },
+    {
+      "titleAz": "Dezinseksiya tələb edən ölkələr",
+      "titleEn": "Countries requiring disinsection",
+      "bodyAz": "<p>Dezinseksiya tənzimləmə baxımından ən dəyişkən sahələrdən biridir — ölkəyə, marşruta və mövsümə görə dəyişir.</p><p><strong>Dezinseksiya tələb edən ölkə qrupları (nümunə — ÜST / IATA məlumatına əsasən):</strong></p><ul><li><strong>Avstraliya:</strong> Bütün giriş uçuşları üçün dezinseksiya tələb edir — ən ciddi tələb edənlər arasında. Uçuş zamanı permetrin spreyi tətbiq olunur.</li><li><strong>Yeni Zelandiya:</strong> Australiya ilə oxşar tələblər. Kabin uçuş zamanı dezinseksiya edilir.</li><li><strong>Trinidad və Tobago, Barbados, Jamaica:</strong> Müəyyən marşrutlardan giriş üçün tələb edir.</li><li><strong>Hindistan:</strong> Bəzi uçuşlar üçün tələb edir — mövsümlük dəyişikliklər mövcuddur.</li><li><strong>Panama:</strong> Müəyyən mənşə ölkələrdən uçuşlar üçün.</li></ul><p><strong>Tənzimləmə çətinliyi:</strong> Tələb edən ölkələrin tam siyahısı daim dəyişir. ÜST dövlətlərə tələbləri ADMP çərçivəsinə uyğun müəyyən etməyi tövsiyə edir, lakin konkret tələblər hər dövlətin öz milli sağlamlıq orqanları tərəfindən müəyyən edilir.</p><p class='text-blue-700 font-medium'>⚖ Tənzimləmədən asılıdır: Dezinseksiya tələbləri ölkəyə görə əhəmiyyətli dərəcədə fərqlənir. Aktual tələblər üçün IATA tibb sektoru məlumat bazasına müraciət edin.</p>",
+      "bodyEn": "<p>Disinsection is one of the most variable areas from a regulatory standpoint — changing by country, route, and season.</p><p><strong>Country groups requiring disinsection (examples — based on WHO/IATA data):</strong></p><ul><li><strong>Australia:</strong> Requires disinsection for all inbound flights — among the strictest. In-flight permethrin spray applied.</li><li><strong>New Zealand:</strong> Similar requirements to Australia. Cabin disinsected during flight.</li><li><strong>Trinidad and Tobago, Barbados, Jamaica:</strong> Required for entry from certain routes.</li><li><strong>India:</strong> Required for some flights — seasonal variations exist.</li><li><strong>Panama:</strong> For flights from certain origin countries.</li></ul><p><strong>Regulatory complexity:</strong> The complete list of requiring countries constantly changes. WHO recommends states define requirements in accordance with the ADMP framework, but specific requirements are determined by each state's own national health authorities.</p><p class='text-blue-700 font-medium'>⚖ Regulation-dependent: Disinsection requirements vary significantly by country. Consult the IATA medical sector database for current requirements.</p>"
+    },
+    {
+      "titleAz": "Avropa İqtisadi Ərazisi (AİA) məhdudiyyətləri",
+      "titleEn": "European Economic Area (EEA) restrictions",
+      "bodyAz": "<p>Avropa İqtisadi Ərazisi (AİA — EU + Norveç, İslandiya, Lixtenşteyn) dezinseksiya üçün kimyəvi agentlər baxımından ÜST standartından daha məhdudlaşdırıcıdır.</p><p><strong>Permetrin məsələsi:</strong></p><ul><li>Permetrin AİA-da biyosidal istifadə üçün onaylanmış aktiv maddə siyahısında deyil (Biocidal Products Regulation — BPR 528/2012 çərçivəsindən çıxarılmışdır)</li><li>Bu o deməkdir ki, ÜST ADMP-nin tövsiyə etdiyi əsas metod (permetrin spreyi) AİA ölkələrindən çıxan uçaqlarda tətbiq edilə bilməz</li><li>AİA-ya daxil olan uçaqlarda isə giriş ölkəsinin tələbindən asılıdır</li></ul><p><strong>Nəticə:</strong> Bu tənzimləmə fərqi praktiki çətinlik yaradır — dezinseksiya tələb edən bir ölkəyə uçan AİA bazalı aviaşirkəti hansı metodu tətbiq edəcəyi məsələsi ilə üzləşir.</p><p><strong>EPA vəziyyəti (ABŞ):</strong> Permetrin ABŞ-da EPA tərəfindən aviasiya dezinseksiyası üçün qeydiyyata alınmışdır. ABŞ aviaşirkətləri üçün permetrin istifadəsi mümkündür — lakin FAA bu prosedurun məcburiyyətini müəyyən etmir.</p><p class='text-blue-700 font-medium'>⚖ Tənzimləmədən asılıdır: Permetrin AİA-da BPR tərəfindən məhdudlaşdırılmışdır. ABŞ-da EPA tərəfindən qeydiyyata alınmışdır. Bu, aviasiya operatorları üçün praktik tənzimləmə konflikti yaradır.</p>",
+      "bodyEn": "<p>The European Economic Area (EEA — EU + Norway, Iceland, Liechtenstein) is more restrictive than WHO standards regarding chemical agents for disinsection.</p><p><strong>The permethrin issue:</strong></p><ul><li>Permethrin is not on the approved active substance list for biocidal use in the EEA (excluded under the Biocidal Products Regulation — BPR 528/2012)</li><li>This means the main method recommended by WHO ADMP (permethrin spray) cannot be applied on flights departing EEA countries</li><li>For flights arriving in EEA countries, it depends on the destination country's requirements</li></ul><p><strong>Implication:</strong> This regulatory difference creates practical difficulties — an EEA-based airline flying to a country requiring disinsection faces the question of which method to apply.</p><p><strong>EPA situation (US):</strong> Permethrin is registered by the EPA for aviation disinsection in the US. Permethrin use is possible for US airlines — but the FAA does not mandate this procedure.</p><p class='text-blue-700 font-medium'>⚖ Regulation-dependent: Permethrin is restricted by BPR in the EEA. Registered by EPA in the US. This creates a practical regulatory conflict for aviation operators.</p>"
+    },
+    {
+      "titleAz": "Müsafir sağlamlığı məsələləri: insektisid məruziyyəti",
+      "titleEn": "Passenger health concerns: insecticide exposure",
+      "bodyAz": "<p>İn-flight dezinseksiya müsafirlərin piretroid insektisidlərə məruz qalmasına yol açır. Bu, bir sıra sağlamlıq məsələlərini gündəmə gətirir:</p><p><strong>Permetrinin toksikoloji profili:</strong></p><ul><li>Böcəklər üçün kəskin toksik (sinir sisteminə təsir edir)</li><li>İnsanlar üçün aşağı kəskin toksiklik — lakin həssas qruplar (astma, alerji, uşaqlar, hamilə) üçün daha yüksək risklər qeydə alınmışdır</li><li>CDC: aerosol tətbiq zamanı müsafir məruziyyəti klinik simptomları tetikleyebilir — xüsusilə astma olan şəxslərdə bronxospazm</li></ul><p><strong>Sağlamlıq şikayəti hadisələri:</strong></p><ul><li>Australiya, Yeni Zelandiya-ya uçuşlarda müsafir şikayəti hadisələri qeydə alınmışdır</li><li>CDC Pestisid Xəstəliyi Hesabatı dezinseksiya ilə əlaqədar bir sıra hadisəni sənədləşdirmişdir</li></ul><p><strong>Risk-fayda balansı:</strong> ÜST dezinseksiyadan olan sağlamlıq faydasının (vektoral xəstəliyin qarşısı) riskin (piretroid məruziyyəti) üzərindən keçdiyini qənaətidir. Lakin bu qiymətləndirmə bütün dövlətlər tərəfindən eyni şəkildə paylaşılmır — AİA-nın permetrin məhdudiyyəti fərqli bir risk qiymətləndirməsini əks etdirir.</p><p class='text-orange-700 font-medium'>⚠ Yoxlama lazımdır: İn-flight dezinseksiyadan xəstələnmə tezliyi (incidence rate) böyük miqyaslı prospektiv tədqiqatlarda sənədləşdirilməmişdir.</p>",
+      "bodyEn": "<p>In-flight disinsection leads to passenger exposure to pyrethroid insecticides. This raises several health concerns:</p><p><strong>Toxicological profile of permethrin:</strong></p><ul><li>Acutely toxic to insects (affects nervous system)</li><li>Low acute toxicity to humans — but higher risks noted for sensitive groups (asthma, allergy, children, pregnant)</li><li>CDC: aerosol application can trigger clinical symptoms in passengers — especially bronchospasm in persons with asthma</li></ul><p><strong>Health complaint incidents:</strong></p><ul><li>Passenger complaint incidents have been recorded on flights to Australia and New Zealand</li><li>CDC Pesticide Illness Report has documented several incidents related to disinsection</li></ul><p><strong>Risk-benefit balance:</strong> WHO's position is that the health benefit from disinsection (prevention of vector-borne disease) outweighs the risk (pyrethroid exposure). However, this assessment is not shared uniformly by all states — the EEA's permethrin restriction reflects a different risk assessment.</p><p class='text-orange-700 font-medium'>⚠ Needs verification: Incidence rate of illness from in-flight disinsection has not been documented in large-scale prospective studies.</p>"
+    },
+    {
+      "titleAz": "ICAO CIR 328: Dezinseksiya prosedurları rəhbərliyi",
+      "titleEn": "ICAO CIR 328: Disinsection procedures guidance",
+      "bodyAz": "<p>ICAO Circular 328 (<em>Guidance on Assistance to Aircraft Accident Victims and Their Families</em>) bəzən dezinseksiya kontekstinə daxil edilsə də, əsas dezinseksiya rəhbərliyi ICAO Əlavə 9-dan gəlir.</p><p>ICAO Circular-lar — normaları deyil, praktik əməliyyat rəhbərliyini əhatə edir. Dezinseksiya üçün ICAO-nun əsas çərçivəsi:</p><ul><li><strong>Əlavə 9, Fəsil 4:</strong> Sağlamlıq tədbirləri — dezinseksiya tələbinin normativ əsası</li><li><strong>PANS-AERODROMES (Doc 9137):</strong> Əməliyyat prosedurları üçün əlavə rəhbərlik</li></ul><p>Dövlətlər ICAO çərçivəsi altında öz xüsusi dezinseksiya tələblərini müstəqil müəyyən edir. Bu, niyə ölkədən-ölkəyə ciddi fərqlilik mövcud olduğunu izah edir.</p><p class='text-blue-700 font-medium'>📖 Yalnız rəhbərlik: ICAO CIR 328 məcburi SARP deyil — praktik rəhbərlik sənədidir.</p>",
+      "bodyEn": "<p>ICAO Circular 328 (<em>Guidance on Assistance to Aircraft Accident Victims and Their Families</em>) is sometimes included in the disinsection context, but the primary disinsection guidance comes from ICAO Annex 9.</p><p>ICAO Circulars cover practical operational guidance, not norms. The core ICAO framework for disinsection:</p><ul><li><strong>Annex 9, Chapter 4:</strong> Health measures — the normative basis for the disinsection requirement</li><li><strong>PANS-AERODROMES (Doc 9137):</strong> Additional guidance for operational procedures</li></ul><p>States independently determine their specific disinsection requirements under the ICAO framework. This explains why significant differences exist from country to country.</p><p class='text-blue-700 font-medium'>📖 Guidance only: ICAO CIR 328 is not a mandatory SARP — it is a practical guidance document.</p>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "termAz": "Dezinseksiya",
+      "termEn": "Disinsection",
+      "definitionAz": "Uçaqda ziyankar həşəratların (xüsusilə vektoral xəstəlik daşıyıcıları) aradan qaldırılması üçün insektisid tətbiq prosedurları.",
+      "definitionEn": "Insecticide application procedures to eliminate harmful insects (especially vector-borne disease carriers) in aircraft."
+    },
+    {
+      "termAz": "Vektoral xəstəlik",
+      "termEn": "Vector-borne disease",
+      "definitionAz": "Həşərat vasitəsilə ötürülən xəstəlik (malaria, denqe, Zika, Qərb Nil). Dezinseksiyanın əsas hədəfi.",
+      "definitionEn": "Disease transmitted through insects (malaria, dengue, Zika, West Nile). The primary target of disinsection."
+    },
+    {
+      "termAz": "Permetrin",
+      "termEn": "Permethrin",
+      "definitionAz": "ÜST-ün aviasiya dezinseksiyası üçün onayladığı əsas sintetik piretroid insektisid. AİA-da BPR çərçivəsindən çıxarılmışdır.",
+      "definitionEn": "The primary synthetic pyrethroid insecticide approved by WHO for aviation disinsection. Excluded from the BPR framework in the EEA."
+    },
+    {
+      "termAz": "d-Fenotrin",
+      "termEn": "d-Phenothrin",
+      "definitionAz": "ÜST tərəfindən onaylanmış ikinci sintetik piretroid. Aerosol tətbiqi üçün istifadə olunur — permetrinə nisbətən daha qısamüddətli effekt.",
+      "definitionEn": "Second synthetic pyrethroid approved by WHO. Used for aerosol application — shorter-lasting effect compared to permethrin."
+    },
+    {
+      "termAz": "BPR",
+      "termEn": "BPR",
+      "definitionAz": "Biocidal Products Regulation — AB 528/2012 biyosidal məhsullar tənzimləmə çərçivəsi. Permetrinin AİA-da istifadəsini məhdudlaşdırır.",
+      "definitionEn": "Biocidal Products Regulation — EU 528/2012 biocidal products regulation framework. Restricts permethrin use in the EEA."
+    },
+    {
+      "termAz": "Residual sprey",
+      "termEn": "Residual spray",
+      "definitionAz": "Uçağın gizli sahələrinə (anbar, panel arasıları) tətbiq edilən uzunmüddətli (8 həftəyə qədər) effektli insektisid.",
+      "definitionEn": "Long-lasting (up to 8 weeks) insecticide applied to hidden areas of aircraft (cargo, between panels)."
+    }
+  ],
+  "studyQuestions": [
+    {
+      "questionAz": "Aviasiya dezinseksiyasının əsas hüquqi çərçivəsini müəyyən edin.",
+      "questionEn": "Identify the primary legal framework for aviation disinsection.",
+      "answerAz": "ÜST BSQ 2005 Maddə 27 dövlətlərə nəqliyyat vasitələrini dezinseksiya etmək səlahiyyəti verir. ICAO Əlavə 9 dövlətlərin ÜST-ün tövsiyə etdiyi metodlara uyğun dezinseksiya tətbiq etməsini tələb edir. Aktual metod siyahısı ÜST ADMP 2023-dədir.",
+      "answerEn": "WHO IHR 2005 Article 27 authorizes states to require disinsection of conveyances. ICAO Annex 9 requires states to apply disinsection in accordance with WHO recommended methods. The current method list is in WHO ADMP 2023."
+    },
+    {
+      "questionAz": "ÜST ADMP 2023 neçə dezinseksiya metodu müəyyən edir? Onları sıralayın.",
+      "questionEn": "How many disinsection methods does WHO ADMP 2023 define? List them.",
+      "answerAz": "ÜST ADMP 2023 dörd metod müəyyən edir: (1) Uçuş zamanı kabin spreyi (müsafirlərin varlığında permetrin aerosolu), (2) Uçuşdan əvvəl kabin spreyi (kabin boşaldıldıqdan sonra), (3) Residual (blokaj) sprey (gizli sahələrə uzunmüddətli insektisid), (4) Kombinasiya (əvvəlki iki metodun birgə tətbiqi).",
+      "answerEn": "WHO ADMP 2023 defines four methods: (1) In-flight cabin spray (permethrin aerosol in presence of passengers), (2) Pre-departure cabin spray (after cabin evacuation), (3) Residual (block) spray (long-lasting insecticide to hidden areas), (4) Combination (joint application of previous two methods)."
+    },
+    {
+      "questionAz": "Permetrin AİA-da niyə məhdudlaşdırılmışdır?",
+      "questionEn": "Why is permethrin restricted in the EEA?",
+      "answerAz": "Permetrin AİA-da Biocidal Products Regulation (BPR 528/2012) çərçivəsindən çıxarılmışdır — biyosidal istifadə üçün onaylanmış aktiv maddə siyahısında deyil. Bu, ÜST ADMP-nin əsas tövsiyəsindən (permetrin) fərqli bir siyasəti əks etdirir. Risk qiymətləndirməsindəki fərq AİA-nın permetrin haqqında alternativ mövqeyindən irəli gəlir.",
+      "answerEn": "Permethrin has been excluded from the Biocidal Products Regulation (BPR 528/2012) framework in the EEA — it is not on the approved active substance list for biocidal use. This reflects a different policy from WHO ADMP's primary recommendation (permethrin). The difference in risk assessment stems from the EEA's alternative position on permethrin."
+    },
+    {
+      "questionAz": "Dezinseksiya tələblərinin ölkəyə görə dəyişkənliyini izah edin.",
+      "questionEn": "Explain the variability of disinsection requirements by country.",
+      "answerAz": "Dezinseksiya tənzimləmə baxımından ən dəyişkən sahələrdən biridir. ÜST çərçivə müəyyən edir, lakin konkret tələblər hər dövlətin milli sağlamlıq orqanları tərəfindən müstəqil müəyyən edilir. Avstraliya, Yeni Zelandiya ciddi tələbçilər arasındadır. AİA ölkələri permetrin məhdudiyyəti ilə fərqlənir. ABŞ EPA permetrini qeydiyyata almışdır lakin FAA bunu məcburi etmir.",
+      "answerEn": "Disinsection is one of the most variable areas from a regulatory standpoint. WHO sets the framework, but specific requirements are independently determined by each state's national health authorities. Australia and New Zealand are among the strictest requirers. EEA countries differ with permethrin restriction. US EPA has registered permethrin but FAA does not mandate it."
+    },
+    {
+      "questionAz": "ÜST dezinseksiya insektisidlərinin müsafir sağlamlığına riskini necə qiymətləndirir?",
+      "questionEn": "How does WHO assess the risk of disinsection insecticides to passenger health?",
+      "answerAz": "ÜST dezinseksiyadan olan sağlamlıq faydasının (vektoral xəstəliyin qarşısı — malaria, denqe, Zika) müsafir məruziyyətindən olan riskin üzərindən keçdiyi mövqeyindədir. Lakin həssas qruplar (astma, alerji, uşaqlar, hamilə) üçün daha yüksək risk mövcuddur. Bu qiymətləndirmə bütün dövlətlər tərəfindən bölünmür — AİA fərqli risk mövqeyi tutmuşdur.",
+      "answerEn": "WHO's position is that the health benefit from disinsection (prevention of vector-borne disease — malaria, dengue, Zika) outweighs the risk from passenger exposure. However, higher risks exist for sensitive groups (asthma, allergy, children, pregnant). This assessment is not shared by all states — the EEA has adopted a different risk position."
+    }
+  ],
+  "sourceIds": [
+    "WHO-IHR-2005",
+    "WHO-ADMP-2023",
+    "ICAO-ANN9",
+    "EPA-DISINSECTION",
+    "NCBI-DISINSECTION-REVIEW",
+    "CDC-PESTICIDE-ILLNESS",
+    "ICAO-CIR328"
+  ],
+  "statusedClaims": [
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "ÜST BSQ Maddə 27 dövlətlərə nəqliyyat vasitələrini dezinseksiya etmək hüququ verir.",
+        "en": "WHO IHR Article 27 gives states the right to require disinsection of conveyances."
+      },
+      "sourceIds": ["WHO-IHR-2005"]
+    },
+    {
+      "status": "confirmed",
+      "claim": {
+        "az": "ÜST ADMP 2023 dörd onaylı dezinseksiya metodu müəyyən edir; permetrin və d-fenotrin əsas aktiv maddələrdir.",
+        "en": "WHO ADMP 2023 defines four approved disinsection methods; permethrin and d-phenothrin are the primary active substances."
+      },
+      "sourceIds": ["WHO-ADMP-2023"]
+    },
+    {
+      "status": "regulation-dependent",
+      "claim": {
+        "az": "Permetrin AİA-da BPR tərəfindən məhdudlaşdırılmışdır; ABŞ-da EPA tərəfindən qeydiyyata alınmışdır.",
+        "en": "Permethrin is restricted by BPR in the EEA; registered by EPA in the US."
+      },
+      "sourceIds": ["EPA-DISINSECTION", "WHO-ADMP-2023"]
+    },
+    {
+      "status": "needs-verification",
+      "claim": {
+        "az": "In-flight dezinseksiyadan xəstələnmə tezliyi böyük miqyaslı prospektiv tədqiqatlarda sənədləşdirilməmişdir.",
+        "en": "Incidence rate of illness from in-flight disinsection has not been documented in large-scale prospective studies."
+      },
+      "sourceIds": ["CDC-PESTICIDE-ILLNESS", "NCBI-DISINSECTION-REVIEW"]
+    }
+  ]
+}
