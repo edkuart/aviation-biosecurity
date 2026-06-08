@@ -10,19 +10,17 @@ interface Props {
 export default function GlossaryTerm({ entry }: Props) {
   const { lang } = useLang();
 
+  const primaryTerm  = lang === 'az' ? entry.termAz       : entry.termEn;
+  const secondaryTerm = lang === 'az' ? entry.termEn      : entry.termAz;
+  const definition   = lang === 'az' ? entry.definitionAz : entry.definitionEn;
+
   return (
-    <div className="py-4 border-b border-border last:border-0">
-      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
-        <span className="font-bold text-av-blue text-sm">
-          {lang === 'az' ? entry.termAz : entry.termEn}
-        </span>
-        <span className="text-xs text-tech-gray italic">
-          {lang === 'az' ? entry.termEn : entry.termAz}
-        </span>
+    <div className="py-4 pl-4 border-b border-border last:border-0 border-l-4 border-l-academic-gold">
+      <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 mb-2">
+        <span className="font-bold text-av-navy text-sm">{primaryTerm}</span>
+        <span className="text-xs text-tech-gray italic">{secondaryTerm}</span>
       </div>
-      <p className="text-sm text-foreground leading-relaxed">
-        {lang === 'az' ? entry.definitionAz : entry.definitionEn}
-      </p>
+      <p className="text-sm text-ink-soft leading-relaxed">{definition}</p>
     </div>
   );
 }

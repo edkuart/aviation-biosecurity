@@ -1,63 +1,112 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Brand colors */
-  --color-av-blue:        #1A3A5C;
-  --color-av-blue-dark:   #0F2440;
-  --color-av-blue-light:  #2A5080;
-  --color-amber:          #E8A020;
-  --color-amber-dark:     #C47B10;
-  --color-tech-gray:      #6B7280;
-  --color-surface:        #F8F9FB;
-  --color-surface-alt:    #EEF2F7;
-  --color-deep-slate:     #0F1B2D;
-  --color-reg-green:      #1E7A4A;
-  --color-reg-green-light:#D1FAE5;
-  --color-risk-red:       #DC2626;
-  --color-risk-red-light: #FEE2E2;
-  --color-warn-amber:     #D97706;
-  --color-warn-amber-light:#FEF3C7;
-  --color-info-blue:      #1D4ED8;
-  --color-info-blue-light:#DBEAFE;
-  --color-border:         #E2E8F0;
+  /* ── Brand — Aviation Biosecurity Design System v1.0 ── */
+  --color-av-navy:           #0B1F3A;
+  --color-av-blue:           #1A4A8A;
+  --color-av-blue-light:     #2563C4;
+  --color-academic-gold:     #C9A227;
+  --color-academic-cream:    #F5F0E8;
+  --color-surface-white:     #FFFFFF;
 
-  /* Typography */
-  --font-sans: var(--font-inter);
-  --font-mono: var(--font-jetbrains);
+  /* Backward-compat aliases used by existing components */
+  --color-av-blue-dark:      #0B1F3A;
+  --color-amber:             #C9A227;
+  --color-amber-dark:        #A07C18;
+  --color-deep-slate:        #0B1F3A;
+
+  /* ── Status ── */
+  --color-confirm-green:     #15803D;
+  --color-warn-amber:        #D97706;
+  --color-risk-red:          #C0392B;
+  --color-info-blue:         #1A4A8A;
+
+  /* Status tints */
+  --color-confirm-green-bg:  #E5F2EA;
+  --color-warn-amber-bg:     #FDF1E2;
+  --color-risk-red-bg:       #FBEAE8;
+  --color-info-blue-bg:      #E7EEF8;
+
+  /* Backward-compat tint aliases */
+  --color-reg-green:         #15803D;
+  --color-reg-green-light:   #E5F2EA;
+  --color-risk-red-light:    #FBEAE8;
+  --color-warn-amber-light:  #FDF1E2;
+  --color-info-blue-light:   #E7EEF8;
+
+  /* ── Neutral ── */
+  --color-ink:               #0B1F3A;
+  --color-ink-soft:          #374151;
+  --color-tech-gray:         #6B7280;
+  --color-muted:             #6B7280;
+  --color-border:            #E5E7EB;
+
+  /* ── Surfaces (cream replaces cold grey) ── */
+  --color-surface:           #F5F0E8;
+  --color-surface-alt:       #FAF7F1;
+
+  /* ── Type + radius ── */
+  --font-sans:  var(--font-inter);
+  --font-mono:  var(--font-jetbrains);
+  --radius-card: 16px;
 }
 
 :root {
-  --background: #F8F9FB;
-  --foreground: #111827;
+  --background:   #F5F0E8;
+  --foreground:   #374151;
+  --card:         #FFFFFF;
+  --card-sunken:  #FAF7F1;
+  --shadow-card:  0 1px 3px rgba(11, 31, 58, 0.08);
+  --shadow-lift:  0 10px 30px -12px rgba(11, 31, 58, 0.22);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
-  line-height: 1.7;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
-/* Custom scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #f1f5f9; }
-::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #64748b; }
+/* Text selection — academic gold tint */
+::selection { background: rgba(201, 162, 39, 0.28); }
 
-/* Prose-like reading width for content blocks */
-.content-prose {
-  max-width: 72ch;
-  line-height: 1.8;
-}
+/* Scrollbar */
+::-webkit-scrollbar       { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(11, 31, 58, 0.22); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(11, 31, 58, 0.4); }
 
 /* Focus ring */
 :focus-visible {
-  outline: 2px solid #1A3A5C;
+  outline: 2px solid #2563C4;
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* ──────────────────────────────────────────────────────────
+   Bilingual text engine
+   .bi  → stacked (AZ primary on top, EN muted below)
+   .bi-inline → "AZ / EN" on one line (buttons, badges, nav)
+   ────────────────────────────────────────────────────────── */
+.bi { display: flex; flex-direction: column; }
+.bi .az { color: inherit; font-weight: inherit; }
+.bi .en { color: #6B7280; font-weight: 400; font-size: 0.82em; margin-top: 1px; letter-spacing: 0; }
+
+.bi-inline { display: inline-flex; align-items: baseline; gap: 0; white-space: nowrap; }
+.bi-inline .az { font-weight: inherit; }
+.bi-inline .sep { opacity: 0.45; margin: 0 0.35ch; font-weight: 400; }
+.bi-inline .en { font-weight: 400; opacity: 0.72; font-size: 0.9em; }
+
+/* ──────────────────────────────────────────────────────────
+   ExpandableBlock — CSS grid height animation (no JS layout)
+   ────────────────────────────────────────────────────────── */
+.expandable-grid { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.28s ease; }
+.expandable-grid.open { grid-template-rows: 1fr; }
+.expandable-grid > div { overflow: hidden; }
+
+/* ── Legacy prose helper ── */
+.content-prose { max-width: 72ch; line-height: 1.8; }

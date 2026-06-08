@@ -4,26 +4,26 @@ export function statusConfig(status: StatusType) {
   const configs: Record<StatusType, { label: string; color: string; bg: string; icon: string }> = {
     confirmed: {
       label: 'Confirmed',
-      color: 'text-emerald-700',
-      bg: 'bg-emerald-50 border-emerald-200',
+      color: 'text-confirm-green',
+      bg: 'bg-confirm-green-bg border-confirm-green/30',
       icon: '✅',
     },
     'regulation-dependent': {
       label: 'Regulation-dependent',
-      color: 'text-blue-700',
-      bg: 'bg-blue-50 border-blue-200',
+      color: 'text-info-blue',
+      bg: 'bg-info-blue-bg border-info-blue/30',
       icon: '⚖',
     },
     'guidance-only': {
       label: 'Guidance only',
-      color: 'text-amber-700',
-      bg: 'bg-amber-50 border-amber-200',
+      color: 'text-warn-amber',
+      bg: 'bg-warn-amber-bg border-warn-amber/30',
       icon: '📖',
     },
     'needs-verification': {
       label: 'Needs verification',
-      color: 'text-orange-700',
-      bg: 'bg-orange-50 border-orange-200',
+      color: 'text-risk-red',
+      bg: 'bg-risk-red-bg border-risk-red/30',
       icon: '⚠',
     },
   };
@@ -31,8 +31,8 @@ export function statusConfig(status: StatusType) {
 }
 
 export function reliabilityConfig(level: number) {
-  const colors = ['', 'bg-emerald-600', 'bg-emerald-500', 'bg-blue-500', 'bg-sky-500', 'bg-amber-500', 'bg-gray-400'];
-  return colors[level] ?? 'bg-gray-400';
+  const colors = ['', 'bg-confirm-green', 'bg-confirm-green', 'bg-av-blue', 'bg-info-blue', 'bg-warn-amber', 'bg-tech-gray'];
+  return colors[level] ?? 'bg-tech-gray';
 }
 
 export function cn(...classes: (string | undefined | false | null)[]): string {

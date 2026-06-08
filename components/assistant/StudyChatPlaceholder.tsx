@@ -22,12 +22,10 @@ export default function StudyChatPlaceholder() {
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
 
-  // Generate session ID on mount
   useEffect(() => {
     setSessionId(makeSessionId());
   }, []);
 
-  // Auto-save whenever a complete assistant message lands
   useEffect(() => {
     if (!sessionId) return;
     const complete = messages.filter((m) => !m.streaming);
@@ -83,10 +81,7 @@ export default function StudyChatPlaceholder() {
             const updated = [...prev];
             const last = updated[updated.length - 1];
             if (last.role === 'assistant') {
-              updated[updated.length - 1] = {
-                ...last,
-                text: last.text + chunk,
-              };
+              updated[updated.length - 1] = { ...last, text: last.text + chunk };
             }
             return updated;
           });
@@ -128,66 +123,42 @@ export default function StudyChatPlaceholder() {
     .map((qa) => (lang === 'az' ? qa.questionAz : qa.questionEn));
 
   return (
-    <div className="flex flex-col bg-white border border-border rounded-xl overflow-hidden h-[520px]">
-      {/* Header */}
-      <div className="px-4 py-3 bg-av-blue text-white flex items-center gap-2 shrink-0">
+    <div className="flex flex-col bg-white border border-border rounded-xl overflow-hidden h-[520px] shadow-[var(--shadow-card)]">
+      {/* Header — av-navy matching SectionHero */}
+      <div className="px-4 py-3 bg-av-navy text-white flex items-center gap-2 shrink-0">
         <span className="text-lg">💬</span>
         <div className="flex-1">
           <p className="text-sm font-semibold">
             {t({ az: 'Tədris Köməkçisi', en: 'Study Assistant' })}
           </p>
-          <p className="text-xs text-white/70">
+          <p className="text-xs text-white/60 font-mono">
             Claude Haiku · Aviasiya Biosəlamatlığı
           </p>
         </div>
 
-        {/* New chat button */}
         {messages.length > 0 && (
           <button
             onClick={startNewChat}
             title={t({ az: 'Yeni söhbət', en: 'New chat' })}
             className="p-1.5 rounded-md hover:bg-white/10 transition-colors"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="15"
-              height="15"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M12 5v14" />
-              <path d="M5 12h14" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 5v14" /><path d="M5 12h14" />
             </svg>
           </button>
         )}
 
-        {/* History link */}
         <Link
           href="/chat-history"
           title={t({ az: 'Söhbət tarixi', en: 'Chat history' })}
           className="p-1.5 rounded-md hover:bg-white/10 transition-colors"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="15"
-            height="15"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <polyline points="12 6 12 12 16 14" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
           </svg>
         </Link>
 
-        <span className="text-xs text-emerald-300 font-mono">AI ●</span>
+        <span className="text-xs text-academic-gold font-mono">AI ●</span>
       </div>
 
       {/* Messages */}
@@ -205,7 +176,7 @@ export default function StudyChatPlaceholder() {
                 <button
                   key={i}
                   onClick={() => setInput(q)}
-                  className="text-left text-xs px-3 py-2 rounded-lg bg-surface hover:bg-surface-alt border border-border text-av-blue transition-colors"
+                  className="text-left text-xs px-3 py-2 rounded-lg bg-surface hover:bg-academic-cream border border-border text-av-blue hover:text-av-navy transition-colors"
                 >
                   {q}
                 </button>
@@ -223,7 +194,7 @@ export default function StudyChatPlaceholder() {
               className={`max-w-[85%] rounded-xl px-3.5 py-2.5 text-xs leading-relaxed ${
                 msg.role === 'user'
                   ? 'bg-av-blue text-white'
-                  : 'bg-surface border border-border text-foreground'
+                  : 'bg-academic-cream border-l-4 border-l-av-blue-light text-ink-soft'
               }`}
             >
               {msg.text ? (
@@ -236,7 +207,7 @@ export default function StudyChatPlaceholder() {
                 </span>
               )}
               {msg.streaming && msg.text && (
-                <span className="inline-block w-1 h-3 ml-0.5 bg-av-blue animate-pulse align-middle" />
+                <span className="inline-block w-1 h-3 ml-0.5 bg-av-blue-light animate-pulse align-middle" />
               )}
             </div>
           </div>
@@ -257,7 +228,7 @@ export default function StudyChatPlaceholder() {
             az: 'Sual yazın... (AZ/EN)',
             en: 'Ask a question... (AZ/EN)',
           })}
-          className="flex-1 text-xs px-3 py-2 rounded-lg border border-border bg-white focus:outline-none focus:border-av-blue transition-colors disabled:opacity-50"
+          className="flex-1 text-xs px-3 py-2 rounded-lg border border-border bg-white focus:outline-none focus:border-av-blue-light transition-colors disabled:opacity-50"
         />
         <button
           onClick={handleSend}
